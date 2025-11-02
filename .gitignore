@@ -54,6 +54,7 @@ logs/
 !finnish_lemma_evaluation_v17_phase9.csv
 !finnish_lemma_evaluation_v17_phase9_ambiguous_analysis.csv
 !skvr_test_6poems.csv
+!skvr_runosongs_okt_2025.csv.gz
 !step4_type_hints_validation.log
 
 # Test outputs (exclude other evaluation files but keep the two above)
