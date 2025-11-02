@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Output files
+*.csv
+*.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Exceptions - Keep these important files
+!selftraining_lexicon_v16_min1.json
+!finnish_poems_gold_test_clean.csv
+!step4_type_hints_validation.log
+
+# Test outputs
+finnish_lemma_evaluation_*.csv
+*_evaluation.log
+*_test.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Stanza resources
+stanza_resources/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Omorfi/Voikko temp
+.omorfi/
+.voikko/

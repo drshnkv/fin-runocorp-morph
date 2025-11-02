@@ -1,0 +1,143 @@
+[omorfi_v17_phase9] Loaded v17_phase9_morphological_features
+
+================================================================================
+V17 PHASE 9 EVALUATION - Morphology-Aware Fuzzy Matching
+================================================================================
+
+Testing V17 Phase 9 improvements over Phase 8:
+  ✓ Omorfi Universal Features (UFEATS) extraction and integration
+  ✓ Feature-aware fuzzy candidate ranking (Case, Number, Tense agreement)
+  ✓ Morphological plausibility scoring for fuzzy matches
+  ✓ Target: +2-3pp accuracy improvement (58.5% → 60.5-61.5%)
+
+Test data: finnish_poems_gold_test_clean.csv (24 Finnish poems, ~1,468 words)
+================================================================================
+
+================================================================================
+Loading V17 Phase 8 Lemmatizer (Fuzzy Lexicon Matching)...
+================================================================================
+Loading Stanza Finnish-TDT model...
+2025-11-02 11:43:31 INFO: Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.11.0.json:   0%|          | 0.00/53.7k [00:00<?, ?B/s]Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.11.0.json: 435kB [00:00, 42.6MB/s]                    
+2025-11-02 11:43:31 INFO: Downloaded file to /Users/kaarelveskis/stanza_resources/resources.json
+2025-11-02 11:43:32 INFO: Loading these models for language: fi (Finnish):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | tdt          |
+| pos       | tdt_charlm   |
+| lemma     | tdt_nocharlm |
+============================
+
+2025-11-02 11:43:32 INFO: Using device: cpu
+2025-11-02 11:43:32 INFO: Loading: tokenize
+2025-11-02 11:43:32 INFO: Loading: pos
+2025-11-02 11:43:34 INFO: Loading: lemma
+2025-11-02 11:43:35 INFO: Done loading processors!
+✓ Stanza loaded
+✓ Voikko Sukija loaded from /Users/kaarelveskis/.voikko/sukija/5/mor-sukija
+✓ Voikko Old Finnish loaded from /Users/kaarelveskis/.voikko/5/5
+Loading Omorfi analyzer from: None
+✓ Omorfi analyzer loaded
+⚠ Voikko not found
+✓ Loaded V16 hybrid lexicon:
+  - Total unambiguous: 3626 (word, POS) patterns
+    · Tier 1 (Gold Standard): 3626
+    · Tier 2 (Omorfi 100%): 0
+  - Ambiguous patterns tracked: 74
+✓ Dialectal normalizer initialized
+
+V17 Phase 7 Lexicon Statistics (same as Phase 4):
+  Total unambiguous patterns: 3626
+    - Tier 1 (Gold Standard): 3626
+    - Tier 2 (Omorfi 100%): 0
+  Ambiguous patterns tracked: 74
+
+V17 Phase 7 New Features:
+  ✓ Fuzzy lexicon lookup - NEW tier before identity_fallback
+  ✓ Weighted edit distance (threshold 2.0) with dialectal awareness
+  ✓ POS-aware matching against all lexicon entries (Tier 1-3)
+  ✓ Target: Reduce identity_fallback from 289 to ~200 words (30% reduction)
+
+Processing 24 test poems...
+
+  Processed 5/24 poems (274 words)...
+  Processed 10/24 poems (779 words)...
+  Processed 15/24 poems (882 words)...
+  Processed 20/24 poems (1044 words)...
+
+================================================================================
+V17 PHASE 9 - EVALUATION RESULTS
+================================================================================
+
+Total test words:    1468
+Exact matches:       863 (58.8%)
+
+V17 Phase 9 Morphological Feature Statistics (Tier 1 - Refactored):
+  Words with multiple Omorfi analyses:  403
+  Features extracted successfully:       1446
+  Feature similarity computed:           2051 times
+  Feature bonus applied (bonus > 0):     1158 times
+  Selection CHANGED by features:         0 times
+  Average feature bonus:                 3.901
+  Maximum feature bonus:                 6.500
+  Impact rate:                           0.0% (changed selections / words with multiple analyses)
+
+V17 Phase 9 Legacy Fuzzy Tier (deprecated - moved to Tier 1):
+  Morphology-aware fuzzy used: 0 times
+
+  Identity fallback used:    1 times
+  Identity fallback correct: 0 (0.0%)
+  ✓ Identity fallback analysis saved to: finnish_lemma_evaluation_v17_phase9_identity_fallback_analysis.csv
+
+Lexicon Performance:
+  Tier 1 (Gold Standard):  7 correct
+  Tier 2 (Omorfi 100%):    0 correct
+  Total lexicon hits:      7
+
+Contextual Fallback Performance:
+  Omorfi contextual:       391 correct
+  Voikko + Omorfi:         130 correct (Voikko-assisted)
+  Omorfi direct:           0 correct
+  Voikko normalized:       0 correct
+  Enhanced Voikko:         0 correct
+  Fuzzy lexicon:           0 correct (Phase 6)
+  Identity fallback:       0 correct
+
+Ambiguous Pattern Handling:
+  Ambiguous words encountered: 20 unique
+  Ambiguous instances:         44 total
+  Contextual correct:          35
+  Contextual wrong:            9
+  Ambiguous accuracy:          79.5%
+
+  ✓ Ambiguous analysis saved to: finnish_lemma_evaluation_v17_phase9_ambiguous_analysis.csv
+
+Errors:
+  Mismatches:          605 (wrong predictions)
+  Unknown:             0 (couldn't process)
+
+================================================================================
+
+✓ Overall accuracy: 58.8%
+✓ Detailed results saved to: finnish_lemma_evaluation_v17_phase9.csv
+
+================================================================================
+COMPARISON WITH V17 PHASE 6
+================================================================================
+
+V17 Phase 6 baseline:
+  Accuracy: 58.3%
+  voikko_omorfi errors: 197/325 uses (61% error rate)
+  voikko_omorfi correct: 128 (39% success rate)
+
+V17 Phase 7 improvements:
+  Voikko ranking applied: Multi-criteria selection (edit distance, POS, frequency)
+  voikko_omorfi correct: 130
+
+  ✓ voikko_omorfi improvement: +2 correct (128 → 130)
+
+  ✓ Accuracy improvement over Phase 6: +0.5 percentage points
+
+================================================================================
+
