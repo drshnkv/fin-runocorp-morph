@@ -51,7 +51,7 @@ except ImportError:
     print("ERROR: pandas not installed. Install with: pip install pandas", file=sys.stderr)
     sys.exit(1)
 
-from fin_runocorp_base import OmorfiHfstWithVoikkoV16Hybrid
+from fin_runocorp_base import OmorfiHfstWithVoikkoV16Hybrid, LemmatizerConfig
 
 
 def tokenize_poem(poem_text: str) -> List[str]:
@@ -139,8 +139,11 @@ def process_batch(args):
     print("Loading V17 Phase 9 lemmatizer...", file=sys.stderr)
     if args.lexicon_path:
         print(f"  Using lexicon: {args.lexicon_path}", file=sys.stderr)
+        config = LemmatizerConfig(lexicon_path=args.lexicon_path)
+    else:
+        config = None  # Uses default lexicon
     load_start = time.time()
-    lemmatizer = OmorfiHfstWithVoikkoV16Hybrid(lexicon_path=args.lexicon_path)
+    lemmatizer = OmorfiHfstWithVoikkoV16Hybrid(config=config)
     load_time = time.time() - load_start
     print(f"✓ Lemmatizer loaded in {load_time:.1f} seconds")
     print()
