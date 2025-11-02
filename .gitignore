@@ -50,10 +50,12 @@ logs/
 !selftraining_lexicon_v16_min1.json
 !finnish_poems_gold_test_clean.csv
 !finnish_poems_gold_train_clean.csv
+!finnish_lemma_evaluation_v17_phase9.csv
+!finnish_lemma_evaluation_v17_phase9_ambiguous_analysis.csv
+!finnish_lemma_evaluation_v17_phase9_identity_fallback_analysis.csv
 !step4_type_hints_validation.log
 
-# Test outputs
-finnish_lemma_evaluation_*.csv
+# Test outputs (exclude other evaluation files but keep the three above)
 *_evaluation.log
 *_test.log
 

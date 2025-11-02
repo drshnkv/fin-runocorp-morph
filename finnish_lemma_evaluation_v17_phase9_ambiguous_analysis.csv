@@ -1,0 +1,45 @@
+poem_id,word,manual_lemma,predicted_lemma,method,exact_match,is_ambiguous,is_identity_fallback,is_enhanced_voikko,verse,place_name,year,context_score
+skvr02105350,on,olla,olla,omorfi_contextual,YES,YES,NO,NO,Täll' on tosi tuotavan.,Repola,1909,14.0
+skvr02105350,silmät,silmä,silmä,omorfi_contextual,YES,YES,NO,NO,10 Vanhoilda silmät valu,Repola,1909,15.8
+skvr02105350,oli,olla,olla,omorfi_contextual,YES,YES,NO,NO,"Nuorigo oli nostajas,",Repola,1909,16.0
+skvr02105350,moalla,maa,moa,omorfi_contextual,NO,YES,NO,NO,"Toisin moalla vierahalla,",Repola,1909,8.0
+skvr02105350,kuin,kuin,kuin,omorfi_contextual,YES,YES,NO,NO,"Ei ole kuin emoses koissa,",Repola,1909,16.0
+skvr04146910,rauta,rauta,rauta,omorfi_contextual,YES,YES,NO,NO,"Rauta talo tarpeesse,",Kattila,1877,15.8
+skvr05218500,mist,mistä,mikä,voikko_omorfi,NO,YES,NO,NO,"15 ""Mist' se hiiri voita suaapi?"" -",Vuole,1894,13.0
+skvr05218500,mist,mistä,mikä,voikko_omorfi,NO,YES,NO,NO,"""Mist' se nuori lehmä soaapi?"" -",Vuole,1894,19.0
+skvr06132930,sinä,sinä,sinä,omorfi_contextual,YES,YES,NO,NO,"O sinä, rauta rauka,",Rantasalmi,1692,22.0
+skvr06132930,rauta,rauta,rauta,omorfi_contextual,YES,YES,NO,NO,"O sinä, rauta rauka,",Rantasalmi,1692,15.8
+skvr06132930,sinä,sinä,sinä,omorfi_contextual,YES,YES,NO,NO,Qwin sinä maitona makaiset,Rantasalmi,1692,22.0
+skvr06132930,rauta,rauta,rauta,omorfi_contextual,YES,YES,NO,NO,"Rauta on Colmen jaettu,",Rantasalmi,1692,15.8
+skvr06132930,on,olla,olla,omorfi_contextual,YES,YES,NO,NO,"Rauta on Colmen jaettu,",Rantasalmi,1692,14.0
+skvr06132930,tuonne,tuolla,tuonne,omorfi_contextual,NO,YES,NO,NO,"Tuonne kiwus wie paten ala perä,",Rantasalmi,1692,14.0
+skvr06132930,herran,Herra,herra,omorfi_contextual,YES,YES,NO,NO,"Herran hengellä hyvällä,",Rantasalmi,1692,15.0
+skvr07239280,on,olla,olla,omorfi_contextual,YES,YES,NO,NO,10 Miss' on into annetuna?,Pohjois-Karjala,1847,14.0
+skvr07301620,sinuas,sinä,sinä,voikko_omorfi,YES,YES,NO,NO,"Os sinuas, rauta raiska,",Metsäsuomalaisten alue,1700,17.0
+skvr07301620,rauta,rauta,rauta,omorfi_contextual,YES,YES,NO,NO,"Os sinuas, rauta raiska,",Metsäsuomalaisten alue,1700,15.8
+skvr07301620,tuo,tuo,tuo,omorfi_contextual,YES,YES,NO,NO,"15 tuo mettä Mehtolasta,",Metsäsuomalaisten alue,1700,21.0
+skvr08110080,suomen,Suomi,suomi,omorfi_contextual,YES,YES,NO,NO,"Vahwa Suomen Valda-Herra,",Turku,1700,15.0
+skvr08110080,oli,olla,olla,omorfi_contextual,YES,YES,NO,NO,Oli hahti hangittuna,Turku,1700,16.0
+skvr08110080,tuli,tulla,tulla,omorfi_contextual,YES,YES,NO,NO,"Tuli Suomehen ſotihin,",Turku,1700,16.0
+skvr08110080,suomen,Suomi,suomi,omorfi_contextual,YES,YES,NO,NO,20 Andoi ſouta Suomen vaimon.,Turku,1700,15.0
+skvr08110080,suomen,Suomi,suomi,omorfi_contextual,YES,YES,NO,NO,"Vahwa Suomen Valda-Herra,",Turku,1700,15.0
+skvr08110080,suomen,Suomi,suomi,omorfi_contextual,YES,YES,NO,NO,Suomen Sonnien ſekahan,Turku,1700,15.0
+skvr08110080,heitä,he,he,omorfi_contextual,YES,YES,NO,NO,"Heitä heittäkäm merehen,",Turku,1700,17.0
+skvr08110080,löi,lyödä,lyödä,omorfi_contextual,YES,YES,NO,NO,Löi hepo lautaiſehen.,Turku,1700,16.0
+skvr08110080,oli,olla,olla,omorfi_contextual,YES,YES,NO,NO,Siin' oli harma hangittuna,Turku,1700,16.0
+skvr09101980,tule,tule,tulla,omorfi_contextual,NO,YES,NO,NO,Tule meille Tuamas kulta,Renko,1913,14.0
+skvr12153030,emoinen,emonen,emo,omorfi_contextual,NO,YES,NO,NO,"Neihdy Maria emoinen,",Liminka,1678,10.0
+skvr12153030,tule,tulla,tulla,omorfi_contextual,YES,YES,NO,NO,Tule meille turvaxi,Liminka,1678,14.0
+skvr12153030,anna,antaa,antaa,omorfi_contextual,YES,YES,NO,NO,5 Anna mullet apua.,Liminka,1678,14.0
+skvr15103160,jolla,jolla,joka,omorfi_contextual,NO,YES,NO,NO,"10 (jolla poltan Rijjen suuta,",nan,1786,19.0
+j03901,kuin,kuin,kuin,omorfi_contextual,YES,YES,NO,NO,"Woi! Kuin olen oppinnaa,",Savitaipale,1848,16.0
+j03901,on,olla,olla,omorfi_contextual,YES,YES,NO,NO,"Jo on hevoinen valjahissa,",Savitaipale,1848,14.0
+j17753,tuli,tulla,tulla,omorfi_contextual,YES,YES,NO,NO,Nimi tuli Nikolai,Pistojärvi,1931,16.0
+j34982,tule,tulla,tulla,omorfi_contextual,YES,YES,NO,NO,tule vasta jouluna kottiin.,Hankasalmi,1962,11.0
+j34982,tuo,tuoda,tuo,omorfi_contextual,NO,YES,NO,NO,Tuo sillon marjoja tullessas,Hankasalmi,1962,21.0
+j34982,heitä,heittää,he,omorfi_contextual,NO,YES,NO,NO,Heitä kaevon kannelle,Hankasalmi,1962,17.0
+j35306,oli,olla,olla,omorfi_contextual,YES,YES,NO,NO,"viel oli verskahan venunut,",Narvusi,1937,16.0
+j35306,on,olla,olla,omorfi_contextual,YES,YES,NO,NO,"hyvä on olla soldattin,",Narvusi,1937,14.0
+j35306,on,olla,olla,omorfi_contextual,YES,YES,NO,NO,"vaate on valkee,",Narvusi,1937,14.0
+j35306,on,olla,olla,omorfi_contextual,YES,YES,NO,NO,"leipä on selkiä,",Narvusi,1937,14.0
+j35306,on,olla,olla,omorfi_contextual,YES,YES,NO,NO,iGä päiv on vari viht,Narvusi,1937,14.0
