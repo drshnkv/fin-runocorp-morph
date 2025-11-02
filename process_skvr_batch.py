@@ -137,8 +137,10 @@ def process_batch(args):
 
     # STEP 3: Load lemmatizer
     print("Loading V17 Phase 9 lemmatizer...", file=sys.stderr)
+    if args.lexicon_path:
+        print(f"  Using lexicon: {args.lexicon_path}", file=sys.stderr)
     load_start = time.time()
-    lemmatizer = OmorfiHfstWithVoikkoV16Hybrid()
+    lemmatizer = OmorfiHfstWithVoikkoV16Hybrid(lexicon_path=args.lexicon_path)
     load_time = time.time() - load_start
     print(f"✓ Lemmatizer loaded in {load_time:.1f} seconds")
     print()
@@ -337,6 +339,8 @@ Examples:
                        help='Input CSV file (one poem per row with poemText column)')
     parser.add_argument('--output', type=str, required=True,
                        help='Output CSV file (one word per row with lemma, method, etc.)')
+    parser.add_argument('--lexicon-path', type=str, default=None,
+                       help='Path to self-training lexicon JSON file (default: selftraining_lexicon_v16_min1.json)')
     parser.add_argument('--chunk-size', type=int, default=100,
                        help='Number of poems to process per chunk (default: 100)')
     parser.add_argument('--save-interval', type=int, default=120,
