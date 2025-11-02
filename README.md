@@ -88,7 +88,7 @@ Method Performance:
 - Lexicon (Tier 1):      7 correct
 - Omorfi contextual:     391 correct
 - Voikko + Omorfi:       130 correct
-- Fuzzy lexicon:         0 correct
+- Fuzzy lexicon:         74 correct (handles archaic orthography)
 - Identity fallback:     0 correct (1 attempt)
 
 Ambiguous Handling:
@@ -326,7 +326,7 @@ This lemmatizer was developed for the **Finnish Kalevala-meter poetry corpus** (
 ### Known Limitations
 - Identity fallback rare but necessary (1 case in test set)
 - Some proper nouns require specialized handling
-- Fuzzy matching currently contributes 0 correct instances
+- Morphological feature weights not yet POS-specific
 
 ## Development Status
 
