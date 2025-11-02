@@ -34,10 +34,18 @@ This repository contains a production-ready lemmatization system specifically de
 
 ### Supporting Resources
 
-- **`selftraining_lexicon_v16_min1.json`** - Self-training lexicon (681 KB)
+- **`selftraining_lexicon_v16_min1.json`** - Train-only lexicon (681 KB)
   - 3,626 unambiguous (word, POS) patterns
   - 74 ambiguous patterns tracked
-  - Tier 1 (Gold Standard) entries
+  - Tier 1 (Gold Standard) entries from training data
+  - **Used for evaluation metrics below** (58.8% accuracy)
+
+- **`selftraining_lexicon_v16_min1_combined.json`** - Combined train+test lexicon (874 KB)
+  - 4,612 unambiguous (word, POS) patterns
+  - 109 ambiguous patterns tracked
+  - Combines both training and test gold standard annotations
+  - **Recommended for batch processing** (see usage below)
+  - Not used for evaluation to avoid test data leakage
 
 - **`finnish_poems_gold_test_clean.csv`** - Test dataset (187 KB)
   - 24 Finnish poems, ~1,468 words
@@ -128,9 +136,18 @@ pip install hfst  # For Omorfi morphological analysis
 For processing large Finnish poetry corpora (e.g., SKVR with 170,668 poems), use the batch processing script:
 
 ```bash
+# Using train-only lexicon (default)
 python3 process_skvr_batch.py \
   --input skvr_runosongs_okt_2025.csv \
   --output skvr_lemmatized_results.csv \
+  --chunk-size 100 \
+  --save-interval 120
+
+# Using combined train+test lexicon (recommended for better coverage)
+python3 process_skvr_batch.py \
+  --input skvr_runosongs_okt_2025.csv \
+  --output skvr_lemmatized_results.csv \
+  --lexicon-path selftraining_lexicon_v16_min1_combined.json \
   --chunk-size 100 \
   --save-interval 120
 ```
@@ -140,6 +157,7 @@ python3 process_skvr_batch.py \
 - **Checkpoint/resume** - Automatically resumes from interruptions
 - **Progress tracking** - Real-time progress bar with ETA
 - **CSV output** - 10 columns: p_id, nro, poemTitle, word_index, word, lemma, method, confidence, context_score, analysis
+- **Lexicon selection** - Use `--lexicon-path` to specify train-only or combined lexicon
 
 **To resume after interruption:**
 ```bash
@@ -185,11 +203,19 @@ wc -l skvr_lemmatized_results.csv  # Check word count
 ```python
 from fin_runocorp_base import FinnishRunosongLemmatizer
 
-# Initialize lemmatizer
+# Initialize lemmatizer with train-only lexicon (default)
 lemmatizer = FinnishRunosongLemmatizer(
     model_dir=None,  # Uses default Stanza model
     voikko_path='/path/to/.voikko',
     lang='fi'
+)
+
+# Or use combined lexicon for better coverage
+lemmatizer = FinnishRunosongLemmatizer(
+    model_dir=None,
+    voikko_path='/path/to/.voikko',
+    lang='fi',
+    lexicon_path='selftraining_lexicon_v16_min1_combined.json'
 )
 
 # Lemmatize text
