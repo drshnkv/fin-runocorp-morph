@@ -52,10 +52,9 @@ logs/
 !finnish_poems_gold_train_clean.csv
 !finnish_lemma_evaluation_v17_phase9.csv
 !finnish_lemma_evaluation_v17_phase9_ambiguous_analysis.csv
-!finnish_lemma_evaluation_v17_phase9_identity_fallback_analysis.csv
 !step4_type_hints_validation.log
 
-# Test outputs (exclude other evaluation files but keep the three above)
+# Test outputs (exclude other evaluation files but keep the two above)
 *_evaluation.log
 *_test.log
 

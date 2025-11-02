@@ -145,10 +145,22 @@ for token in results:
 python3 evaluate_v17_phase9.py
 ```
 
-Generates:
-- `finnish_lemma_evaluation_v17_phase9.csv` - Detailed results
-- `finnish_lemma_evaluation_v17_phase9_identity_fallback_analysis.csv` - Fallback analysis
-- `finnish_lemma_evaluation_v17_phase9_ambiguous_analysis.csv` - Ambiguity tracking
+Generates two CSV files with evaluation results:
+
+**1. `finnish_lemma_evaluation_v17_phase9.csv`** (Main evaluation results)
+- Complete word-by-word evaluation of all 1,468 test words
+- Shows predicted lemma vs. manual gold standard for each word
+- Includes which lemmatization method was used (lexicon, omorfi_contextual, voikko_omorfi, etc.)
+- Contains poem metadata (poem_id, verse, location, year)
+- Indicates whether each prediction was correct
+- Use this file for detailed error analysis and method performance comparison
+
+**2. `finnish_lemma_evaluation_v17_phase9_ambiguous_analysis.csv`** (Ambiguous words analysis)
+- Subset of 44 instances involving 20 unique word forms that have multiple possible lemmas
+- Example: "on" (verb "to be") can appear in different grammatical contexts
+- Shows how well the system handles polysemous/homonymous words
+- Achieves 79.5% accuracy (35/44 correct) on these challenging cases
+- Useful for understanding ambiguity resolution performance
 
 ## Configuration
 
