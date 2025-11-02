@@ -2,6 +2,10 @@
 
 A hybrid Finnish dialectal poetry lemmatization system combining multiple NLP tools (Stanza, Omorfi, Voikko) with morphological feature analysis for improved accuracy on dialectal Finnish texts.
 
+## Usage and Contact
+
+If you intend to use these resources, please contact first: kaarel.veskis@kirmus.ee
+
 ## Overview
 
 This repository contains a production-ready lemmatization system specifically designed for Finnish Kalevala-meter poetry (*runokorpus*), achieving 58.8% exact match accuracy on dialectal Finnish gold standard test data. The system uses a multi-tier fallback strategy with morphological feature awareness to handle the linguistic complexity of historical Finnish dialects.
@@ -118,6 +122,63 @@ pip install hfst  # For Omorfi morphological analysis
 ```
 
 ## Usage
+
+### Batch Processing (Large Corpora)
+
+For processing large Finnish poetry corpora (e.g., SKVR with 170,668 poems), use the batch processing script:
+
+```bash
+python3 process_skvr_batch.py \
+  --input skvr_runosongs_okt_2025.csv \
+  --output skvr_lemmatized_results.csv \
+  --chunk-size 100 \
+  --save-interval 120
+```
+
+**Features:**
+- **Incremental saves** - Results saved every 120 seconds (configurable)
+- **Checkpoint/resume** - Automatically resumes from interruptions
+- **Progress tracking** - Real-time progress bar with ETA
+- **CSV output** - 10 columns: p_id, nro, poemTitle, word_index, word, lemma, method, confidence, context_score, analysis
+
+**To resume after interruption:**
+```bash
+python3 process_skvr_batch.py \
+  --input skvr_runosongs_okt_2025.csv \
+  --output skvr_lemmatized_results.csv \
+  --resume
+```
+
+**For long-running processing (full SKVR corpus):**
+
+The full corpus takes 2-4 days to process. Use tmux or nohup to run in background:
+
+```bash
+# Option 1: Using tmux (recommended)
+tmux new -s skvr_processing
+python3 process_skvr_batch.py \
+  --input skvr_runosongs_okt_2025.csv \
+  --output skvr_lemmatized_results.csv
+# Detach: Ctrl+B, then D
+# Reattach later: tmux attach -t skvr_processing
+
+# Option 2: Using nohup
+nohup python3 process_skvr_batch.py \
+  --input skvr_runosongs_okt_2025.csv \
+  --output skvr_lemmatized_results.csv \
+  > skvr_processing.log 2>&1 &
+
+# Monitor progress
+tail -f skvr_processing.log
+wc -l skvr_lemmatized_results.csv  # Check word count
+```
+
+**Processing Time Estimates:**
+- 10 poems: ~2-3 minutes
+- 100 poems: ~20-30 minutes
+- 170,668 poems (full SKVR): ~2-4 days
+
+**Note:** Tested with `skvr_test_6poems.csv` containing 6 poems (2,022 words processed in 2.6 minutes). The file has multi-line CSV records due to embedded newlines in metadata fields.
 
 ### Basic Lemmatization
 
