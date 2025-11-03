@@ -49,6 +49,8 @@ logs/
 # Exceptions - Keep these important files
 !selftraining_lexicon_v16_min1.json
 !selftraining_lexicon_v16_min1_combined.json
+!selftraining_lexicon_train_with_additions.json
+!selftraining_lexicon_comb_with_additions.json
 !sms_dialectal_index_v4_final.json
 !finnish_poems_gold_test_clean.csv
 !finnish_poems_gold_train_clean.csv
@@ -56,9 +58,12 @@ logs/
 !finnish_lemma_evaluation_v17_phase9_ambiguous_analysis.csv
 !finnish_lemma_evaluation_v17_phase10.csv
 !finnish_lemma_evaluation_v17_phase10_dialectal_dictionary_analysis.csv
+!finnish_lemma_evaluation_train_expanded_FAIR.csv
 !skvr_test_6poems.csv
 !skvr_runosongs_okt_2025.csv.gz
 !skvr_lemmatized_results_with_lexicon.csv
+!skvr_lemmatized_results_expanded.csv
+!batch_lemma_differences.csv
 !step4_type_hints_validation.log
 
 # Test outputs (exclude other evaluation files but keep the two above)
