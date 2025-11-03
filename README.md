@@ -85,6 +85,18 @@ This repository contains a production-ready lemmatization system specifically de
   - Training data for lexicon development
   - Additional dialectal examples
 
+**Results and Output Files:**
+
+- **`skvr_lemmatized_results_with_lexicon.csv`** - SKVR corpus lemmatization results (partial, in progress)
+  - Lemmatization output from full SKVR runosong corpus processing
+  - Generated using V2 lemmatizer with dialectal dictionary integration
+  - Uses combined train+test lexicon (`selftraining_lexicon_v16_min1_combined.json`)
+  - Current status: ~36,700 words processed (partial results, processing ongoing)
+  - 10 columns: p_id, nro, poemTitle, word_index, word, lemma, method, confidence, context_score, analysis
+  - Generated with: `process_skvr_batch_v2.py --lexicon-path selftraining_lexicon_v16_min1_combined.json`
+  - **Note:** This file is updated incrementally during processing (auto-saves every 120 seconds)
+  - Source corpus: 170,668 Finnish runosong poems from SKVR collection
+
 ## Lemmatization Strategy
 
 ### V2 Tier Architecture (9-Tier Fallback Chain with Dialectal Dictionary)
