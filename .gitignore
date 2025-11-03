@@ -49,6 +49,7 @@ logs/
 # Exceptions - Keep these important files
 !selftraining_lexicon_v16_min1.json
 !selftraining_lexicon_v16_min1_combined.json
+!sms_dialectal_index_v4_final.json
 !finnish_poems_gold_test_clean.csv
 !finnish_poems_gold_train_clean.csv
 !finnish_lemma_evaluation_v17_phase9.csv
