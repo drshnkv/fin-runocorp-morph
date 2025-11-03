@@ -133,7 +133,11 @@ This repository contains a production-ready lemmatization system specifically de
 
 ## Performance Metrics
 
-### V17 Phase 9 Results (Current Version)
+### V17 Phase 10 Results (Current Version - with Dialectal Dictionary)
+
+The V2 lemmatizer with Finnish Dialectal Dictionary integration (see detailed results above).
+
+### V17 Phase 9 Results (Baseline)
 
 ```
 Total test words:    1,468
