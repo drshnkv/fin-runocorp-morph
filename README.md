@@ -2,13 +2,10 @@
 
 A hybrid Finnish dialectal poetry lemmatization system combining multiple NLP tools (Stanza, Omorfi, Voikko) with morphological feature analysis for improved accuracy on dialectal Finnish texts.
 
-## Usage and Contact
-
-If you intend to use these resources, please contact first: kaarel.veskis@kirmus.ee
 
 ## Overview
 
-This repository contains a production-ready lemmatization system specifically designed for Finnish Kalevala-meter poetry (*runokorpus*), achieving 59.9% exact match accuracy on dialectal Finnish gold standard test data with expanded lexicon and V2 dialectal dictionary integration. The system uses a multi-tier fallback strategy with morphological feature awareness and 19,385 validated dialectal variants to handle the linguistic complexity of historical Finnish dialects.
+This repository contains a production-ready lemmatization system specifically designed for Finnish runosongs, achieving 59.9% exact match accuracy on manual annotations test set with expanded lexicon and V2 dialectal dictionary integration. The system uses a multi-tier fallback strategy with morphological feature awareness and 19,385 validated dialectal variants to handle the linguistic complexity of historical Finnish dialects.
 
 ## System Architecture
 
@@ -16,7 +13,7 @@ This repository contains a production-ready lemmatization system specifically de
 
 1. **`fin_runocorp_base_v2_dialectal_dict_integrated.py`** - V2 lemmatization engine (recommended)
    - Multi-tier fallback chain with dialectal dictionary integration
-   - 19,385 validated dialectal variants from Suomen Murteiden Sanakirja (SMS)
+   - 19,385 dialectal variants from Suomen Murteiden Sanakirja (SMS)
    - Confidence-based override for spelling correction guesses
    - Morphological feature extraction and similarity scoring
    - Dialectal normalization integration
@@ -152,7 +149,7 @@ This repository contains a production-ready lemmatization system specifically de
 
 ### V17 Phase 10 Results (Current Version - with Dialectal Dictionary)
 
-The V2 lemmatizer with Finnish Dialectal Dictionary integration (see detailed results above).
+The V2 lemmatizer with Finnish Dialectal Dictionary integration.
 
 ### V17 Phase 9 Results (Baseline)
 
@@ -246,22 +243,11 @@ Method Performance:
 - **Evaluation**: `evaluate_train_expanded_FAIR.py`
 - **Results**: `finnish_lemma_evaluation_train_expanded_FAIR.csv`
 
-**Expected Performance on Dialectal Corpus:**
-The current test set contains mostly standard Finnish with manual annotations. When processing true dialectal runosong corpus (SKVR), dictionary usage is expected to be significantly higher (150-250+ instances) with corresponding accuracy improvements.
 
 ## Installation
 
-### Requirements
 
-```bash
-# Python 3.8+
-pip install stanza
-pip install omorfi
-pip install voikko
-
-# Download Stanza Finnish model
-python -c "import stanza; stanza.download('fi')"
-```
+See: INSTALLATION.md
 
 ### Voikko Dictionaries
 
@@ -313,7 +299,7 @@ python3 process_skvr_batch_v2.py \
 ```
 
 **Features:**
-- **Expanded lexicon** - 5,484 word forms (+57.8% coverage) for improved accuracy
+- **Expanded lexicon** - 5,484 word forms for improved accuracy
 - **Dialectal dictionary integration** - 19,385 validated variants from SMS
 - **Confidence-based override** - Surgical fixes for spelling correction guesses
 - **Incremental saves** - Results saved every 120 seconds (configurable)
@@ -367,7 +353,6 @@ wc -l skvr_lemmatized_results_v2.csv  # Check word count
 - 100 poems: ~20-30 minutes
 - 170,668 poems (full SKVR): ~2-4 days
 
-**Note:** Tested with `skvr_test_6poems.csv` containing 6 poems (2,022 words processed in 2.6 minutes). The file has multi-line CSV records due to embedded newlines in metadata fields.
 
 **V1 Baseline Script:** The original `process_skvr_batch.py` (without dialectal dictionary) remains available for baseline comparisons and backward compatibility.
 
@@ -555,3 +540,5 @@ For questions or issues, please contact the repository maintainer (kaarel.veskis
 - **Omorfi**: Open Morphology of Finnish
 - **Voikko**: Finnish linguistic software
 - **SKVR Corpus**: Finnish Literature Society (*Suomalaisen Kirjallisuuden Seura*)
+
+
