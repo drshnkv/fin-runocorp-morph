@@ -1,0 +1,6 @@
+word,lemma,manual_lemma,method,poem_id,correct
+morsien,morsian,,dialectal_dictionary,skvr02105350,YES
+hahti,haahti,,dialectal_dictionary,skvr08110080,YES
+noit,nuo,,dialectal_dictionary,skvr08110080,YES
+kakla,kaula,,dialectal_dictionary,j17753,YES
+luve,luode,lukea,dialectal_dictionary,j17753,NO

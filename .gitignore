@@ -54,6 +54,8 @@ logs/
 !finnish_poems_gold_train_clean.csv
 !finnish_lemma_evaluation_v17_phase9.csv
 !finnish_lemma_evaluation_v17_phase9_ambiguous_analysis.csv
+!finnish_lemma_evaluation_v17_phase10.csv
+!finnish_lemma_evaluation_v17_phase10_dialectal_dictionary_analysis.csv
 !skvr_test_6poems.csv
 !skvr_runosongs_okt_2025.csv.gz
 !skvr_lemmatized_results_with_lexicon.csv

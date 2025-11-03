@@ -1,0 +1,1469 @@
+poem_id,word,manual_lemma,predicted_lemma,method,exact_match,is_dialectal,is_identity_fallback,verse,place_name,year
+skvr02105350,miero,miero,miero,omorfi_contextual,YES,NO,NO,"Miero vuotti uutta kuuta,",Repola,1909
+skvr02105350,vuotti,vuottaa,vuottaa,omorfi_contextual,YES,NO,NO,"Miero vuotti uutta kuuta,",Repola,1909
+skvr02105350,uutta,uusi,uusi,v16_lexicon_tier1,YES,NO,NO,"Miero vuotti uutta kuuta,",Repola,1909
+skvr02105350,kuuta,kuu,kuu,omorfi_contextual,YES,NO,NO,"Miero vuotti uutta kuuta,",Repola,1909
+skvr02105350,päiväistä,päivä,päivä,fuzzy_lexicon_morphological,YES,NO,NO,"Päiväistä yleniästä,",Repola,1909
+skvr02105350,yleniästä,ylenijä,syli,voikko_omorfi,NO,NO,NO,"Päiväistä yleniästä,",Repola,1909
+skvr02105350,miepä,minä,mie,omorfi_contextual,NO,NO,NO,"Miepä vuotin veioistani,",Repola,1909
+skvr02105350,vuotin,vuottaa,vuottaa,omorfi_contextual,YES,NO,NO,"Miepä vuotin veioistani,",Repola,1909
+skvr02105350,veioistani,veijo,vika,voikko_omorfi,NO,NO,NO,"Miepä vuotin veioistani,",Repola,1909
+skvr02105350,veioistani,veijo,vika,voikko_omorfi,NO,NO,NO,"Veioistani, mińoistani.",Repola,1909
+skvr02105350,minoistani,miniä,min,omorfi_contextual,NO,NO,NO,"Veioistani, mińoistani.",Repola,1909
+skvr02105350,veion,veijo,viedä,voikko_omorfi,NO,NO,NO,"5 Veion tyhjin tulleheks,",Repola,1909
+skvr02105350,tyhjin,tyhjä,tyhjä,omorfi_contextual,YES,NO,NO,"5 Veion tyhjin tulleheks,",Repola,1909
+skvr02105350,tulleheks,tulla,tuli,fuzzy_lexicon_morphological,NO,NO,NO,"5 Veion tyhjin tulleheks,",Repola,1909
+skvr02105350,rat'in,rati,ratti,voikko_omorfi,NO,NO,NO,Rat'in jousset juokseheks.[!],Repola,1909
+skvr02105350,jousset,jouten?,jousi,voikko_omorfi,NO,NO,NO,Rat'in jousset juokseheks.[!],Repola,1909
+skvr02105350,juokseheks,juosta,luokse,fuzzy_lexicon_morphological,NO,NO,NO,Rat'in jousset juokseheks.[!],Repola,1909
+skvr02105350,täll,tällä,tämä,voikko_omorfi,NO,NO,NO,Täll' on tosi tuotavan.,Repola,1909
+skvr02105350,on,olla,olla,omorfi_contextual,YES,NO,NO,Täll' on tosi tuotavan.,Repola,1909
+skvr02105350,tosi,tosi,tosi,omorfi_contextual,YES,NO,NO,Täll' on tosi tuotavan.,Repola,1909
+skvr02105350,tuotavan,tuoda,tuoda,omorfi_contextual,YES,NO,NO,Täll' on tosi tuotavan.,Repola,1909
+skvr02105350,nuorilta,nuori,nuora,omorfi_contextual,NO,NO,NO,Nuorilta jalat väsy,Repola,1909
+skvr02105350,jalat,jalka,jalka,v16_lexicon_tier1,YES,NO,NO,Nuorilta jalat väsy,Repola,1909
+skvr02105350,väsy,väsyä,väsy,omorfi_contextual,NO,NO,NO,Nuorilta jalat väsy,Repola,1909
+skvr02105350,rantateitä,rantatie,rantatie,omorfi_contextual,YES,NO,NO,"Rantateitä rapsuttais,",Repola,1909
+skvr02105350,rapsuttais,rapsuttaa,rapsuttaa,omorfi_contextual,YES,NO,NO,"Rantateitä rapsuttais,",Repola,1909
+skvr02105350,vanhoilda,vanha,vanha,voikko_omorfi,YES,NO,NO,10 Vanhoilda silmät valu,Repola,1909
+skvr02105350,silmät,silmä,silmä,omorfi_contextual,YES,NO,NO,10 Vanhoilda silmät valu,Repola,1909
+skvr02105350,valu,valu,valu,omorfi_contextual,YES,NO,NO,10 Vanhoilda silmät valu,Repola,1909
+skvr02105350,sillanpäitä,sillanpää,sillanpää,omorfi_contextual,YES,NO,NO,Sillanpäitä istuossa.,Repola,1909
+skvr02105350,istuossa,istua,tuo,fuzzy_lexicon_morphological,NO,NO,NO,Sillanpäitä istuossa.,Repola,1909
+skvr02105350,nuorigo,nuori,nuori,omorfi_contextual,YES,NO,NO,"Nuorigo oli nostajas,",Repola,1909
+skvr02105350,oli,olla,olla,omorfi_contextual,YES,NO,NO,"Nuorigo oli nostajas,",Repola,1909
+skvr02105350,nostajas,nostaja,nostaja,voikko_omorfi,YES,NO,NO,"Nuorigo oli nostajas,",Repola,1909
+skvr02105350,vihanta,vihanta,vihanta,omorfi_contextual,YES,NO,NO,Vihanta ylentäjäs?,Repola,1909
+skvr02105350,ylentäjäs,ylentäjä,yllä,fuzzy_lexicon_aggressive,NO,NO,NO,Vihanta ylentäjäs?,Repola,1909
+skvr02105350,morsien,morsian,morsian,dialectal_dictionary,YES,YES,NO,"Morsien, sisoriseni,",Repola,1909
+skvr02105350,sisoriseni,sisar,sisar,fuzzy_lexicon_morphological,YES,NO,NO,"Morsien, sisoriseni,",Repola,1909
+skvr02105350,kabulehti,kapolehti,kulkea,fuzzy_lexicon_morphological,NO,NO,NO,"15 Kabulehti, lagluoni,",Repola,1909
+skvr02105350,lagluoni,lakla,lag,omorfi_contextual,NO,NO,NO,"15 Kabulehti, lagluoni,",Repola,1909
+skvr02105350,toisin,toisin,toinen,omorfi_contextual,NO,NO,NO,"Toisin toisessa talossa,",Repola,1909
+skvr02105350,toisessa,toinen,toinen,omorfi_contextual,YES,NO,NO,"Toisin toisessa talossa,",Repola,1909
+skvr02105350,talossa,talo,talo,omorfi_contextual,YES,NO,NO,"Toisin toisessa talossa,",Repola,1909
+skvr02105350,toisin,toisin,toinen,omorfi_contextual,NO,NO,NO,"Toisin moalla vierahalla,",Repola,1909
+skvr02105350,moalla,maa,moa,omorfi_contextual,NO,NO,NO,"Toisin moalla vierahalla,",Repola,1909
+skvr02105350,vierahalla,vieras,vieras,omorfi_contextual,YES,NO,NO,"Toisin moalla vierahalla,",Repola,1909
+skvr02105350,ei,ei,ei,v16_lexicon_tier1,YES,NO,NO,"Ei ole kuin emoses koissa,",Repola,1909
+skvr02105350,ole,olla,olla,v16_lexicon_tier1,YES,NO,NO,"Ei ole kuin emoses koissa,",Repola,1909
+skvr02105350,kuin,kuin,kuin,omorfi_contextual,YES,NO,NO,"Ei ole kuin emoses koissa,",Repola,1909
+skvr02105350,emoses,emo,emonen,omorfi_contextual,NO,NO,NO,"Ei ole kuin emoses koissa,",Repola,1909
+skvr02105350,koissa,koti,koi,omorfi_contextual,NO,NO,NO,"Ei ole kuin emoses koissa,",Repola,1909
+skvr02105350,ei,ei,ei,v16_lexicon_tier1,YES,NO,NO,Ei ku toaton armoloissa.,Repola,1909
+skvr02105350,ku,kuin,ku,omorfi_contextual,NO,NO,NO,Ei ku toaton armoloissa.,Repola,1909
+skvr02105350,toaton,taatto,tola,voikko_omorfi,NO,NO,NO,Ei ku toaton armoloissa.,Repola,1909
+skvr02105350,armoloissa,armo,armo,omorfi_contextual,YES,NO,NO,Ei ku toaton armoloissa.,Repola,1909
+skvr02105350,morsio,morsian,morsio,omorfi_contextual,NO,NO,NO,"20 Morsio, sisorisen',",Repola,1909
+skvr02105350,sisorisen,sisar,sisar,fuzzy_lexicon_morphological,YES,NO,NO,"20 Morsio, sisorisen',",Repola,1909
+skvr02105350,piä,pitää,piä,omorfi_contextual,NO,NO,NO,"Piä lusikkas' luvulla,",Repola,1909
+skvr02105350,lusikkas,lusikka,lusikka,voikko_omorfi,YES,NO,NO,"Piä lusikkas' luvulla,",Repola,1909
+skvr02105350,luvulla,luku,luku,omorfi_contextual,YES,NO,NO,"Piä lusikkas' luvulla,",Repola,1909
+skvr02105350,astiaset,astiaa,astia,voikko_omorfi,NO,NO,NO,Astiaset arveluksella!,Repola,1909
+skvr02105350,arveluksella,arvelu,arvelu,voikko_omorfi,YES,NO,NO,Astiaset arveluksella!,Repola,1909
+skvr02106040,oravaine,orava,ora,omorfi_contextual,NO,NO,NO,"Oravaine, teräväine,",Porajärvi,1884
+skvr02106040,teräväine,terävä,terävä,voikko_omorfi,YES,NO,NO,"Oravaine, teräväine,",Porajärvi,1884
+skvr02106040,läkkä,lähteä,lähteä,v16_lexicon_tier1,YES,NO,NO,Läkkä puuta puremah!,Porajärvi,1884
+skvr02106040,puuta,puu,puu,omorfi_contextual,YES,NO,NO,Läkkä puuta puremah!,Porajärvi,1884
+skvr02106040,puremah,purra,purema,voikko_omorfi,NO,NO,NO,Läkkä puuta puremah!,Porajärvi,1884
+skvr02106040,a,a,a,v16_lexicon_tier1,YES,NO,NO,"A kui puu puroo,",Porajärvi,1884
+skvr02106040,kui,kuin,kuinka,v16_lexicon_tier1,NO,NO,NO,"A kui puu puroo,",Porajärvi,1884
+skvr02106040,puu,puu,puu,v16_lexicon_tier1,YES,NO,NO,"A kui puu puroo,",Porajärvi,1884
+skvr02106040,puroo,purra,puro,voikko_omorfi,NO,NO,NO,"A kui puu puroo,",Porajärvi,1884
+skvr02106040,mistä,mikä,mistä,v16_lexicon_tier1,NO,NO,NO,"Mistä, kusta zelloa?",Porajärvi,1884
+skvr02106040,kusta,kusta,kusta,omorfi_contextual,YES,NO,NO,"Mistä, kusta zelloa?",Porajärvi,1884
+skvr02106040,zelloa,selja,sello,voikko_omorfi,NO,NO,NO,"Mistä, kusta zelloa?",Porajärvi,1884
+skvr02106040,vanhan,vanha,vanha,v16_lexicon_tier1,YES,NO,NO,"5 Vanhan akan vakkasesta,",Porajärvi,1884
+skvr02106040,akan,akka,akka,omorfi_contextual,YES,NO,NO,"5 Vanhan akan vakkasesta,",Porajärvi,1884
+skvr02106040,vakkasesta,vakka,vakkanen,omorfi_contextual,NO,NO,NO,"5 Vanhan akan vakkasesta,",Porajärvi,1884
+skvr02106040,nuoren,nuori,nuori,v16_lexicon_tier1,YES,NO,NO,"Nuoren neitsoon[!] nännisestä,",Porajärvi,1884
+skvr02106040,neitsoon,neitsyt,neito,voikko_omorfi,NO,NO,NO,"Nuoren neitsoon[!] nännisestä,",Porajärvi,1884
+skvr02106040,nännisestä,nänni,nänni,voikko_omorfi,YES,NO,NO,"Nuoren neitsoon[!] nännisestä,",Porajärvi,1884
+skvr02106040,pienen,pieni,pieni,omorfi_contextual,YES,NO,NO,Pienen lapsen pikkusesta.,Porajärvi,1884
+skvr02106040,lapsen,lapsi,lapsi,omorfi_contextual,YES,NO,NO,Pienen lapsen pikkusesta.,Porajärvi,1884
+skvr02106040,pikkusesta,pikkuinen,pikkunen,omorfi_contextual,NO,NO,NO,Pienen lapsen pikkusesta.,Porajärvi,1884
+skvr04146910,last,lapsi,lasta,voikko_omorfi,NO,NO,NO,Last avitakka jumala.,Kattila,1877
+skvr04146910,avitakka,avittaa,avi,omorfi_contextual,NO,NO,NO,Last avitakka jumala.,Kattila,1877
+skvr04146910,jumala,Jumala,jumala,v16_lexicon_tier1,YES,NO,NO,Last avitakka jumala.,Kattila,1877
+skvr04146910,avitakka,avittaa,avi,omorfi_contextual,NO,NO,NO,Avitakka armolliine!,Kattila,1877
+skvr04146910,armolliine,armollinen,armollinen,voikko_omorfi,YES,NO,NO,Avitakka armolliine!,Kattila,1877
+skvr04146910,laka,laskea,lakka,voikko_omorfi,NO,NO,NO,"Laka ciuzën cihlagoa,",Kattila,1877
+skvr04146910,ciuzen,kiusata,kuusi,fuzzy_lexicon_morphological,NO,NO,NO,"Laka ciuzën cihlagoa,",Kattila,1877
+skvr04146910,cihlagoa,tšihlago,hako,fuzzy_lexicon_morphological,NO,NO,NO,"Laka ciuzën cihlagoa,",Kattila,1877
+skvr04146910,ciuzen,kiusata,kuusi,fuzzy_lexicon_morphological,NO,NO,NO,Ciuzën cihlago mäciä.,Kattila,1877
+skvr04146910,cihlago,tšihlago,kuli,fuzzy_lexicon_morphological,NO,NO,NO,Ciuzën cihlago mäciä.,Kattila,1877
+skvr04146910,mäciä,mäki,mäki,voikko_omorfi,YES,NO,NO,Ciuzën cihlago mäciä.,Kattila,1877
+skvr04146910,leepko,olla,lienee,fuzzy_lexicon_morphological,NO,NO,NO,"Leepko liukõa lipëa,",Kattila,1877
+skvr04146910,liukoa,liukua,liuota,omorfi_contextual,NO,NO,NO,"Leepko liukõa lipëa,",Kattila,1877
+skvr04146910,lipea,lipeä,lipeä,voikko_omorfi,YES,NO,NO,"Leepko liukõa lipëa,",Kattila,1877
+skvr04146910,lepko,olla,lepo,voikko_omorfi,NO,NO,NO,5 Lepko laskëa lakëa,Kattila,1877
+skvr04146910,laskea,laskea,laskea,omorfi_contextual,YES,NO,NO,5 Lepko laskëa lakëa,Kattila,1877
+skvr04146910,lakea,lakea,lakea,omorfi_contextual,YES,NO,NO,5 Lepko laskëa lakëa,Kattila,1877
+skvr04146910,lipeata,lipeä,lipeä,voikko_omorfi,YES,NO,NO,Lipëata lidna tietä,Kattila,1877
+skvr04146910,lidna,linna,liittää,fuzzy_lexicon_morphological,NO,NO,NO,Lipëata lidna tietä,Kattila,1877
+skvr04146910,tietä,tie,tie,v16_lexicon_tier1,YES,NO,NO,Lipëata lidna tietä,Kattila,1877
+skvr04146910,kareata,karhea,karata,voikko_omorfi,NO,NO,NO,"Karëata kaivo tieta,",Kattila,1877
+skvr04146910,kaivo,kaivo,kaivo,v16_lexicon_tier1,YES,NO,NO,"Karëata kaivo tieta,",Kattila,1877
+skvr04146910,tieta,tieta,tieto,voikko_omorfi,NO,NO,NO,"Karëata kaivo tieta,",Kattila,1877
+skvr04146910,terässissä,teräs,teräs,voikko_omorfi,YES,NO,NO,Terässissä teetä myö,Kattila,1877
+skvr04146910,teetä,tie,tee,omorfi_contextual,NO,NO,NO,Terässissä teetä myö,Kattila,1877
+skvr04146910,myö,myöten,me,v16_lexicon_tier1,NO,NO,NO,Terässissä teetä myö,Kattila,1877
+skvr04146910,ravvoissa,rauta,rapa,voikko_omorfi,NO,NO,NO,Ravvoissa rajuit myö,Kattila,1877
+skvr04146910,rajuit,raja,raju,voikko_omorfi,NO,NO,NO,Ravvoissa rajuit myö,Kattila,1877
+skvr04146910,myö,myöten,me,v16_lexicon_tier1,NO,NO,NO,Ravvoissa rajuit myö,Kattila,1877
+skvr04146910,kulleissa,kulta,kulli,omorfi_contextual,NO,NO,NO,"*Kulle(i)ssa kujeit myö,",Kattila,1877
+skvr04146910,kujeit,kuja,kuje,voikko_omorfi,NO,NO,NO,"*Kulle(i)ssa kujeit myö,",Kattila,1877
+skvr04146910,myö,myöten,me,v16_lexicon_tier1,NO,NO,NO,"*Kulle(i)ssa kujeit myö,",Kattila,1877
+skvr04146910,opeissa,hopea,oppi,omorfi_contextual,NO,NO,NO,10 Õpeissa ertta möö*.,Kattila,1877
+skvr04146910,ertta,orsi?,hertta,voikko_omorfi,NO,NO,NO,10 Õpeissa ertta möö*.,Kattila,1877
+skvr04146910,möö,myöten,möö,omorfi_contextual,NO,NO,NO,10 Õpeissa ertta möö*.,Kattila,1877
+skvr04146910,sem,se,se,voikko_omorfi,YES,NO,NO,"Sem miä peeni petteline,",Kattila,1877
+skvr04146910,miä,minä,minä,v16_lexicon_tier1,YES,NO,NO,"Sem miä peeni petteline,",Kattila,1877
+skvr04146910,peeni,pieni,pee,omorfi_contextual,NO,NO,NO,"Sem miä peeni petteline,",Kattila,1877
+skvr04146910,petteline,pettää,peti,voikko_omorfi,NO,NO,NO,"Sem miä peeni petteline,",Kattila,1877
+skvr04146910,matala,matala,matala,omorfi_contextual,YES,NO,NO,"Matala manitteline,",Kattila,1877
+skvr04146910,manitteline,maanitella,matti,voikko_omorfi,NO,NO,NO,"Matala manitteline,",Kattila,1877
+skvr04146910,ep,ei,p,voikko_omorfi,NO,NO,NO,"Ep kulta kujële panna,",Kattila,1877
+skvr04146910,kulta,kulta,kulta,v16_lexicon_tier1,YES,NO,NO,"Ep kulta kujële panna,",Kattila,1877
+skvr04146910,kujele,kuja,kujeilla,voikko_omorfi,NO,NO,NO,"Ep kulta kujële panna,",Kattila,1877
+skvr04146910,panna,panna,panna,v16_lexicon_tier1,YES,NO,NO,"Ep kulta kujële panna,",Kattila,1877
+skvr04146910,eb,ei,b,voikko_omorfi,NO,NO,NO,"Eb õbëata ertee panna,",Kattila,1877
+skvr04146910,obeata,hopea,ottaa,fuzzy_lexicon_morphological,NO,NO,NO,"Eb õbëata ertee panna,",Kattila,1877
+skvr04146910,ertee,orsi?,ei,fuzzy_lexicon_morphological,NO,NO,NO,"Eb õbëata ertee panna,",Kattila,1877
+skvr04146910,panna,panna,panna,v16_lexicon_tier1,YES,NO,NO,"Eb õbëata ertee panna,",Kattila,1877
+skvr04146910,ep,ei,p,voikko_omorfi,NO,NO,NO,"15 Ep terässä teele panna,",Kattila,1877
+skvr04146910,terässä,teräs,terä,omorfi_contextual,NO,NO,NO,"15 Ep terässä teele panna,",Kattila,1877
+skvr04146910,teele,tie,tekele,voikko_omorfi,NO,NO,NO,"15 Ep terässä teele panna,",Kattila,1877
+skvr04146910,panna,panna,panna,v16_lexicon_tier1,YES,NO,NO,"15 Ep terässä teele panna,",Kattila,1877
+skvr04146910,eb,ei,b,voikko_omorfi,NO,NO,NO,rautaa rajuelle rad'oa,Kattila,1877
+skvr04146910,rautaa,rauta,rauta,omorfi_contextual,YES,NO,NO,Eb: rautaa rajuelle rad'oa,Kattila,1877
+skvr04146910,rajuelle,raja,raju,voikko_omorfi,NO,NO,NO,Eb: rautaa rajuelle rad'oa,Kattila,1877
+skvr04146910,radoa,radoa,ruttaa,fuzzy_lexicon_morphological,NO,NO,NO,Eb: rautaa rajuelle rad'oa,Kattila,1877
+skvr04146910,teräs,teräs,teräs,v16_lexicon_tier1,YES,NO,NO,"Teräs cirveje terisse,",Kattila,1877
+skvr04146910,cirveje,kirves,kirves,fuzzy_lexicon_morphological,YES,NO,NO,"Teräs cirveje terisse,",Kattila,1877
+skvr04146910,terisse,terä,täristä,voikko_omorfi,NO,NO,NO,"Teräs cirveje terisse,",Kattila,1877
+skvr04146910,rauta,rauta,rauta,omorfi_contextual,YES,NO,NO,"Rauta talo tarpeesse,",Kattila,1877
+skvr04146910,talo,talo,talo,v16_lexicon_tier1,YES,NO,NO,"Rauta talo tarpeesse,",Kattila,1877
+skvr04146910,tarpeesse,tarve,tarve,voikko_omorfi,YES,NO,NO,"Rauta talo tarpeesse,",Kattila,1877
+skvr04146910,opea,hopea,ope,omorfi_contextual,NO,NO,NO,Õpëa dengasse üvässe!,Kattila,1877
+skvr04146910,dengasse,denga,tenho,fuzzy_lexicon_morphological,NO,NO,NO,Õpëa dengasse üvässe!,Kattila,1877
+skvr04146910,uvässe,hyvä,hyvä,fuzzy_lexicon_morphological,YES,NO,NO,Õpëa dengasse üvässe!,Kattila,1877
+skvr04146910,liuku,liukua,liuku,omorfi_contextual,NO,NO,NO,"20 Liuku laske õkka,",Kattila,1877
+skvr04146910,okka,okas?,okka,omorfi_contextual,NO,NO,NO,"20 Liuku laske õkka,",Kattila,1877
+skvr04146910,laske,laske,laskea,omorfi_contextual,NO,NO,NO,"20 Liuku laske õkka,",Kattila,1877
+skvr04146910,okka,okas?,okka,omorfi_contextual,NO,NO,NO,"20 Liuku laske õkka,",Kattila,1877
+skvr04146910,liuka,liukua,liukas,voikko_omorfi,NO,NO,NO,"Liuka lassu laitiaine,",Kattila,1877
+skvr04146910,lassu,lasku,lasso,voikko_omorfi,NO,NO,NO,"Liuka lassu laitiaine,",Kattila,1877
+skvr04146910,laitiaine,laitiaine,laite,voikko_omorfi,NO,NO,NO,"Liuka lassu laitiaine,",Kattila,1877
+skvr04146910,leppäne,leppäne,leppä,voikko_omorfi,NO,NO,NO,Leppäne ledenitsan,Kattila,1877
+skvr04146910,ledenitsan,ledenitsa,lentta,fuzzy_lexicon_aggressive,NO,NO,NO,Leppäne ledenitsan,Kattila,1877
+skvr04146910,sarnippuine,saarnipuinen,sanoa,fuzzy_lexicon_aggressive,NO,NO,NO,Sarnippuine saanikkoine.,Kattila,1877
+skvr04146910,saanikkoine,saanikkoine,sika,voikko_omorfi,NO,NO,NO,Sarnippuine saanikkoine.,Kattila,1877
+skvr05218500,mihi,mikä,mihin,voikko_omorfi,NO,NO,NO,"""Mihi hiironen männöö",Vuole,1894
+skvr05218500,hiironen,hiiri,hiironen,omorfi_contextual,NO,NO,NO,"""Mihi hiironen männöö",Vuole,1894
+skvr05218500,männöö,mennä,mennä,fuzzy_lexicon_morphological,YES,NO,NO,"""Mihi hiironen männöö",Vuole,1894
+skvr05218500,pieni,pieni,pieni,v16_lexicon_tier1,YES,NO,NO,"Pieni kelkkanen perässä,",Vuole,1894
+skvr05218500,kelkkanen,kelkkanen,kelkka,voikko_omorfi,NO,NO,NO,"Pieni kelkkanen perässä,",Vuole,1894
+skvr05218500,perässä,perässä,perä,v16_lexicon_tier1,NO,NO,NO,"Pieni kelkkanen perässä,",Vuole,1894
+skvr05218500,pieni,pieni,pieni,v16_lexicon_tier1,YES,NO,NO,"Pieni kirves kelkkasessa?""",Vuole,1894
+skvr05218500,kirves,kirves,kirves,v16_lexicon_tier1,YES,NO,NO,"Pieni kirves kelkkasessa?""",Vuole,1894
+skvr05218500,kelkkasessa,kelkkanen,kilta,fuzzy_lexicon_aggressive,NO,NO,NO,"Pieni kirves kelkkasessa?""",Vuole,1894
+skvr05218500,lähen,lähteä,lähteä,v16_lexicon_tier1,YES,NO,NO,"""Lähen puita puurtamoa,",Vuole,1894
+skvr05218500,puita,puu,puu,v16_lexicon_tier1,YES,NO,NO,"""Lähen puita puurtamoa,",Vuole,1894
+skvr05218500,puurtamoa,puurtaa,puurtaa,voikko_omorfi,YES,NO,NO,"""Lähen puita puurtamoa,",Vuole,1894
+skvr05218500,kasen,kaski,kaski,v16_lexicon_tier1,YES,NO,NO,"5 Kasen maita karsimoaa.""",Vuole,1894
+skvr05218500,maita,maa,maa,omorfi_contextual,YES,NO,NO,"5 Kasen maita karsimoaa.""",Vuole,1894
+skvr05218500,karsimoaa,karsia,karsi,omorfi_contextual,NO,NO,NO,"5 Kasen maita karsimoaa.""",Vuole,1894
+skvr05218500,a,a,a,v16_lexicon_tier1,YES,NO,NO,"""A k' se puu peälleis koatuu?"" -",Vuole,1894
+skvr05218500,k,kun,k,omorfi_contextual,NO,NO,NO,"""A k' se puu peälleis koatuu?"" -",Vuole,1894
+skvr05218500,se,se,se,v16_lexicon_tier1,YES,NO,NO,"""A k' se puu peälleis koatuu?"" -",Vuole,1894
+skvr05218500,puu,puu,puu,v16_lexicon_tier1,YES,NO,NO,"""A k' se puu peälleis koatuu?"" -",Vuole,1894
+skvr05218500,peälleis,päällä,päällä,fuzzy_lexicon_morphological,YES,NO,NO,"""A k' se puu peälleis koatuu?"" -",Vuole,1894
+skvr05218500,koatuu,kaatua,kaatua,voikko_omorfi,YES,NO,NO,"""A k' se puu peälleis koatuu?"" -",Vuole,1894
+skvr05218500,mie,minä,minä,v16_lexicon_tier1,YES,NO,NO,"""Mie vaa juoksen juuren all'.""",Vuole,1894
+skvr05218500,vaa,vaan,vaa,omorfi_contextual,NO,NO,NO,"""Mie vaa juoksen juuren all'.""",Vuole,1894
+skvr05218500,juoksen,juosta,juosta,omorfi_contextual,YES,NO,NO,"""Mie vaa juoksen juuren all'.""",Vuole,1894
+skvr05218500,juuren,juuren,juuri,omorfi_contextual,NO,NO,NO,"""Mie vaa juoksen juuren all'.""",Vuole,1894
+skvr05218500,all,alla,all,omorfi_contextual,NO,NO,NO,"""Mie vaa juoksen juuren all'.""",Vuole,1894
+skvr05218500,a,a,a,v16_lexicon_tier1,YES,NO,NO,"""A k' siun nälkä näppäsyöö?"" -",Vuole,1894
+skvr05218500,k,kun,k,omorfi_contextual,NO,NO,NO,"""A k' siun nälkä näppäsyöö?"" -",Vuole,1894
+skvr05218500,siun,sinä,sie,omorfi_contextual,NO,NO,NO,"""A k' siun nälkä näppäsyöö?"" -",Vuole,1894
+skvr05218500,nälkä,nälkä,nälkä,omorfi_contextual,YES,NO,NO,"""A k' siun nälkä näppäsyöö?"" -",Vuole,1894
+skvr05218500,näppäsyöö,näppästä,näppiä,fuzzy_lexicon_aggressive,NO,NO,NO,"""A k' siun nälkä näppäsyöö?"" -",Vuole,1894
+skvr05218500,mie,minä,minä,v16_lexicon_tier1,YES,NO,NO,"""Mie purasen koivukuorta,",Vuole,1894
+skvr05218500,purasen,puraista,pursi,fuzzy_lexicon_morphological,NO,NO,NO,"""Mie purasen koivukuorta,",Vuole,1894
+skvr05218500,koivukuorta,koivu & kuori,koivut,omorfi_contextual,NO,NO,NO,"""Mie purasen koivukuorta,",Vuole,1894
+skvr05218500,sekä,sekä,sekä,v16_lexicon_tier1,YES,NO,NO,"10 Sekä haukkaan hoaavankuorta.""",Vuole,1894
+skvr05218500,haukkaan,haukata,haukata,omorfi_contextual,YES,NO,NO,"10 Sekä haukkaan hoaavankuorta.""",Vuole,1894
+skvr05218500,hoaavankuorta,haapa & kuori,haapa,voikko_omorfi,NO,NO,NO,"10 Sekä haukkaan hoaavankuorta.""",Vuole,1894
+skvr05218500,a,a,a,v16_lexicon_tier1,YES,NO,NO,"""A k' siun vatsais poaaristuu?"" -",Vuole,1894
+skvr05218500,k,kun,k,omorfi_contextual,NO,NO,NO,"""A k' siun vatsais poaaristuu?"" -",Vuole,1894
+skvr05218500,siun,sinä,sie,omorfi_contextual,NO,NO,NO,"""A k' siun vatsais poaaristuu?"" -",Vuole,1894
+skvr05218500,vatsais,vatsa,vatsa,voikko_omorfi,YES,NO,NO,"""A k' siun vatsais poaaristuu?"" -",Vuole,1894
+skvr05218500,poaaristuu,paaristua,paisua,fuzzy_lexicon_aggressive,NO,NO,NO,"""A k' siun vatsais poaaristuu?"" -",Vuole,1894
+skvr05218500,mie,minä,minä,v16_lexicon_tier1,YES,NO,NO,"""Mie vaa pistän nieklasell'.""",Vuole,1894
+skvr05218500,vaa,vaa,vaa,omorfi_contextual,YES,NO,NO,"""Mie vaa pistän nieklasell'.""",Vuole,1894
+skvr05218500,pistän,pistää,pistää,omorfi_contextual,YES,NO,NO,"""Mie vaa pistän nieklasell'.""",Vuole,1894
+skvr05218500,nieklasell,neulanen,koski,fuzzy_lexicon_aggressive,NO,NO,NO,"""Mie vaa pistän nieklasell'.""",Vuole,1894
+skvr05218500,a,a,a,v16_lexicon_tier1,YES,NO,NO,"""A k' se verta vuotasuoo?"" -",Vuole,1894
+skvr05218500,k,kun,k,omorfi_contextual,NO,NO,NO,"""A k' se verta vuotasuoo?"" -",Vuole,1894
+skvr05218500,se,se,se,v16_lexicon_tier1,YES,NO,NO,"""A k' se verta vuotasuoo?"" -",Vuole,1894
+skvr05218500,verta,veri,veri,v16_lexicon_tier1,YES,NO,NO,"""A k' se verta vuotasuoo?"" -",Vuole,1894
+skvr05218500,vuotasuoo,vuotaa,vuota,omorfi_contextual,NO,NO,NO,"""A k' se verta vuotasuoo?"" -",Vuole,1894
+skvr05218500,mie,minä,minä,v16_lexicon_tier1,YES,NO,NO,"""Mie vaa voian voi-sulall'.""",Vuole,1894
+skvr05218500,vaa,vaa,vaa,omorfi_contextual,YES,NO,NO,"""Mie vaa voian voi-sulall'.""",Vuole,1894
+skvr05218500,voian,voitaa,voida,voikko_omorfi,NO,NO,NO,"""Mie vaa voian voi-sulall'.""",Vuole,1894
+skvr05218500,voisulall,voisula,voisula,voikko_omorfi,YES,NO,NO,"""Mie vaa voian voi-sulall'.""",Vuole,1894
+skvr05218500,mist,mistä,mikä,voikko_omorfi,NO,NO,NO,"15 ""Mist' se hiiri voita suaapi?"" -",Vuole,1894
+skvr05218500,se,se,se,v16_lexicon_tier1,YES,NO,NO,"15 ""Mist' se hiiri voita suaapi?"" -",Vuole,1894
+skvr05218500,hiiri,hiiri,hiiri,v16_lexicon_tier1,YES,NO,NO,"15 ""Mist' se hiiri voita suaapi?"" -",Vuole,1894
+skvr05218500,voita,voita,voittaa,omorfi_contextual,NO,NO,NO,"15 ""Mist' se hiiri voita suaapi?"" -",Vuole,1894
+skvr05218500,suaapi,saada,saada,voikko_omorfi,YES,NO,NO,"15 ""Mist' se hiiri voita suaapi?"" -",Vuole,1894
+skvr05218500,vanha,vanha,vanha,v16_lexicon_tier1,YES,NO,NO,"""Vanha ämmä vakkasest'"".",Vuole,1894
+skvr05218500,ämmä,ämmä,ämmä,v16_lexicon_tier1,YES,NO,NO,"""Vanha ämmä vakkasest'"".",Vuole,1894
+skvr05218500,vakkasest,vakkasest,vakka,fuzzy_lexicon_morphological,NO,NO,NO,"""Vanha ämmä vakkasest'"".",Vuole,1894
+skvr05218500,mistä,missä,mistä,v16_lexicon_tier1,NO,NO,NO,"""Mistä se vanha ämmä soaapi?"" -",Vuole,1894
+skvr05218500,se,se,se,v16_lexicon_tier1,YES,NO,NO,"""Mistä se vanha ämmä soaapi?"" -",Vuole,1894
+skvr05218500,vanha,vanha,vanha,v16_lexicon_tier1,YES,NO,NO,"""Mistä se vanha ämmä soaapi?"" -",Vuole,1894
+skvr05218500,ämmä,ämmä,ämmä,v16_lexicon_tier1,YES,NO,NO,"""Mistä se vanha ämmä soaapi?"" -",Vuole,1894
+skvr05218500,soaapi,saada,saada,voikko_omorfi,YES,NO,NO,"""Mistä se vanha ämmä soaapi?"" -",Vuole,1894
+skvr05218500,nuoren,nuori,nuori,v16_lexicon_tier1,YES,NO,NO,"""Nuoren lehmän nännäsest'.""",Vuole,1894
+skvr05218500,lehmän,lehmä,lehmä,omorfi_contextual,YES,NO,NO,"""Nuoren lehmän nännäsest'.""",Vuole,1894
+skvr05218500,nännäsest,nänni,nenä,fuzzy_lexicon_morphological,NO,NO,NO,"""Nuoren lehmän nännäsest'.""",Vuole,1894
+skvr05218500,mist,mistä,mikä,voikko_omorfi,NO,NO,NO,"""Mist' se nuori lehmä soaapi?"" -",Vuole,1894
+skvr05218500,se,se,se,v16_lexicon_tier1,YES,NO,NO,"""Mist' se nuori lehmä soaapi?"" -",Vuole,1894
+skvr05218500,nuori,nuori,nuori,v16_lexicon_tier1,YES,NO,NO,"""Mist' se nuori lehmä soaapi?"" -",Vuole,1894
+skvr05218500,lehmä,lehmä,lehmä,omorfi_contextual,YES,NO,NO,"""Mist' se nuori lehmä soaapi?"" -",Vuole,1894
+skvr05218500,soaapi,saada,saada,voikko_omorfi,YES,NO,NO,"""Mist' se nuori lehmä soaapi?"" -",Vuole,1894
+skvr05218500,suokukasta,suokukka,suokukka,omorfi_contextual,YES,NO,NO,"20 ""Suo-kukasta, moaa-kukasta,",Vuole,1894
+skvr05218500,moaakukasta,maakukka,maa,voikko_omorfi,NO,NO,NO,"20 ""Suo-kukasta, moaa-kukasta,",Vuole,1894
+skvr05218500,pellon,pelto,pelto,v16_lexicon_tier1,YES,NO,NO,"Pellon pientarieen kukasta,",Vuole,1894
+skvr05218500,pientarieen,piennar,piki,omorfi_contextual,NO,NO,NO,"Pellon pientarieen kukasta,",Vuole,1894
+skvr05218500,kukasta,kukka,kukka,omorfi_contextual,YES,NO,NO,"Pellon pientarieen kukasta,",Vuole,1894
+skvr05218500,heliäise,heleä,elää,fuzzy_lexicon_morphological,NO,NO,NO,"Heliäise heinän peästä,",Vuole,1894
+skvr05218500,heinän,heinä,heinä,v16_lexicon_tier1,YES,NO,NO,"Heliäise heinän peästä,",Vuole,1894
+skvr05218500,peästä,pää,pää,voikko_omorfi,YES,NO,NO,"Heliäise heinän peästä,",Vuole,1894
+skvr05218500,kauneen,kaunis,katua,voikko_omorfi,NO,NO,NO,"Kauneen kanervan peästä.""",Vuole,1894
+skvr05218500,kanervan,kanerva,kanerva,omorfi_contextual,YES,NO,NO,"Kauneen kanervan peästä.""",Vuole,1894
+skvr05218500,peästä,pää,pää,voikko_omorfi,YES,NO,NO,"Kauneen kanervan peästä.""",Vuole,1894
+skvr05307390,luulin,luulin,luulla,v16_lexicon_tier1,NO,NO,NO,Luulin päivän paistavaks,Lempaala,1888
+skvr05307390,päivän,päivä,päivä,v16_lexicon_tier1,YES,NO,NO,Luulin päivän paistavaks,Lempaala,1888
+skvr05307390,paistavaks,paistaa,paistaa,voikko_omorfi,YES,NO,NO,Luulin päivän paistavaks,Lempaala,1888
+skvr05307390,kuun,kuu,kuu,v16_lexicon_tier1,YES,NO,NO,"*kuun Jumalan koittavakse,*",Lempaala,1888
+skvr05307390,jumalan,jumala,jumala,v16_lexicon_tier1,YES,NO,NO,"*kuun Jumalan koittavakse,*",Lempaala,1888
+skvr05307390,koittavakse,koittaa,kaitsea,fuzzy_lexicon_morphological,NO,NO,NO,"*kuun Jumalan koittavakse,*",Lempaala,1888
+skvr05307390,luulin,luulla,luulla,v16_lexicon_tier1,YES,NO,NO,luulin kuun kumottavaks;,Lempaala,1888
+skvr05307390,kuun,kuu,kuu,v16_lexicon_tier1,YES,NO,NO,luulin kuun kumottavaks;,Lempaala,1888
+skvr05307390,kumottavaks,kumottaa,kumottaa,voikko_omorfi,YES,NO,NO,luulin kuun kumottavaks;,Lempaala,1888
+skvr05307390,ei,ei,ei,v16_lexicon_tier1,YES,NO,NO,"*ei se päivä paistantkaane,",Lempaala,1888
+skvr05307390,se,se,se,v16_lexicon_tier1,YES,NO,NO,"*ei se päivä paistantkaane,",Lempaala,1888
+skvr05307390,päivä,päivä,päivä,v16_lexicon_tier1,YES,NO,NO,"*ei se päivä paistantkaane,",Lempaala,1888
+skvr05307390,paistantkaane,paistaa,paistaa,fuzzy_lexicon_aggressive,YES,NO,NO,"*ei se päivä paistantkaane,",Lempaala,1888
+skvr05307390,kuu,kuu,kuu,v16_lexicon_tier1,YES,NO,NO,"5 kuu Jumalan koittantkaane,*",Lempaala,1888
+skvr05307390,jumalan,jumala,jumala,v16_lexicon_tier1,YES,NO,NO,"5 kuu Jumalan koittantkaane,*",Lempaala,1888
+skvr05307390,koittantkaane,koittaa,koti,fuzzy_lexicon_aggressive,NO,NO,NO,"5 kuu Jumalan koittantkaane,*",Lempaala,1888
+skvr05307390,niin,niin,niin,v16_lexicon_tier1,YES,NO,NO,niin se paisto sulhon paita,Lempaala,1888
+skvr05307390,se,se,se,v16_lexicon_tier1,YES,NO,NO,niin se paisto sulhon paita,Lempaala,1888
+skvr05307390,paisto,paistaa,paisto,omorfi_contextual,NO,NO,NO,niin se paisto sulhon paita,Lempaala,1888
+skvr05307390,sulhon,sulho,sulho,omorfi_contextual,YES,NO,NO,niin se paisto sulhon paita,Lempaala,1888
+skvr05307390,paita,paita,paita,v16_lexicon_tier1,YES,NO,NO,niin se paisto sulhon paita,Lempaala,1888
+skvr05307390,kun,kuin,kun,v16_lexicon_tier1,NO,NO,NO,"kun paras papin paperi,",Lempaala,1888
+skvr05307390,paras,paras,paras,omorfi_contextual,YES,NO,NO,"kun paras papin paperi,",Lempaala,1888
+skvr05307390,papin,pappi,papin,v16_lexicon_tier1,NO,NO,NO,"kun paras papin paperi,",Lempaala,1888
+skvr05307390,paperi,paperi,paperi,omorfi_contextual,YES,NO,NO,"kun paras papin paperi,",Lempaala,1888
+skvr05307390,kirkkoherran,kirkkoherra,kirkkoherra,omorfi_contextual,YES,NO,NO,kirkkoherran kirjalehti.,Lempaala,1888
+skvr05307390,kirjalehti,kirjalehti,kirja,omorfi_contextual,NO,NO,NO,kirkkoherran kirjalehti.,Lempaala,1888
+skvr06132930,o,o,o,omorfi_contextual,YES,NO,NO,"O sinä, rauta rauka,",Rantasalmi,1692
+skvr06132930,sinä,sinä,sinä,omorfi_contextual,YES,NO,NO,"O sinä, rauta rauka,",Rantasalmi,1692
+skvr06132930,rauta,rauta,rauta,omorfi_contextual,YES,NO,NO,"O sinä, rauta rauka,",Rantasalmi,1692
+skvr06132930,rauka,raukka,raukka,v16_lexicon_tier1,YES,NO,NO,"O sinä, rauta rauka,",Rantasalmi,1692
+skvr06132930,ett,ei,ei,v16_lexicon_tier1,YES,NO,NO,"Ett se silloin suuri ollu,",Rantasalmi,1692
+skvr06132930,se,sinä,se,v16_lexicon_tier1,NO,NO,NO,"Ett se silloin suuri ollu,",Rantasalmi,1692
+skvr06132930,silloin,silloin,silloin,v16_lexicon_tier1,YES,NO,NO,"Ett se silloin suuri ollu,",Rantasalmi,1692
+skvr06132930,suuri,suuri,suuri,v16_lexicon_tier1,YES,NO,NO,"Ett se silloin suuri ollu,",Rantasalmi,1692
+skvr06132930,ollu,olla,olla,omorfi_contextual,YES,NO,NO,"Ett se silloin suuri ollu,",Rantasalmi,1692
+skvr06132930,etkä,ei,ei,v16_lexicon_tier1,YES,NO,NO,"Etkä suuri, etkä pieni,",Rantasalmi,1692
+skvr06132930,suuri,suuri,suuri,v16_lexicon_tier1,YES,NO,NO,"Etkä suuri, etkä pieni,",Rantasalmi,1692
+skvr06132930,etkä,ei,ei,v16_lexicon_tier1,YES,NO,NO,"Etkä suuri, etkä pieni,",Rantasalmi,1692
+skvr06132930,pieni,pieni,pieni,v16_lexicon_tier1,YES,NO,NO,"Etkä suuri, etkä pieni,",Rantasalmi,1692
+skvr06132930,qwin,kuin,viedä,fuzzy_lexicon_morphological,NO,NO,NO,Qwin sinä maitona makaiset,Rantasalmi,1692
+skvr06132930,sinä,sinä,sinä,omorfi_contextual,YES,NO,NO,Qwin sinä maitona makaiset,Rantasalmi,1692
+skvr06132930,maitona,maito,maito,v16_lexicon_tier1,YES,NO,NO,Qwin sinä maitona makaiset,Rantasalmi,1692
+skvr06132930,makaiset,maata,makoinen,voikko_omorfi,NO,NO,NO,Qwin sinä maitona makaiset,Rantasalmi,1692
+skvr06132930,noren,nuoren,nuori,voikko_omorfi,NO,NO,NO,"5 Noren neitosen nisäsä,",Rantasalmi,1692
+skvr06132930,neitosen,neito,neitonen,v16_lexicon_tier1,NO,NO,NO,"5 Noren neitosen nisäsä,",Rantasalmi,1692
+skvr06132930,nisäsä,nisä,nisä,v16_lexicon_tier1,YES,NO,NO,"5 Noren neitosen nisäsä,",Rantasalmi,1692
+skvr06132930,caswainen,kasvavainen,kasvava,fuzzy_lexicon_morphological,NO,NO,NO,"Caswainen kainaloisa,",Rantasalmi,1692
+skvr06132930,kainaloisa,kainalo,kainaloinen,voikko_omorfi,NO,NO,NO,"Caswainen kainaloisa,",Rantasalmi,1692
+skvr06132930,hän,hän,hän,v16_lexicon_tier1,YES,NO,NO,"Hän lypsi maalle maitojan,",Rantasalmi,1692
+skvr06132930,lypsi,lypsää,lypsää,v16_lexicon_tier1,YES,NO,NO,"Hän lypsi maalle maitojan,",Rantasalmi,1692
+skvr06132930,maalle,maa,maa,v16_lexicon_tier1,YES,NO,NO,"Hän lypsi maalle maitojan,",Rantasalmi,1692
+skvr06132930,maitojan,maito,maito,omorfi_contextual,YES,NO,NO,"Hän lypsi maalle maitojan,",Rantasalmi,1692
+skvr06132930,nijttulle,niittu,neula,fuzzy_lexicon_aggressive,NO,NO,NO,"Nijttulle nisuxiaan,",Rantasalmi,1692
+skvr06132930,nisuxiaan,nisus,nisu,voikko_omorfi,NO,NO,NO,"Nijttulle nisuxiaan,",Rantasalmi,1692
+skvr06132930,pellole,pelto,pelto,voikko_omorfi,YES,NO,NO,"Pellole peruxian,",Rantasalmi,1692
+skvr06132930,peruxian,"perus, perä?",peru,voikko_omorfi,NO,NO,NO,"Pellole peruxian,",Rantasalmi,1692
+skvr06132930,sijttä,se,siitä,fuzzy_lexicon_morphological,NO,NO,NO,10 Sijttä että syndy syndi,Rantasalmi,1692
+skvr06132930,että,että,että,omorfi_contextual,YES,NO,NO,10 Sijttä että syndy syndi,Rantasalmi,1692
+skvr06132930,syndy,syntyä,syntyä,v16_lexicon_tier1,YES,NO,NO,10 Sijttä että syndy syndi,Rantasalmi,1692
+skvr06132930,syndi,synty,synti,voikko_omorfi,NO,NO,NO,10 Sijttä että syndy syndi,Rantasalmi,1692
+skvr06132930,jo,jo,jo,v16_lexicon_tier1,YES,NO,NO,"Jo caswo caswoi,",Rantasalmi,1692
+skvr06132930,caswo,kasvu,kastaa,fuzzy_lexicon_morphological,NO,NO,NO,"Jo caswo caswoi,",Rantasalmi,1692
+skvr06132930,caswoi,kasvaa,kastaa,fuzzy_lexicon_morphological,NO,NO,NO,"Jo caswo caswoi,",Rantasalmi,1692
+skvr06132930,siki,siitä,iki,voikko_omorfi,NO,NO,NO,Siki sikiminen.,Rantasalmi,1692
+skvr06132930,sikiminen,sikiäminen,sikiäminen,voikko_omorfi,YES,NO,NO,Siki sikiminen.,Rantasalmi,1692
+skvr06132930,rauta,rauta,rauta,omorfi_contextual,YES,NO,NO,"Rauta on Colmen jaettu,",Rantasalmi,1692
+skvr06132930,on,olla,olla,omorfi_contextual,YES,NO,NO,"Rauta on Colmen jaettu,",Rantasalmi,1692
+skvr06132930,colmen,kolme,kolme,v16_lexicon_tier1,YES,NO,NO,"Rauta on Colmen jaettu,",Rantasalmi,1692
+skvr06132930,jaettu,jakaa,jakaa,v16_lexicon_tier1,YES,NO,NO,"Rauta on Colmen jaettu,",Rantasalmi,1692
+skvr06132930,kaszari,kassara,kasari,voikko_omorfi,NO,NO,NO,Kaszari Kiutarille,Rantasalmi,1692
+skvr06132930,kiutarille,kivutar,ki,omorfi_contextual,NO,NO,NO,Kaszari Kiutarille,Rantasalmi,1692
+skvr06132930,mieka,miekka,miekka,v16_lexicon_tier1,YES,NO,NO,"15 Mieka melcocterille,",Rantasalmi,1692
+skvr06132930,melcocterille,melkotar,mela,fuzzy_lexicon_aggressive,NO,NO,NO,"15 Mieka melcocterille,",Rantasalmi,1692
+skvr06132930,sirpi,sirppi,sirppi,voikko_omorfi,YES,NO,NO,"Sirpi Kaurietaille,",Rantasalmi,1692
+skvr06132930,kaurietaille,kaurietar,karja,fuzzy_lexicon_aggressive,NO,NO,NO,"Sirpi Kaurietaille,",Rantasalmi,1692
+skvr06132930,kirwes,kirves,kirves,voikko_omorfi,YES,NO,NO,"Kirwes Iskieterille,",Rantasalmi,1692
+skvr06132930,iskieterille,iskijätär,sokea,fuzzy_lexicon_aggressive,NO,NO,NO,"Kirwes Iskieterille,",Rantasalmi,1692
+skvr06132930,kassari,kassari,kassari,omorfi_contextual,YES,NO,NO,"Kassari Kiutarille,",Rantasalmi,1692
+skvr06132930,kiutarille,kivutar,ki,omorfi_contextual,NO,NO,NO,"Kassari Kiutarille,",Rantasalmi,1692
+skvr06132930,keihäs,keihäs,keihäs,omorfi_contextual,YES,NO,NO,"Keihäs syöxeritille,",Rantasalmi,1692
+skvr06132930,syöxeritille,syökseritär,syödä,fuzzy_lexicon_aggressive,NO,NO,NO,"Keihäs syöxeritille,",Rantasalmi,1692
+skvr06132930,muuta,muu,muu,omorfi_contextual,YES,NO,NO,"20 Muuta raudat muruttarille,",Rantasalmi,1692
+skvr06132930,raudat,rauta,raudat,omorfi_contextual,NO,NO,NO,"20 Muuta raudat muruttarille,",Rantasalmi,1692
+skvr06132930,muruttarille,murutar,muru,omorfi_contextual,NO,NO,NO,"20 Muuta raudat muruttarille,",Rantasalmi,1692
+skvr06132930,weitzi,veitsi,veitsi,fuzzy_lexicon_morphological,YES,NO,NO,Weitzi wijlieittille.,Rantasalmi,1692
+skvr06132930,wijlieittille,vielijätär,viiltää,fuzzy_lexicon_aggressive,NO,NO,NO,Weitzi wijlieittille.,Rantasalmi,1692
+skvr06132930,tuonne,tuolla,tuonne,omorfi_contextual,NO,NO,NO,"Tuonne kiwus wie paten ala perä,",Rantasalmi,1692
+skvr06132930,kiwus,kipu,kidus,voikko_omorfi,NO,NO,NO,"Tuonne kiwus wie paten ala perä,",Rantasalmi,1692
+skvr06132930,wie,viedä,viedä,voikko_omorfi,YES,NO,NO,"Tuonne kiwus wie paten ala perä,",Rantasalmi,1692
+skvr06132930,paten,paasi,patti,voikko_omorfi,NO,NO,NO,"Tuonne kiwus wie paten ala perä,",Rantasalmi,1692
+skvr06132930,ala,ala,ala,v16_lexicon_tier1,YES,NO,NO,"Tuonne kiwus wie paten ala perä,",Rantasalmi,1692
+skvr06132930,perä,perä,perä,omorfi_contextual,YES,NO,NO,"Tuonne kiwus wie paten ala perä,",Rantasalmi,1692
+skvr06132930,koiwuun,koivu,koivu,voikko_omorfi,YES,NO,NO,"Koiwuun colmjkandaan,",Rantasalmi,1692
+skvr06132930,colmjkandaan,kolmikanta,kolme,fuzzy_lexicon_aggressive,NO,NO,NO,"Koiwuun colmjkandaan,",Rantasalmi,1692
+skvr06132930,haapaan,haapa,haapa,omorfi_contextual,YES,NO,NO,"Haapaan halenneseen,",Rantasalmi,1692
+skvr06132930,halenneseen,haleta,länsi,fuzzy_lexicon_morphological,NO,NO,NO,"Haapaan halenneseen,",Rantasalmi,1692
+skvr06132930,ihost,iho,iho,voikko_omorfi,YES,NO,NO,"25 Ihost ihmisen raukan,",Rantasalmi,1692
+skvr06132930,ihmisen,ihminen,ihminen,omorfi_contextual,YES,NO,NO,"25 Ihost ihmisen raukan,",Rantasalmi,1692
+skvr06132930,raukan,raukka,raukka,omorfi_contextual,YES,NO,NO,"25 Ihost ihmisen raukan,",Rantasalmi,1692
+skvr06132930,soihiin,suo,suo,voikko_omorfi,YES,NO,NO,"Soihiin mättäittöman,",Rantasalmi,1692
+skvr06132930,mättäittöman,mättäätön,mätäs,fuzzy_lexicon_aggressive,NO,NO,NO,"Soihiin mättäittöman,",Rantasalmi,1692
+skvr06132930,karwast,karva,karva,fuzzy_lexicon_morphological,YES,NO,NO,"Karwast emäkapeen,",Rantasalmi,1692
+skvr06132930,emäkapeen,emäkave,emä,voikko_omorfi,NO,NO,NO,"Karwast emäkapeen,",Rantasalmi,1692
+skvr06132930,ihost,iho,iho,voikko_omorfi,YES,NO,NO,Ihost allastamast:,Rantasalmi,1692
+skvr06132930,allastamast,allastaa,alainen,fuzzy_lexicon_aggressive,NO,NO,NO,Ihost allastamast:,Rantasalmi,1692
+skvr06132930,waiwon,vaiva,aivan,fuzzy_lexicon_morphological,NO,NO,NO,Waiwon waattelisest.,Rantasalmi,1692
+skvr06132930,waattelisest,vaatteellinen,vaate,fuzzy_lexicon_morphological,NO,NO,NO,Waiwon waattelisest.,Rantasalmi,1692
+skvr06132930,nijn,niin,niin,v16_lexicon_tier1,YES,NO,NO,"30 Nijn puhden sulalla suulla,",Rantasalmi,1692
+skvr06132930,puhden,puhua / puhtia,puhde,voikko_omorfi,NO,NO,NO,"30 Nijn puhden sulalla suulla,",Rantasalmi,1692
+skvr06132930,sulalla,sula,sula,v16_lexicon_tier1,YES,NO,NO,"30 Nijn puhden sulalla suulla,",Rantasalmi,1692
+skvr06132930,suulla,suu,suu,v16_lexicon_tier1,YES,NO,NO,"30 Nijn puhden sulalla suulla,",Rantasalmi,1692
+skvr06132930,leuwalla,leuka,leuka,voikko_omorfi,YES,NO,NO,"Leuwalla lepvellan,",Rantasalmi,1692
+skvr06132930,lepvellan,lepottoa,pelto,fuzzy_lexicon_morphological,NO,NO,NO,"Leuwalla lepvellan,",Rantasalmi,1692
+skvr06132930,herran,Herra,herra,omorfi_contextual,YES,NO,NO,"Herran hengellä hyvällä,",Rantasalmi,1692
+skvr06132930,hengellä,henki,henki,omorfi_contextual,YES,NO,NO,"Herran hengellä hyvällä,",Rantasalmi,1692
+skvr06132930,hyvällä,hyvä,hyvä,v16_lexicon_tier1,YES,NO,NO,"Herran hengellä hyvällä,",Rantasalmi,1692
+skvr06132930,luojan,Luoja,luoja,v16_lexicon_tier1,YES,NO,NO,"Luojan colmella sanalla,",Rantasalmi,1692
+skvr06132930,colmella,kolme,kolme,voikko_omorfi,YES,NO,NO,"Luojan colmella sanalla,",Rantasalmi,1692
+skvr06132930,sanalla,sana,sana,omorfi_contextual,YES,NO,NO,"Luojan colmella sanalla,",Rantasalmi,1692
+skvr06132930,keskeä,keskellä,käskeä,voikko_omorfi,NO,NO,NO,Keskeä kiwuttomax.,Rantasalmi,1692
+skvr06132930,kiwuttomax,kivuton,kipu,fuzzy_lexicon_morphological,NO,NO,NO,Keskeä kiwuttomax.,Rantasalmi,1692
+skvr07239280,tieän,tietää,tie,voikko_omorfi,NO,NO,NO,"Tieän, ohto, synnyntäsi",Pohjois-Karjala,1847
+skvr07239280,ohto,ohto,ohto,omorfi_contextual,YES,NO,NO,"Tieän, ohto, synnyntäsi",Pohjois-Karjala,1847
+skvr07239280,synnyntäsi,syntymä,synnyntä,fuzzy_lexicon_morphological,NO,NO,NO,"Tieän, ohto, synnyntäsi",Pohjois-Karjala,1847
+skvr07239280,karva,karva,karva,omorfi_contextual,YES,NO,NO,"Karva jalka, kasvantasi.",Pohjois-Karjala,1847
+skvr07239280,jalka,jalka,jalka,omorfi_contextual,YES,NO,NO,"Karva jalka, kasvantasi.",Pohjois-Karjala,1847
+skvr07239280,kasvantasi,kasvanta,kasvanta,omorfi_contextual,YES,NO,NO,"Karva jalka, kasvantasi.",Pohjois-Karjala,1847
+skvr07239280,miss,missä,miss,omorfi_contextual,NO,NO,NO,"Miss' out, ohto, synnytetty,",Pohjois-Karjala,1847
+skvr07239280,out,olla,ou,omorfi_contextual,NO,NO,NO,"Miss' out, ohto, synnytetty,",Pohjois-Karjala,1847
+skvr07239280,ohto,ohto,ohto,omorfi_contextual,YES,NO,NO,"Miss' out, ohto, synnytetty,",Pohjois-Karjala,1847
+skvr07239280,synnytetty,synnyttää,synnyttää,omorfi_contextual,YES,NO,NO,"Miss' out, ohto, synnytetty,",Pohjois-Karjala,1847
+skvr07239280,karva,karva,karva,omorfi_contextual,YES,NO,NO,"[Karva jalka], kasvatettu?",Pohjois-Karjala,1847
+skvr07239280,jalka,jalka,jalka,omorfi_contextual,YES,NO,NO,"[Karva jalka], kasvatettu?",Pohjois-Karjala,1847
+skvr07239280,kasvatettu,kasvattaa,kasvattaa,omorfi_contextual,YES,NO,NO,"[Karva jalka], kasvatettu?",Pohjois-Karjala,1847
+skvr07239280,suon,suo,suo,v16_lexicon_tier1,YES,NO,NO,"5 Suon navoilla, maan navoilla,",Pohjois-Karjala,1847
+skvr07239280,navoilla,napa,napa,omorfi_contextual,YES,NO,NO,"5 Suon navoilla, maan navoilla,",Pohjois-Karjala,1847
+skvr07239280,maan,maa,maa,v16_lexicon_tier1,YES,NO,NO,"5 Suon navoilla, maan navoilla,",Pohjois-Karjala,1847
+skvr07239280,navoilla,napa,napa,omorfi_contextual,YES,NO,NO,"5 Suon navoilla, maan navoilla,",Pohjois-Karjala,1847
+skvr07239280,kirjokangasten,kirjokangas,kirjo,omorfi_contextual,NO,NO,NO,"Kirjokangasten perillä,",Pohjois-Karjala,1847
+skvr07239280,perillä,perä,perillä,omorfi_contextual,NO,NO,NO,"Kirjokangasten perillä,",Pohjois-Karjala,1847
+skvr07239280,kengällä,kenkä,kenkä,omorfi_contextual,YES,NO,NO,"Kengällä korian kuusen,",Pohjois-Karjala,1847
+skvr07239280,korian,korea,kori,voikko_omorfi,NO,NO,NO,"Kengällä korian kuusen,",Pohjois-Karjala,1847
+skvr07239280,kuusen,kuusi,kuusi,v16_lexicon_tier1,YES,NO,NO,"Kengällä korian kuusen,",Pohjois-Karjala,1847
+skvr07239280,kataikon,katajikko,katajikko,voikko_omorfi,YES,NO,NO,"Kataikon kainalossa,",Pohjois-Karjala,1847
+skvr07239280,kainalossa,kainalo,kainalo,v16_lexicon_tier1,YES,NO,NO,"Kataikon kainalossa,",Pohjois-Karjala,1847
+skvr07239280,närän,närä,närä,omorfi_contextual,YES,NO,NO,Närän pehkon perässä.,Pohjois-Karjala,1847
+skvr07239280,pehkon,pehko,pehko,omorfi_contextual,YES,NO,NO,Närän pehkon perässä.,Pohjois-Karjala,1847
+skvr07239280,perässä,perä,perä,v16_lexicon_tier1,YES,NO,NO,Närän pehkon perässä.,Pohjois-Karjala,1847
+skvr07239280,miss,missä,missä,v16_lexicon_tier1,YES,NO,NO,10 Miss' on into annetuna?,Pohjois-Karjala,1847
+skvr07239280,on,olla,olla,omorfi_contextual,YES,NO,NO,10 Miss' on into annetuna?,Pohjois-Karjala,1847
+skvr07239280,into,into,into,omorfi_contextual,YES,NO,NO,10 Miss' on into annetuna?,Pohjois-Karjala,1847
+skvr07239280,annetuna,antaa,annettu,voikko_omorfi,NO,NO,NO,10 Miss' on into annetuna?,Pohjois-Karjala,1847
+skvr07239280,taivo,taivas,taivo,omorfi_contextual,NO,NO,NO,"Taivo tähtien seassa,",Pohjois-Karjala,1847
+skvr07239280,tähtien,tähti,tähti,omorfi_contextual,YES,NO,NO,"Taivo tähtien seassa,",Pohjois-Karjala,1847
+skvr07239280,seassa,seassa,seassa,omorfi_contextual,YES,NO,NO,"Taivo tähtien seassa,",Pohjois-Karjala,1847
+skvr07239280,otavaisten,otavainen,ottaa,voikko_omorfi,NO,NO,NO,Otavaisten olkapäillä.,Pohjois-Karjala,1847
+skvr07239280,olkapäillä,olkapää,olkapää,omorfi_contextual,YES,NO,NO,Otavaisten olkapäillä.,Pohjois-Karjala,1847
+skvr07301620,käſi,käsi,keski,fuzzy_lexicon_morphological,NO,NO,NO,Käſi Wäinämöiſen hacattin,Metsäsuomalaisten alue,1700
+skvr07301620,wäinämöiſen,Väinämöinen,väinämöinen,fuzzy_lexicon_morphological,YES,NO,NO,Käſi Wäinämöiſen hacattin,Metsäsuomalaisten alue,1700
+skvr07301620,hacattin,hakata,koota,fuzzy_lexicon_morphological,NO,NO,NO,Käſi Wäinämöiſen hacattin,Metsäsuomalaisten alue,1700
+skvr07301620,bölckyn,pölkky,pölkky,fuzzy_lexicon_morphological,YES,NO,NO,bölckyn böriwän päſä,Metsäsuomalaisten alue,1700
+skvr07301620,böriwän,pyöriä,polvi,fuzzy_lexicon_morphological,NO,NO,NO,bölckyn böriwän päſä,Metsäsuomalaisten alue,1700
+skvr07301620,päſä,pää,pää,voikko_omorfi,YES,NO,NO,bölckyn böriwän päſä,Metsäsuomalaisten alue,1700
+skvr07301620,ſulla,sula?,sula,fuzzy_lexicon_morphological,NO,NO,NO,ſulla boica Wäinämöinen,Metsäsuomalaisten alue,1700
+skvr07301620,boica,poika,poika,v16_lexicon_tier1,YES,NO,NO,ſulla boica Wäinämöinen,Metsäsuomalaisten alue,1700
+skvr07301620,wäinämöinen,Väinämöinen,väinämöinen,fuzzy_lexicon_morphological,YES,NO,NO,ſulla boica Wäinämöinen,Metsäsuomalaisten alue,1700
+skvr07301620,tockinhermickin,tukkia Hermikki,tockinhermickin,identity_fallback,NO,NO,YES,tockinhermickin werällä,Metsäsuomalaisten alue,1700
+skvr07301620,werällä,veri,erä,voikko_omorfi,NO,NO,NO,tockinhermickin werällä,Metsäsuomalaisten alue,1700
+skvr07301620,tocki,tukkia,to,voikko_omorfi,NO,NO,NO,5 tocki näillä tockella,Metsäsuomalaisten alue,1700
+skvr07301620,näillä,nämä,nämä,omorfi_contextual,YES,NO,NO,5 tocki näillä tockella,Metsäsuomalaisten alue,1700
+skvr07301620,tockella,tuke,takeltua,fuzzy_lexicon_morphological,NO,NO,NO,5 tocki näillä tockella,Metsäsuomalaisten alue,1700
+skvr07301620,käy,käydä,käydä,omorfi_contextual,YES,NO,NO,käy näillä mättäillä,Metsäsuomalaisten alue,1700
+skvr07301620,näillä,nämä,nämä,omorfi_contextual,YES,NO,NO,käy näillä mättäillä,Metsäsuomalaisten alue,1700
+skvr07301620,mättäillä,mätäs,mätäs,omorfi_contextual,YES,NO,NO,käy näillä mättäillä,Metsäsuomalaisten alue,1700
+skvr07301620,jeſuxen,Jeesus,jeesus,v16_lexicon_tier1,YES,NO,NO,Jeſuxen byhän nimen,Metsäsuomalaisten alue,1700
+skvr07301620,byhän,pyhä,pyhä,voikko_omorfi,YES,NO,NO,Jeſuxen byhän nimen,Metsäsuomalaisten alue,1700
+skvr07301620,nimen,nimi,nimi,omorfi_contextual,YES,NO,NO,Jeſuxen byhän nimen,Metsäsuomalaisten alue,1700
+skvr07301620,as,ah,as,omorfi_contextual,NO,NO,NO,as ſiuoas rauda raiska,Metsäsuomalaisten alue,1700
+skvr07301620,ſiuoas,sinä,sija,fuzzy_lexicon_morphological,NO,NO,NO,as ſiuoas rauda raiska,Metsäsuomalaisten alue,1700
+skvr07301620,rauda,rauta,rauta,voikko_omorfi,YES,NO,NO,as ſiuoas rauda raiska,Metsäsuomalaisten alue,1700
+skvr07301620,raiska,raiska,raiska,omorfi_contextual,YES,NO,NO,as ſiuoas rauda raiska,Metsäsuomalaisten alue,1700
+skvr07301620,et,ei,ei,v16_lexicon_tier1,YES,NO,NO,et bäs ſillon ollon kowan korea,Metsäsuomalaisten alue,1700
+skvr07301620,bäs,-pä,päin,fuzzy_lexicon_morphological,NO,NO,NO,et bäs ſillon ollon kowan korea,Metsäsuomalaisten alue,1700
+skvr07301620,ſillon,silloin,silloin,fuzzy_lexicon_morphological,YES,NO,NO,et bäs ſillon ollon kowan korea,Metsäsuomalaisten alue,1700
+skvr07301620,ollon,olla,olla,omorfi_contextual,YES,NO,NO,et bäs ſillon ollon kowan korea,Metsäsuomalaisten alue,1700
+skvr07301620,kowan,kova,kova,voikko_omorfi,YES,NO,NO,et bäs ſillon ollon kowan korea,Metsäsuomalaisten alue,1700
+skvr07301620,korea,korea,korea,omorfi_contextual,YES,NO,NO,et bäs ſillon ollon kowan korea,Metsäsuomalaisten alue,1700
+skvr07301620,kons,konsa,kone,voikko_omorfi,NO,NO,NO,10 kons noren nedoiſen niſis,Metsäsuomalaisten alue,1700
+skvr07301620,noren,nuori,nuori,voikko_omorfi,YES,NO,NO,10 kons noren nedoiſen niſis,Metsäsuomalaisten alue,1700
+skvr07301620,nedoiſen,neitonen,toinen,fuzzy_lexicon_morphological,NO,NO,NO,10 kons noren nedoiſen niſis,Metsäsuomalaisten alue,1700
+skvr07301620,niſis,nisä,niin,fuzzy_lexicon_morphological,NO,NO,NO,10 kons noren nedoiſen niſis,Metsäsuomalaisten alue,1700
+skvr07301620,maitona,maito,maito,v16_lexicon_tier1,YES,NO,NO,maitona mackaſit,Metsäsuomalaisten alue,1700
+skvr07301620,mackaſit,maata,maata,fuzzy_lexicon_morphological,YES,NO,NO,maitona mackaſit,Metsäsuomalaisten alue,1700
+skvr07301620,ſoist,suo,suoda,fuzzy_lexicon_morphological,NO,NO,NO,ſoist olet ſotketto,Metsäsuomalaisten alue,1700
+skvr07301620,olet,olla,olla,omorfi_contextual,YES,NO,NO,ſoist olet ſotketto,Metsäsuomalaisten alue,1700
+skvr07301620,ſotketto,sotkea,sotkea,fuzzy_lexicon_morphological,YES,NO,NO,ſoist olet ſotketto,Metsäsuomalaisten alue,1700
+skvr07301620,woriſtſta,vuori,vuori,fuzzy_lexicon_morphological,YES,NO,NO,woriſtſta woatetto,Metsäsuomalaisten alue,1700
+skvr07301620,woatetto,vuottaa,vaahto,fuzzy_lexicon_morphological,NO,NO,NO,woriſtſta woatetto,Metsäsuomalaisten alue,1700
+skvr07301620,mehiäinen,mehiläinen,mehiläinen,voikko_omorfi,YES,NO,NO,mehiäinen bieni linto,Metsäsuomalaisten alue,1700
+skvr07301620,bieni,pieni,brie,voikko_omorfi,NO,NO,NO,mehiäinen bieni linto,Metsäsuomalaisten alue,1700
+skvr07301620,linto,lintu,lintu,voikko_omorfi,YES,NO,NO,mehiäinen bieni linto,Metsäsuomalaisten alue,1700
+skvr07301620,toe,tuoda,toe,omorfi_contextual,NO,NO,NO,15 toe mätta mehtalasta,Metsäsuomalaisten alue,1700
+skvr07301620,mätta,mesi,mesi,v16_lexicon_tier1,YES,NO,NO,15 toe mätta mehtalasta,Metsäsuomalaisten alue,1700
+skvr07301620,mehtalasta,Mehtola,meta,voikko_omorfi,NO,NO,NO,15 toe mätta mehtalasta,Metsäsuomalaisten alue,1700
+skvr07301620,ſimeia,sima,sima,fuzzy_lexicon_morphological,YES,NO,NO,ſimeia tabialasta,Metsäsuomalaisten alue,1700
+skvr07301620,tabialasta,Tapiola,abi,voikko_omorfi,NO,NO,NO,ſimeia tabialasta,Metsäsuomalaisten alue,1700
+skvr07301620,kibeillen,kipeä,kipu,fuzzy_lexicon_morphological,NO,NO,NO,kibeillen woitexi,Metsäsuomalaisten alue,1700
+skvr07301620,woitexi,voide,voide,fuzzy_lexicon_morphological,YES,NO,NO,kibeillen woitexi,Metsäsuomalaisten alue,1700
+skvr07301620,hawollen,haava,hako,fuzzy_lexicon_morphological,NO,NO,NO,hawollen paranexi,Metsäsuomalaisten alue,1700
+skvr07301620,paranexi,parennin,para,voikko_omorfi,NO,NO,NO,hawollen paranexi,Metsäsuomalaisten alue,1700
+skvr07301620,jesuxen,Jeesus,jeesus,v16_lexicon_tier1,YES,NO,NO,Jesuxen byhän nimen.,Metsäsuomalaisten alue,1700
+skvr07301620,byhän,pyhä,pyhä,voikko_omorfi,YES,NO,NO,Jesuxen byhän nimen.,Metsäsuomalaisten alue,1700
+skvr07301620,nimen,nimi,nimi,omorfi_contextual,YES,NO,NO,Jesuxen byhän nimen.,Metsäsuomalaisten alue,1700
+skvr07301620,käsi,käsi,käsi,omorfi_contextual,YES,NO,NO,[Käsi Väinämöisen hakattiin,Metsäsuomalaisten alue,1700
+skvr07301620,väinämöisen,Väinämöinen,väinämöinen,v16_lexicon_tier1,YES,NO,NO,[Käsi Väinämöisen hakattiin,Metsäsuomalaisten alue,1700
+skvr07301620,hakattiin,hakata,hakata,omorfi_contextual,YES,NO,NO,[Käsi Väinämöisen hakattiin,Metsäsuomalaisten alue,1700
+skvr07301620,pölkyn,pölkky,pölkky,v16_lexicon_tier1,YES,NO,NO,pölkyn pyörivän päässä.,Metsäsuomalaisten alue,1700
+skvr07301620,pyörivän,pyöriä,pyöriä,omorfi_contextual,YES,NO,NO,pölkyn pyörivän päässä.,Metsäsuomalaisten alue,1700
+skvr07301620,päässä,pää,pää,omorfi_contextual,YES,NO,NO,pölkyn pyörivän päässä.,Metsäsuomalaisten alue,1700
+skvr07301620,sula,sula,sula,v16_lexicon_tier1,YES,NO,NO,Sula poika Väinämöinen,Metsäsuomalaisten alue,1700
+skvr07301620,poika,poika,poika,v16_lexicon_tier1,YES,NO,NO,Sula poika Väinämöinen,Metsäsuomalaisten alue,1700
+skvr07301620,väinämöinen,Väinämöinen,väinämöinen,fuzzy_lexicon_morphological,YES,NO,NO,Sula poika Väinämöinen,Metsäsuomalaisten alue,1700
+skvr07301620,tuki,tukkia,tuki,omorfi_contextual,NO,NO,NO,"tuki Hermikin verellä,",Metsäsuomalaisten alue,1700
+skvr07301620,hermikin,Hermikki,hermi,omorfi_contextual,NO,NO,NO,"tuki Hermikin verellä,",Metsäsuomalaisten alue,1700
+skvr07301620,verellä,veri,veri,omorfi_contextual,YES,NO,NO,"tuki Hermikin verellä,",Metsäsuomalaisten alue,1700
+skvr07301620,tuki,tukkia,tuki,omorfi_contextual,NO,NO,NO,"5 tuki näillä tukkeilla,",Metsäsuomalaisten alue,1700
+skvr07301620,näillä,nämä,nämä,omorfi_contextual,YES,NO,NO,"5 tuki näillä tukkeilla,",Metsäsuomalaisten alue,1700
+skvr07301620,tukkeilla,tuke,tukkea,omorfi_contextual,NO,NO,NO,"5 tuki näillä tukkeilla,",Metsäsuomalaisten alue,1700
+skvr07301620,käy,käydä,käydä,omorfi_contextual,YES,NO,NO,käy näillä mättäillä,Metsäsuomalaisten alue,1700
+skvr07301620,näillä,nämä,nämä,omorfi_contextual,YES,NO,NO,käy näillä mättäillä,Metsäsuomalaisten alue,1700
+skvr07301620,mättäillä,mätäs,mätäs,omorfi_contextual,YES,NO,NO,käy näillä mättäillä,Metsäsuomalaisten alue,1700
+skvr07301620,jeesuksen,Jeesus,jeesus,omorfi_contextual,YES,NO,NO,Jeesuksen pyhään nimeen!,Metsäsuomalaisten alue,1700
+skvr07301620,pyhään,pyhä,pyhä,omorfi_contextual,YES,NO,NO,Jeesuksen pyhään nimeen!,Metsäsuomalaisten alue,1700
+skvr07301620,nimeen,nimi,nimi,omorfi_contextual,YES,NO,NO,Jeesuksen pyhään nimeen!,Metsäsuomalaisten alue,1700
+skvr07301620,os,oi,o,voikko_omorfi,NO,NO,NO,"Os sinuas, rauta raiska,",Metsäsuomalaisten alue,1700
+skvr07301620,sinuas,sinä,sinä,voikko_omorfi,YES,NO,NO,"Os sinuas, rauta raiska,",Metsäsuomalaisten alue,1700
+skvr07301620,rauta,rauta,rauta,omorfi_contextual,YES,NO,NO,"Os sinuas, rauta raiska,",Metsäsuomalaisten alue,1700
+skvr07301620,raiska,raiska,raiska,omorfi_contextual,YES,NO,NO,"Os sinuas, rauta raiska,",Metsäsuomalaisten alue,1700
+skvr07301620,etpäs,ei,ei,v16_lexicon_tier1,YES,NO,NO,"etpäs sillon ollun kovan korea,",Metsäsuomalaisten alue,1700
+skvr07301620,sillon,silloin,sillon,omorfi_contextual,NO,NO,NO,"etpäs sillon ollun kovan korea,",Metsäsuomalaisten alue,1700
+skvr07301620,ollun,olla,olla,omorfi_contextual,YES,NO,NO,"etpäs sillon ollun kovan korea,",Metsäsuomalaisten alue,1700
+skvr07301620,kovan,kova,kova,omorfi_contextual,YES,NO,NO,"etpäs sillon ollun kovan korea,",Metsäsuomalaisten alue,1700
+skvr07301620,korea,korea,korea,omorfi_contextual,YES,NO,NO,"etpäs sillon ollun kovan korea,",Metsäsuomalaisten alue,1700
+skvr07301620,kons,konsa,kone,voikko_omorfi,NO,NO,NO,10 kons nuoren neitoisen nisiss,Metsäsuomalaisten alue,1700
+skvr07301620,nuoren,nuori,nuori,v16_lexicon_tier1,YES,NO,NO,10 kons nuoren neitoisen nisiss,Metsäsuomalaisten alue,1700
+skvr07301620,neitoisen,neitonen,neitonen,voikko_omorfi,YES,NO,NO,10 kons nuoren neitoisen nisiss,Metsäsuomalaisten alue,1700
+skvr07301620,nisiss,nisä,nisä,voikko_omorfi,YES,NO,NO,10 kons nuoren neitoisen nisiss,Metsäsuomalaisten alue,1700
+skvr07301620,maitona,maito,maito,v16_lexicon_tier1,YES,NO,NO,maitona makasit.,Metsäsuomalaisten alue,1700
+skvr07301620,makasit,maata,maata,omorfi_contextual,YES,NO,NO,maitona makasit.,Metsäsuomalaisten alue,1700
+skvr07301620,soist,suo,soida,voikko_omorfi,NO,NO,NO,"Soist olet sotkettu,",Metsäsuomalaisten alue,1700
+skvr07301620,olet,olla,olla,omorfi_contextual,YES,NO,NO,"Soist olet sotkettu,",Metsäsuomalaisten alue,1700
+skvr07301620,sotkettu,sotkea,sotkea,omorfi_contextual,YES,NO,NO,"Soist olet sotkettu,",Metsäsuomalaisten alue,1700
+skvr07301620,vuorista,vuori,vuori,omorfi_contextual,YES,NO,NO,vuorista vuatettu.,Metsäsuomalaisten alue,1700
+skvr07301620,vuatettu,vuottaa,kattaa,fuzzy_lexicon_morphological,NO,NO,NO,vuorista vuatettu.,Metsäsuomalaisten alue,1700
+skvr07301620,mehiläinen,mehiläinen,mehiläinen,omorfi_contextual,YES,NO,NO,"Mehiläinen pieni lintu,",Metsäsuomalaisten alue,1700
+skvr07301620,pieni,pieni,pieni,v16_lexicon_tier1,YES,NO,NO,"Mehiläinen pieni lintu,",Metsäsuomalaisten alue,1700
+skvr07301620,lintu,lintu,lintu,v16_lexicon_tier1,YES,NO,NO,"Mehiläinen pieni lintu,",Metsäsuomalaisten alue,1700
+skvr07301620,tuo,tuo,tuo,omorfi_contextual,YES,NO,NO,"15 tuo mettä Mehtolasta,",Metsäsuomalaisten alue,1700
+skvr07301620,mettä,mesi,mesi,omorfi_contextual,YES,NO,NO,"15 tuo mettä Mehtolasta,",Metsäsuomalaisten alue,1700
+skvr07301620,mehtolasta,Mehtola,mehtola,v16_lexicon_tier1,YES,NO,NO,"15 tuo mettä Mehtolasta,",Metsäsuomalaisten alue,1700
+skvr07301620,simoa,sima,simoa,v16_lexicon_tier1,NO,NO,NO,simoa Tapiolasta,Metsäsuomalaisten alue,1700
+skvr07301620,tapiolasta,Tapiola,tapiola,v16_lexicon_tier1,YES,NO,NO,simoa Tapiolasta,Metsäsuomalaisten alue,1700
+skvr07301620,kipeillen,kipeä,kipu,v16_lexicon_tier1,NO,NO,NO,"kipeillen voiteeksi,",Metsäsuomalaisten alue,1700
+skvr07301620,voiteeksi,voide,voide,omorfi_contextual,YES,NO,NO,"kipeillen voiteeksi,",Metsäsuomalaisten alue,1700
+skvr07301620,haavoillen,haava,haapa,voikko_omorfi,NO,NO,NO,haavoillen paranneeksi,Metsäsuomalaisten alue,1700
+skvr07301620,paranneeksi,paranne,parata,omorfi_contextual,NO,NO,NO,haavoillen paranneeksi,Metsäsuomalaisten alue,1700
+skvr07301620,jeesuksen,Jeesus,jeesus,omorfi_contextual,YES,NO,NO,Jeesuksen pyhään nimeen!],Metsäsuomalaisten alue,1700
+skvr07301620,pyhään,pyhä,pyhä,omorfi_contextual,YES,NO,NO,Jeesuksen pyhään nimeen!],Metsäsuomalaisten alue,1700
+skvr07301620,nimeen,nimi,nimi,omorfi_contextual,YES,NO,NO,Jeesuksen pyhään nimeen!],Metsäsuomalaisten alue,1700
+skvr08109860,custa,kusta,kusi,voikko_omorfi,NO,NO,NO,Custa Lalli lakin saanut.,Nousiainen,1674
+skvr08109860,lalli,Lalli,lalli,omorfi_contextual,YES,NO,NO,Custa Lalli lakin saanut.,Nousiainen,1674
+skvr08109860,lakin,lakki,lakki,omorfi_contextual,YES,NO,NO,Custa Lalli lakin saanut.,Nousiainen,1674
+skvr08109860,saanut,saada,saada,omorfi_contextual,YES,NO,NO,Custa Lalli lakin saanut.,Nousiainen,1674
+skvr08109860,mies,mies,mies,v16_lexicon_tier1,YES,NO,NO,"Mies paha hyfwen hytyrin,",Nousiainen,1674
+skvr08109860,paha,paha,paha,v16_lexicon_tier1,YES,NO,NO,"Mies paha hyfwen hytyrin,",Nousiainen,1674
+skvr08109860,hyfwen,hyvä,hyvä,fuzzy_lexicon_morphological,YES,NO,NO,"Mies paha hyfwen hytyrin,",Nousiainen,1674
+skvr08109860,hytyrin,hytyri,tyyri,fuzzy_lexicon_morphological,NO,NO,NO,"Mies paha hyfwen hytyrin,",Nousiainen,1674
+skvr08110080,hyvä,hyvä,hyvä,omorfi_contextual,YES,NO,NO,Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,herra,herra,herra,v16_lexicon_tier1,YES,NO,NO,Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,hertu,herttua,herttua,v17_lexicon_tier1_pos_x,YES,NO,NO,Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,karle,Kaarle,kare,voikko_omorfi,NO,NO,NO,Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,ruotzin,Ruotsi,ruotsi,v16_lexicon_tier1,YES,NO,NO,Ruotzin Kuuluiſa Kuningas,Turku,1700
+skvr08110080,kuuluiſa,kuuluisa,kuulla,fuzzy_lexicon_morphological,NO,NO,NO,Ruotzin Kuuluiſa Kuningas,Turku,1700
+skvr08110080,kuningas,kuningas,kuningas,omorfi_contextual,YES,NO,NO,Ruotzin Kuuluiſa Kuningas,Turku,1700
+skvr08110080,iſäns,isä,isä,fuzzy_lexicon_morphological,YES,NO,NO,Iſäns maan iſo Iſändä,Turku,1700
+skvr08110080,maan,maan,maa,v16_lexicon_tier1,NO,NO,NO,Iſäns maan iſo Iſändä,Turku,1700
+skvr08110080,iſo,iso,iso,fuzzy_lexicon_morphological,YES,NO,NO,Iſäns maan iſo Iſändä,Turku,1700
+skvr08110080,iſändä,isäntä,isäntä,fuzzy_lexicon_morphological,YES,NO,NO,Iſäns maan iſo Iſändä,Turku,1700
+skvr08110080,vahwa,vahva,vahva,voikko_omorfi,YES,NO,NO,"Vahwa Suomen Valda-Herra,",Turku,1700
+skvr08110080,suomen,Suomi,suomi,omorfi_contextual,YES,NO,NO,"Vahwa Suomen Valda-Herra,",Turku,1700
+skvr08110080,valdaherra,valtaherra,valta,voikko_omorfi,NO,NO,NO,"Vahwa Suomen Valda-Herra,",Turku,1700
+skvr08110080,hangitzeepi,hangita,itse,fuzzy_lexicon_aggressive,NO,NO,NO,5 Hangitzeepi Haaxianſa,Turku,1700
+skvr08110080,haaxianſa,haahti,aina,fuzzy_lexicon_aggressive,NO,NO,NO,5 Hangitzeepi Haaxianſa,Turku,1700
+skvr08110080,laitelexi,laitella,laite,voikko_omorfi,NO,NO,NO,Laitelexi laivojanſa,Turku,1700
+skvr08110080,laivojanſa,laiva,laiva,fuzzy_lexicon_morphological,YES,NO,NO,Laitelexi laivojanſa,Turku,1700
+skvr08110080,purjet,purje,purje,voikko_omorfi,YES,NO,NO,"Purjet raakaiſet rakenſi,",Turku,1700
+skvr08110080,raakaiſet,raakainen,maata,fuzzy_lexicon_morphological,NO,NO,NO,"Purjet raakaiſet rakenſi,",Turku,1700
+skvr08110080,rakenſi,rakentaa,rakentaa,fuzzy_lexicon_morphological,YES,NO,NO,"Purjet raakaiſet rakenſi,",Turku,1700
+skvr08110080,hahden,haahti,haahti,voikko_omorfi,YES,NO,NO,Hahden ſuuren hartioille.,Turku,1700
+skvr08110080,ſuuren,suuri,suuri,fuzzy_lexicon_morphological,YES,NO,NO,Hahden ſuuren hartioille.,Turku,1700
+skvr08110080,hartioille,hartia,hartia,v16_lexicon_tier1,YES,NO,NO,Hahden ſuuren hartioille.,Turku,1700
+skvr08110080,oli,olla,olla,omorfi_contextual,YES,NO,NO,Oli hahti hangittuna,Turku,1700
+skvr08110080,hahti,haahti,haahti,dialectal_dictionary,YES,YES,NO,Oli hahti hangittuna,Turku,1700
+skvr08110080,hangittuna,hangita,hankittu,voikko_omorfi,NO,NO,NO,Oli hahti hangittuna,Turku,1700
+skvr08110080,päällä,päällä,päällä,omorfi_contextual,YES,NO,NO,"10 Päällä purjehet punaiſet,",Turku,1700
+skvr08110080,purjehet,purje,purje,omorfi_contextual,YES,NO,NO,"10 Päällä purjehet punaiſet,",Turku,1700
+skvr08110080,punaiſet,punainen,punainen,fuzzy_lexicon_morphological,YES,NO,NO,"10 Päällä purjehet punaiſet,",Turku,1700
+skvr08110080,viheriäiſet,viheriäinen,vieriä,fuzzy_lexicon_morphological,NO,NO,NO,Viheriäiſet viirin päällä.,Turku,1700
+skvr08110080,viirin,viiri,viiri,omorfi_contextual,YES,NO,NO,Viheriäiſet viirin päällä.,Turku,1700
+skvr08110080,päällä,päällä,päällä,v16_lexicon_tier1,YES,NO,NO,Viheriäiſet viirin päällä.,Turku,1700
+skvr08110080,tuli,tulla,tulla,omorfi_contextual,YES,NO,NO,"Tuli Suomehen ſotihin,",Turku,1700
+skvr08110080,suomehen,Suomi,suomi,v17_lexicon_tier1_pos_x,YES,NO,NO,"Tuli Suomehen ſotihin,",Turku,1700
+skvr08110080,ſotihin,sota,sota,fuzzy_lexicon_morphological,YES,NO,NO,"Tuli Suomehen ſotihin,",Turku,1700
+skvr08110080,taka,takaa,taka,omorfi_contextual,NO,NO,NO,Taka vettein tappeluihin.,Turku,1700
+skvr08110080,vettein,vesi,vesi,voikko_omorfi,YES,NO,NO,Taka vettein tappeluihin.,Turku,1700
+skvr08110080,tappeluihin,tappelu,tapella,omorfi_contextual,NO,NO,NO,Taka vettein tappeluihin.,Turku,1700
+skvr08110080,laviaſti,lavia,viha,fuzzy_lexicon_morphological,NO,NO,NO,Laviaſti juoxi laiva,Turku,1700
+skvr08110080,juoxi,juosta,juosta,fuzzy_lexicon_morphological,YES,NO,NO,Laviaſti juoxi laiva,Turku,1700
+skvr08110080,laiva,laiva,laiva,omorfi_contextual,YES,NO,NO,Laviaſti juoxi laiva,Turku,1700
+skvr08110080,haaxi,haahti,aa,fuzzy_lexicon_morphological,NO,NO,NO,15 Haaxi ſuuri harmaaſti,Turku,1700
+skvr08110080,ſuuri,suuri,suuri,fuzzy_lexicon_morphological,YES,NO,NO,15 Haaxi ſuuri harmaaſti,Turku,1700
+skvr08110080,harmaaſti,harmaa,armas,fuzzy_lexicon_morphological,NO,NO,NO,15 Haaxi ſuuri harmaaſti,Turku,1700
+skvr08110080,ohitzen,ohi,itse,fuzzy_lexicon_morphological,NO,NO,NO,Ohitzen ſiliän vuoren,Turku,1700
+skvr08110080,ſiliän,siliä,se,fuzzy_lexicon_morphological,NO,NO,NO,Ohitzen ſiliän vuoren,Turku,1700
+skvr08110080,vuoren,vuori,vuori,v16_lexicon_tier1,YES,NO,NO,Ohitzen ſiliän vuoren,Turku,1700
+skvr08110080,kohden,kohden,kohden,omorfi_contextual,YES,NO,NO,Kohden kaicki kuohui paikat,Turku,1700
+skvr08110080,kaicki,kaikki,kaikki,voikko_omorfi,YES,NO,NO,Kohden kaicki kuohui paikat,Turku,1700
+skvr08110080,kuohui,kuohua,kuohua,omorfi_contextual,YES,NO,NO,Kohden kaicki kuohui paikat,Turku,1700
+skvr08110080,paikat,paikka,paikka,omorfi_contextual,YES,NO,NO,Kohden kaicki kuohui paikat,Turku,1700
+skvr08110080,kiukuitzen,kiukuitsen,kaikittše,fuzzy_lexicon_morphological,NO,NO,NO,Kiukuitzen kivet ſiniſet,Turku,1700
+skvr08110080,kivet,kivi,kivi,omorfi_contextual,YES,NO,NO,Kiukuitzen kivet ſiniſet,Turku,1700
+skvr08110080,ſiniſet,sininen,sinne,fuzzy_lexicon_morphological,NO,NO,NO,Kiukuitzen kivet ſiniſet,Turku,1700
+skvr08110080,kaicki,kaikki,kaikki,voikko_omorfi,YES,NO,NO,Kaicki kalliot ohitzen.,Turku,1700
+skvr08110080,kalliot,kallio,kallio,omorfi_contextual,YES,NO,NO,Kaicki kalliot ohitzen.,Turku,1700
+skvr08110080,ohitzen,ohitse,itse,fuzzy_lexicon_morphological,NO,NO,NO,Kaicki kalliot ohitzen.,Turku,1700
+skvr08110080,andoi,antaa,antaa,voikko_omorfi,YES,NO,NO,20 Andoi ſouta Suomen vaimon.,Turku,1700
+skvr08110080,ſouta,soutaa,saatana,fuzzy_lexicon_morphological,NO,NO,NO,20 Andoi ſouta Suomen vaimon.,Turku,1700
+skvr08110080,suomen,Suomi,suomi,omorfi_contextual,YES,NO,NO,20 Andoi ſouta Suomen vaimon.,Turku,1700
+skvr08110080,vaimon,vaimo,vaimo,v16_lexicon_tier1,YES,NO,NO,20 Andoi ſouta Suomen vaimon.,Turku,1700
+skvr08110080,hyvä,hyvä,hyvä,omorfi_contextual,YES,NO,NO,Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,herra,herra,herra,v16_lexicon_tier1,YES,NO,NO,Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,hertu,herttua,herttua,v16_lexicon_tier1,YES,NO,NO,Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,karle,Kaarle,kare,voikko_omorfi,NO,NO,NO,Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,iſäns,isä,isä,fuzzy_lexicon_morphological,YES,NO,NO,Iſäns maan iſo Iſändä,Turku,1700
+skvr08110080,maan,maan,maa,v16_lexicon_tier1,NO,NO,NO,Iſäns maan iſo Iſändä,Turku,1700
+skvr08110080,iſo,iso,iso,fuzzy_lexicon_morphological,YES,NO,NO,Iſäns maan iſo Iſändä,Turku,1700
+skvr08110080,iſändä,isäntä,isäntä,fuzzy_lexicon_morphological,YES,NO,NO,Iſäns maan iſo Iſändä,Turku,1700
+skvr08110080,vahwa,vahva,vahva,voikko_omorfi,YES,NO,NO,"Vahwa Suomen Valda-Herra,",Turku,1700
+skvr08110080,suomen,Suomi,suomi,omorfi_contextual,YES,NO,NO,"Vahwa Suomen Valda-Herra,",Turku,1700
+skvr08110080,valdaherra,valtaherra,valta,voikko_omorfi,NO,NO,NO,"Vahwa Suomen Valda-Herra,",Turku,1700
+skvr08110080,näki,nähdä,nähdä,v16_lexicon_tier1,YES,NO,NO,"Näki maan, havaitzi rannan,",Turku,1700
+skvr08110080,maan,maan,maa,v16_lexicon_tier1,NO,NO,NO,"Näki maan, havaitzi rannan,",Turku,1700
+skvr08110080,havaitzi,havaita,havaita,voikko_omorfi,YES,NO,NO,"Näki maan, havaitzi rannan,",Turku,1700
+skvr08110080,rannan,ranta,ranta,v16_lexicon_tier1,YES,NO,NO,"Näki maan, havaitzi rannan,",Turku,1700
+skvr08110080,iſtui,istua,istua,fuzzy_lexicon_morphological,YES,NO,NO,25 Iſtui Ilpoſten mäelle,Turku,1700
+skvr08110080,ilpoſten,Ilpoisten,ilo,fuzzy_lexicon_morphological,NO,NO,NO,25 Iſtui Ilpoſten mäelle,Turku,1700
+skvr08110080,mäelle,mäki,mäki,v16_lexicon_tier1,YES,NO,NO,25 Iſtui Ilpoſten mäelle,Turku,1700
+skvr08110080,jalkojanſa,jalka,jalka,fuzzy_lexicon_morphological,YES,NO,NO,Jalkojanſa levättämään,Turku,1700
+skvr08110080,levättämään,levättää,levätä,voikko_omorfi,NO,NO,NO,Jalkojanſa levättämään,Turku,1700
+skvr08110080,hengienſä,henki,henki,fuzzy_lexicon_morphological,YES,NO,NO,Hengienſä vedättämään.,Turku,1700
+skvr08110080,vedättämään,vetää,vedättää,omorfi_contextual,NO,NO,NO,Hengienſä vedättämään.,Turku,1700
+skvr08110080,kirjan,kirja,kirja,v16_lexicon_tier1,YES,NO,NO,Kirjan Linnahan lähetti,Turku,1700
+skvr08110080,linnahan,linna,linna,omorfi_contextual,YES,NO,NO,Kirjan Linnahan lähetti,Turku,1700
+skvr08110080,lähetti,lähettää,lähettää,v16_lexicon_tier1,YES,NO,NO,Kirjan Linnahan lähetti,Turku,1700
+skvr08110080,suomen,Suomi,suomi,omorfi_contextual,YES,NO,NO,Suomen Sonnien ſekahan,Turku,1700
+skvr08110080,sonnien,sonni,sonni,omorfi_contextual,YES,NO,NO,Suomen Sonnien ſekahan,Turku,1700
+skvr08110080,ſekahan,sekaan,sekaan,fuzzy_lexicon_morphological,YES,NO,NO,Suomen Sonnien ſekahan,Turku,1700
+skvr08110080,kanungitten,kanunki,kantaa,fuzzy_lexicon_morphological,NO,NO,NO,30 Kanungitten kartanoihin.,Turku,1700
+skvr08110080,kartanoihin,kartano,kartano,omorfi_contextual,YES,NO,NO,30 Kanungitten kartanoihin.,Turku,1700
+skvr08110080,noit,nuo,nuo,dialectal_dictionary,YES,YES,NO,"Noit pahat puhuit pahaſti,",Turku,1700
+skvr08110080,pahat,paha,paha,v16_lexicon_tier1,YES,NO,NO,"Noit pahat puhuit pahaſti,",Turku,1700
+skvr08110080,puhuit,puhua,puhua,v16_lexicon_tier1,YES,NO,NO,"Noit pahat puhuit pahaſti,",Turku,1700
+skvr08110080,pahaſti,paha,paha,v16_lexicon_tier1,YES,NO,NO,"Noit pahat puhuit pahaſti,",Turku,1700
+skvr08110080,heitä,he,he,omorfi_contextual,YES,NO,NO,"Heitä heittäkäm merehen,",Turku,1700
+skvr08110080,heittäkäm,heittää,heittää,fuzzy_lexicon_morphological,YES,NO,NO,"Heitä heittäkäm merehen,",Turku,1700
+skvr08110080,merehen,meri,meri,omorfi_contextual,YES,NO,NO,"Heitä heittäkäm merehen,",Turku,1700
+skvr08110080,haaxi,haahti,aa,fuzzy_lexicon_morphological,NO,NO,NO,"Haaxi halvoixi hakatkam,",Turku,1700
+skvr08110080,halvoixi,halko,alkaa,fuzzy_lexicon_morphological,NO,NO,NO,"Haaxi halvoixi hakatkam,",Turku,1700
+skvr08110080,hakatkam,hakata,haukata,fuzzy_lexicon_morphological,NO,NO,NO,"Haaxi halvoixi hakatkam,",Turku,1700
+skvr08110080,paatti,paatti,paatti,omorfi_contextual,YES,NO,NO,Paatti puixi paiŋkatkamme.,Turku,1700
+skvr08110080,puixi,puu,puida,voikko_omorfi,NO,NO,NO,Paatti puixi paiŋkatkamme.,Turku,1700
+skvr08110080,paiŋkatkamme,paiskata,paikka,fuzzy_lexicon_aggressive,NO,NO,NO,Paatti puixi paiŋkatkamme.,Turku,1700
+skvr08110080,hyvä,hyvä,hyvä,omorfi_contextual,YES,NO,NO,35 Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,herra,herra,herra,v16_lexicon_tier1,YES,NO,NO,35 Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,hertu,herttua,herttua,v17_lexicon_tier1_pos_x,YES,NO,NO,35 Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,karle,Kaarle,kare,voikko_omorfi,NO,NO,NO,35 Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,ruotzin,Ruotsi,ruotsi,v16_lexicon_tier1,YES,NO,NO,Ruotzin kuuluiſa Kuningas,Turku,1700
+skvr08110080,kuuluiſa,kuuluisa,kuulla,fuzzy_lexicon_morphological,NO,NO,NO,Ruotzin kuuluiſa Kuningas,Turku,1700
+skvr08110080,kuningas,kuningas,kuningas,omorfi_contextual,YES,NO,NO,Ruotzin kuuluiſa Kuningas,Turku,1700
+skvr08110080,iſäns,isä,isä,fuzzy_lexicon_morphological,YES,NO,NO,Iſäns maan iſo Iſändä,Turku,1700
+skvr08110080,maan,maa,maa,v16_lexicon_tier1,YES,NO,NO,Iſäns maan iſo Iſändä,Turku,1700
+skvr08110080,iſo,iso,iso,fuzzy_lexicon_morphological,YES,NO,NO,Iſäns maan iſo Iſändä,Turku,1700
+skvr08110080,iſändä,isäntä,isäntä,fuzzy_lexicon_morphological,YES,NO,NO,Iſäns maan iſo Iſändä,Turku,1700
+skvr08110080,sai,saada,saada,v16_lexicon_tier1,YES,NO,NO,Sai tietä pahan ſanoman;,Turku,1700
+skvr08110080,tietä,tietää,tie,v16_lexicon_tier1,NO,NO,NO,Sai tietä pahan ſanoman;,Turku,1700
+skvr08110080,pahan,paha,paha,v16_lexicon_tier1,YES,NO,NO,Sai tietä pahan ſanoman;,Turku,1700
+skvr08110080,ſanoman,sanoma,anoa,voikko_omorfi,NO,NO,NO,Sai tietä pahan ſanoman;,Turku,1700
+skvr08110080,purren,pursi,pursi,omorfi_contextual,YES,NO,NO,"Purren puomihin pyſätti,",Turku,1700
+skvr08110080,puomihin,puomi,puomi,omorfi_contextual,YES,NO,NO,"Purren puomihin pyſätti,",Turku,1700
+skvr08110080,pyſätti,pysäyttää,pistää,fuzzy_lexicon_morphological,NO,NO,NO,"Purren puomihin pyſätti,",Turku,1700
+skvr08110080,löyli,löyliä,löyly,voikko_omorfi,NO,NO,NO,10 Löyli tuulda tuutteſeſtans,Turku,1700
+skvr08110080,tuulda,tuuli,tuuli,voikko_omorfi,YES,NO,NO,10 Löyli tuulda tuutteſeſtans,Turku,1700
+skvr08110080,tuutteſeſtans,tuutti,tutti,fuzzy_lexicon_morphological,NO,NO,NO,10 Löyli tuulda tuutteſeſtans,Turku,1700
+skvr08110080,takelita,takeli,tae,voikko_omorfi,NO,NO,NO,Takelita taŋkuſtanſa:,Turku,1700
+skvr08110080,taŋkuſtanſa,tasku,takana,fuzzy_lexicon_aggressive,NO,NO,NO,Takelita taŋkuſtanſa:,Turku,1700
+skvr08110080,neuvoi,neuvoa,neuvoa,omorfi_contextual,YES,NO,NO,"Neuvoi ſitten huovianſa,",Turku,1700
+skvr08110080,ſitten,sitten,sitten,fuzzy_lexicon_morphological,YES,NO,NO,"Neuvoi ſitten huovianſa,",Turku,1700
+skvr08110080,huovianſa,huovi,huuvis,fuzzy_lexicon_morphological,NO,NO,NO,"Neuvoi ſitten huovianſa,",Turku,1700
+skvr08110080,puhui,puhua,puhua,v16_lexicon_tier1,YES,NO,NO,Puhui ſota palveljoillens:,Turku,1700
+skvr08110080,ſota,sota,ota,voikko_omorfi,NO,NO,NO,Puhui ſota palveljoillens:,Turku,1700
+skvr08110080,palveljoillens,palvelija,polvi,fuzzy_lexicon_aggressive,NO,NO,NO,Puhui ſota palveljoillens:,Turku,1700
+skvr08110080,kulkekamme,kulkea,kulkea,voikko_omorfi,YES,NO,NO,"Kulkekamme Kupitzalle,",Turku,1700
+skvr08110080,kupitzalle,Kupittaa,kupittaa,fuzzy_lexicon_morphological,YES,NO,NO,"Kulkekamme Kupitzalle,",Turku,1700
+skvr08110080,käykämme,käydä,käydä,voikko_omorfi,YES,NO,NO,45 Käykämme hanhen-pajuhun.,Turku,1700
+skvr08110080,hanhenpajuhun,Hanhenpaju,hanhenpaju,omorfi_contextual,YES,NO,NO,45 Käykämme hanhen-pajuhun.,Turku,1700
+skvr08110080,sodan,sota,sota,omorfi_contextual,YES,NO,NO,"Sodan ſiirſi ſivullenſa,",Turku,1700
+skvr08110080,ſiirſi,siirtää,siirtää,fuzzy_lexicon_morphological,YES,NO,NO,"Sodan ſiirſi ſivullenſa,",Turku,1700
+skvr08110080,ſivullenſa,sivu,sivu,fuzzy_lexicon_morphological,YES,NO,NO,"Sodan ſiirſi ſivullenſa,",Turku,1700
+skvr08110080,toiſen,toinen,toinen,fuzzy_lexicon_morphological,YES,NO,NO,"Toiſen toiſell' puolellanſa,",Turku,1700
+skvr08110080,toiſell,toinen,toinen,fuzzy_lexicon_morphological,YES,NO,NO,"Toiſen toiſell' puolellanſa,",Turku,1700
+skvr08110080,puolellanſa,puoli,puoli,fuzzy_lexicon_morphological,YES,NO,NO,"Toiſen toiſell' puolellanſa,",Turku,1700
+skvr08110080,kolmannen,kolmas,kolmas,v16_lexicon_tier1,YES,NO,NO,Kolmannen pani etenſä.,Turku,1700
+skvr08110080,pani,panna,panna,v16_lexicon_tier1,YES,NO,NO,Kolmannen pani etenſä.,Turku,1700
+skvr08110080,etenſä,eteen,edessä,fuzzy_lexicon_morphological,NO,NO,NO,Kolmannen pani etenſä.,Turku,1700
+skvr08110080,kumiſi,kumista,kuin sinä,fuzzy_lexicon_morphological,NO,NO,NO,"Kumiſi kuparit trombut,",Turku,1700
+skvr08110080,kuparit,kupari,kupari,omorfi_contextual,YES,NO,NO,"Kumiſi kuparit trombut,",Turku,1700
+skvr08110080,trombut,trumpu,trombi,voikko_omorfi,NO,NO,NO,"Kumiſi kuparit trombut,",Turku,1700
+skvr08110080,pärmäiſet,pärmä,pärmä,fuzzy_lexicon_morphological,YES,NO,NO,"50 Pärmäiſet kovan päriſit,",Turku,1700
+skvr08110080,kovan,kova,kova,omorfi_contextual,YES,NO,NO,"50 Pärmäiſet kovan päriſit,",Turku,1700
+skvr08110080,päriſit,päristä,päristä,fuzzy_lexicon_morphological,YES,NO,NO,"50 Pärmäiſet kovan päriſit,",Turku,1700
+skvr08110080,vaŋki,vaski,vaski,fuzzy_lexicon_morphological,YES,NO,NO,Vaŋki torwi vaikiaſti.,Turku,1700
+skvr08110080,torwi,torvi,torvi,voikko_omorfi,YES,NO,NO,Vaŋki torwi vaikiaſti.,Turku,1700
+skvr08110080,vaikiaſti,vaikea,vika,fuzzy_lexicon_morphological,NO,NO,NO,Vaŋki torwi vaikiaſti.,Turku,1700
+skvr08110080,läxit,lähteä,lähteä,v17_lexicon_tier1_pos_x,YES,NO,NO,Läxit pysſyt pyhkämähän,Turku,1700
+skvr08110080,pysſyt,pyssy,pysyä,voikko_omorfi,NO,NO,NO,Läxit pysſyt pyhkämähän,Turku,1700
+skvr08110080,pyhkämähän,pyyhkiä,pää,fuzzy_lexicon_morphological,NO,NO,NO,Läxit pysſyt pyhkämähän,Turku,1700
+skvr08110080,jalka,jalka,jalka,omorfi_contextual,YES,NO,NO,Jalka joutzet jahkamahan.,Turku,1700
+skvr08110080,joutzet,jousi,jotta,fuzzy_lexicon_morphological,NO,NO,NO,Jalka joutzet jahkamahan.,Turku,1700
+skvr08110080,jahkamahan,jahkata,jakaa,voikko_omorfi,NO,NO,NO,Jalka joutzet jahkamahan.,Turku,1700
+skvr08110080,ammui,ampua,ammua,omorfi_contextual,NO,NO,NO,Ammui linnan lipin lapin,Turku,1700
+skvr08110080,linnan,linna,linna,v16_lexicon_tier1,YES,NO,NO,Ammui linnan lipin lapin,Turku,1700
+skvr08110080,lipin,lipin,lippi,omorfi_contextual,NO,NO,NO,Ammui linnan lipin lapin,Turku,1700
+skvr08110080,lapin,lapin,lappi,v16_lexicon_tier1,NO,NO,NO,Ammui linnan lipin lapin,Turku,1700
+skvr08110080,kaſtarit,kastari,kastaa,fuzzy_lexicon_morphological,NO,NO,NO,"55 Kaſtarit ylösalaiſin,",Turku,1700
+skvr08110080,ylösalaiſin,ylösalaisin,saada,fuzzy_lexicon_aggressive,NO,NO,NO,"55 Kaſtarit ylösalaiſin,",Turku,1700
+skvr08110080,mieſtä,mies,mies,v16_lexicon_tier1,YES,NO,NO,"Mieſtä reitehen oſaiſi,",Turku,1700
+skvr08110080,reitehen,reisi,reisi,omorfi_contextual,YES,NO,NO,"Mieſtä reitehen oſaiſi,",Turku,1700
+skvr08110080,oſaiſi,osata,saada,fuzzy_lexicon_morphological,NO,NO,NO,"Mieſtä reitehen oſaiſi,",Turku,1700
+skvr08110080,löi,lyödä,lyödä,omorfi_contextual,YES,NO,NO,Löi hepo lautaiſehen.,Turku,1700
+skvr08110080,hepo,hepo,hepo,omorfi_contextual,YES,NO,NO,Löi hepo lautaiſehen.,Turku,1700
+skvr08110080,lautaiſehen,lautanen,lautamies,fuzzy_lexicon_morphological,NO,NO,NO,Löi hepo lautaiſehen.,Turku,1700
+skvr08110080,pääſit,päästä,päästää,fuzzy_lexicon_morphological,NO,NO,NO,"Pääſit ſuohon ſuuret Herrat,",Turku,1700
+skvr08110080,ſuohon,suo,suo,fuzzy_lexicon_morphological,YES,NO,NO,"Pääſit ſuohon ſuuret Herrat,",Turku,1700
+skvr08110080,ſuuret,suuri,suuri,fuzzy_lexicon_morphological,YES,NO,NO,"Pääſit ſuohon ſuuret Herrat,",Turku,1700
+skvr08110080,herrat,herra,herra,omorfi_contextual,YES,NO,NO,"Pääſit ſuohon ſuuret Herrat,",Turku,1700
+skvr08110080,alhoon,alho,alho,omorfi_contextual,YES,NO,NO,Alhoon iſot Iſännät.,Turku,1700
+skvr08110080,iſot,iso,iso,fuzzy_lexicon_morphological,YES,NO,NO,Alhoon iſot Iſännät.,Turku,1700
+skvr08110080,iſännät,isäntä,isäntä,fuzzy_lexicon_morphological,YES,NO,NO,Alhoon iſot Iſännät.,Turku,1700
+skvr08110080,pääſi,päästä,päästää,fuzzy_lexicon_morphological,NO,NO,NO,60 Pääſi Kurcki kuuſiltohon,Turku,1700
+skvr08110080,kurcki,Kurki,kurkkia,voikko_omorfi,NO,NO,NO,60 Pääſi Kurcki kuuſiltohon,Turku,1700
+skvr08110080,kuuſiltohon,"Kuusisto, kuusisto?",kuusi,fuzzy_lexicon_aggressive,NO,NO,NO,60 Pääſi Kurcki kuuſiltohon,Turku,1700
+skvr08110080,arvei,Arvid,arvella,voikko_omorfi,NO,NO,NO,Arvei alhohon pakeni;,Turku,1700
+skvr08110080,alhohon,alhohon,alho,omorfi_contextual,NO,NO,NO,Arvei alhohon pakeni;,Turku,1700
+skvr08110080,pakeni,pakeni,paeta,omorfi_contextual,NO,NO,NO,Arvei alhohon pakeni;,Turku,1700
+skvr08110080,harteviki,Hartvig,harteva,voikko_omorfi,NO,NO,NO,"Harteviki haaviſtohon,",Turku,1700
+skvr08110080,haaviſtohon,"haavisto, Haavisto?",alainen,fuzzy_lexicon_aggressive,NO,NO,NO,"Harteviki haaviſtohon,",Turku,1700
+skvr08110080,anti,Antti,anti,omorfi_contextual,NO,NO,NO,"Anti pitkä poicki tiehen,",Turku,1700
+skvr08110080,pitkä,pitkä,pitkä,omorfi_contextual,YES,NO,NO,"Anti pitkä poicki tiehen,",Turku,1700
+skvr08110080,poicki,poikki,poikki,v17_lexicon_tier1_pos_x,YES,NO,NO,"Anti pitkä poicki tiehen,",Turku,1700
+skvr08110080,tiehen,tie,tie,omorfi_contextual,YES,NO,NO,"Anti pitkä poicki tiehen,",Turku,1700
+skvr08110080,steni,Sten,susi,voikko_omorfi,NO,NO,NO,Steni ſincki[!] tien oheen.,Turku,1700
+skvr08110080,ſincki,singahtaa,sinne,fuzzy_lexicon_morphological,NO,NO,NO,Steni ſincki[!] tien oheen.,Turku,1700
+skvr08110080,tien,tie,tie,v16_lexicon_tier1,YES,NO,NO,Steni ſincki[!] tien oheen.,Turku,1700
+skvr08110080,oheen,oheen,oheen,omorfi_contextual,YES,NO,NO,Steni ſincki[!] tien oheen.,Turku,1700
+skvr08110080,kovan,kova,kova,omorfi_contextual,YES,NO,NO,65 Kovan hyppäis koucku huovi,Turku,1700
+skvr08110080,hyppäis,hypätä,hypätä,omorfi_contextual,YES,NO,NO,65 Kovan hyppäis koucku huovi,Turku,1700
+skvr08110080,koucku,koukku,koukku,voikko_omorfi,YES,NO,NO,65 Kovan hyppäis koucku huovi,Turku,1700
+skvr08110080,huovi,huovi,huovi,omorfi_contextual,YES,NO,NO,65 Kovan hyppäis koucku huovi,Turku,1700
+skvr08110080,tomu,tomu,tomu,omorfi_contextual,YES,NO,NO,"Tomu ſuitzi, tuhka tuoxui.",Turku,1700
+skvr08110080,ſuitzi,suitsi,suiti,fuzzy_lexicon_morphological,NO,NO,NO,"Tomu ſuitzi, tuhka tuoxui.",Turku,1700
+skvr08110080,tuhka,tuhka,tuhka,omorfi_contextual,YES,NO,NO,"Tomu ſuitzi, tuhka tuoxui.",Turku,1700
+skvr08110080,tuoxui,tuoksua,tuo,fuzzy_lexicon_morphological,NO,NO,NO,"Tomu ſuitzi, tuhka tuoxui.",Turku,1700
+skvr08110080,huovi,huovi,huovi,omorfi_contextual,YES,NO,NO,Huovi häjjy Hämeſehen,Turku,1700
+skvr08110080,häjjy,häijy,häjy,voikko_omorfi,NO,NO,NO,Huovi häjjy Hämeſehen,Turku,1700
+skvr08110080,hämeſehen,Häme,mesi,fuzzy_lexicon_morphological,NO,NO,NO,Huovi häjjy Hämeſehen,Turku,1700
+skvr08110080,koŋken,koski,koski,fuzzy_lexicon_morphological,YES,NO,NO,Koŋken kova vahaiſeen,Turku,1700
+skvr08110080,kova,kova,kova,v16_lexicon_tier1,YES,NO,NO,Koŋken kova vahaiſeen,Turku,1700
+skvr08110080,vahaiſeen,vahainen,maahinen,fuzzy_lexicon_morphological,NO,NO,NO,Koŋken kova vahaiſeen,Turku,1700
+skvr08110080,häijjin,häijy,hiisi,fuzzy_lexicon_morphological,NO,NO,NO,Häijjin juoniſen jokehen.,Turku,1700
+skvr08110080,juoniſen,juoni,juonia,voikko_omorfi,NO,NO,NO,Häijjin juoniſen jokehen.,Turku,1700
+skvr08110080,jokehen,joki,joki,omorfi_contextual,YES,NO,NO,Häijjin juoniſen jokehen.,Turku,1700
+skvr08110080,siitä,se,se,omorfi_contextual,YES,NO,NO,70 Siitä hauvit hauckelit,Turku,1700
+skvr08110080,hauvit,hauki,hupi,voikko_omorfi,NO,NO,NO,70 Siitä hauvit hauckelit,Turku,1700
+skvr08110080,hauckelit,haukata,hauki,fuzzy_lexicon_morphological,NO,NO,NO,70 Siitä hauvit hauckelit,Turku,1700
+skvr08110080,ahvenat,ahven,ahven,voikko_omorfi,YES,NO,NO,Ahvenat otit oſanſa.,Turku,1700
+skvr08110080,otit,ottaa,ottaa,omorfi_contextual,YES,NO,NO,Ahvenat otit oſanſa.,Turku,1700
+skvr08110080,oſanſa,osa,sana,fuzzy_lexicon_morphological,NO,NO,NO,Ahvenat otit oſanſa.,Turku,1700
+skvr08110080,siin,se,sii,omorfi_contextual,NO,NO,NO,Siin' oli harma hangittuna,Turku,1700
+skvr08110080,oli,olla,olla,omorfi_contextual,YES,NO,NO,Siin' oli harma hangittuna,Turku,1700
+skvr08110080,harma,Harma,hara,voikko_omorfi,NO,NO,NO,Siin' oli harma hangittuna,Turku,1700
+skvr08110080,hangittuna,hangittuna,hankkia,voikko_omorfi,NO,NO,NO,Siin' oli harma hangittuna,Turku,1700
+skvr08110080,satuloittuna,satuloittuna,satuloida,voikko_omorfi,NO,NO,NO,Satuloittuna Savicko.,Turku,1700
+skvr08110080,savicko,Savikko,savikko,voikko_omorfi,YES,NO,NO,Satuloittuna Savicko.,Turku,1700
+skvr08110080,hyvä,hyvä,hyvä,omorfi_contextual,YES,NO,NO,- Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,herra,herra,herra,v16_lexicon_tier1,YES,NO,NO,- Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,hertu,herttua,herttua,v16_lexicon_tier1,YES,NO,NO,- Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,karle,Kaarle,kare,voikko_omorfi,NO,NO,NO,- Hyvä Herra Hertu Karle,Turku,1700
+skvr08110080,hyppäis,hypätä,hypätä,omorfi_contextual,YES,NO,NO,75 Hyppäis hyvän ſäelle (ſälelle?),Turku,1700
+skvr08110080,hyvän,hyvä,hyvä,v16_lexicon_tier1,YES,NO,NO,75 Hyppäis hyvän ſäelle (ſälelle?),Turku,1700
+skvr08110080,ſäelle,säkä,mäki,fuzzy_lexicon_morphological,NO,NO,NO,75 Hyppäis hyvän ſäelle (ſälelle?),Turku,1700
+skvr08110080,ſälelle,säkä,selvä,fuzzy_lexicon_morphological,NO,NO,NO,75 Hyppäis hyvän ſäelle (ſälelle?),Turku,1700
+skvr08110080,annoi,antaa,antaa,voikko_omorfi,YES,NO,NO,"Annoi juoſta jouhi hännän,",Turku,1700
+skvr08110080,juoſta,juosta,juottaa,voikko_omorfi,NO,NO,NO,"Annoi juoſta jouhi hännän,",Turku,1700
+skvr08110080,jouhi,jouhi,jouhi,omorfi_contextual,YES,NO,NO,"Annoi juoſta jouhi hännän,",Turku,1700
+skvr08110080,hännän,häntä,häntä,omorfi_contextual,YES,NO,NO,"Annoi juoſta jouhi hännän,",Turku,1700
+skvr08110080,samata,samota,sama,voikko_omorfi,NO,NO,NO,"Samata ſatula ſeljän,",Turku,1700
+skvr08110080,ſatula,satula,sata,fuzzy_lexicon_morphological,NO,NO,NO,"Samata ſatula ſeljän,",Turku,1700
+skvr08110080,ſeljän,selkä,se,fuzzy_lexicon_morphological,NO,NO,NO,"Samata ſatula ſeljän,",Turku,1700
+skvr08110080,ala,alle,ala,omorfi_contextual,NO,NO,NO,Ala Wiburin vihaiſen.,Turku,1700
+skvr08110080,wiburin,Viipuri,web,voikko_omorfi,NO,NO,NO,Ala Wiburin vihaiſen.,Turku,1700
+skvr08110080,vihaiſen,vihainen,vihanen,fuzzy_lexicon_morphological,NO,NO,NO,Ala Wiburin vihaiſen.,Turku,1700
+skvr08110080,piikat,piika,piika,voikko_omorfi,YES,NO,NO,Piikat itkit Joanaſa,Turku,1700
+skvr08110080,itkit,itkeä,itkeä,omorfi_contextual,YES,NO,NO,Piikat itkit Joanaſa,Turku,1700
+skvr08110080,joanaſa,Jaama?,joka,fuzzy_lexicon_morphological,NO,NO,NO,Piikat itkit Joanaſa,Turku,1700
+skvr08110080,waimot,vaimo,vaimo,voikko_omorfi,YES,NO,NO,"80 Waimot Narvaſa valitit,",Turku,1700
+skvr08110080,narvaſa,Narva,arvella,fuzzy_lexicon_morphological,NO,NO,NO,"80 Waimot Narvaſa valitit,",Turku,1700
+skvr08110080,valitit,valittaa,valittaa,omorfi_contextual,YES,NO,NO,"80 Waimot Narvaſa valitit,",Turku,1700
+skvr08110080,että,että,että,omorfi_contextual,YES,NO,NO,Että,Turku,1700
+skvr08110080,miehet,mies,mies,v16_lexicon_tier1,YES,NO,NO,Että,Turku,1700
+skvr08110080,meſtattihin,mestata,mistata,fuzzy_lexicon_morphological,NO,NO,NO,Että,Turku,1700
+skvr08110080,etc,etc,etc,omorfi_contextual,YES,NO,NO,Että,Turku,1700
+skvr09101980,tule,tule,tulla,omorfi_contextual,NO,NO,NO,Tule meille Tuamas kulta,Renko,1913
+skvr09101980,meille,me,me,v16_lexicon_tier1,YES,NO,NO,Tule meille Tuamas kulta,Renko,1913
+skvr09101980,tuamas,Tuomas,tuomas,voikko_omorfi,YES,NO,NO,Tule meille Tuamas kulta,Renko,1913
+skvr09101980,kulta,kulta,kulta,v16_lexicon_tier1,YES,NO,NO,Tule meille Tuamas kulta,Renko,1913
+skvr09101980,tua,tuoda,tuta,voikko_omorfi,NO,NO,NO,Tua joulu tullessas,Renko,1913
+skvr09101980,joulu,joulu,joulu,omorfi_contextual,YES,NO,NO,Tua joulu tullessas,Renko,1913
+skvr09101980,tullessas,tulla,tulla,v16_lexicon_tier1,YES,NO,NO,Tua joulu tullessas,Renko,1913
+skvr09101980,juustot,juusto,juusto,omorfi_contextual,YES,NO,NO,"Juustot, kakut kainalossas",Renko,1913
+skvr09101980,kakut,kakku,kakku,omorfi_contextual,YES,NO,NO,"Juustot, kakut kainalossas",Renko,1913
+skvr09101980,kainalossas,kainalo,kainalo,voikko_omorfi,YES,NO,NO,"Juustot, kakut kainalossas",Renko,1913
+skvr09101980,olvitynnyri,olvitynnyri,olvi,omorfi_contextual,NO,NO,NO,Olvitynnyri olaallas,Renko,1913
+skvr09101980,olaallas,olka,olas,voikko_omorfi,NO,NO,NO,Olvitynnyri olaallas,Renko,1913
+skvr09101980,pahnakimppu,pahnakimppu,pahna,omorfi_contextual,NO,NO,NO,5 Pahnakimppu seläässäs.,Renko,1913
+skvr09101980,seläässäs,selkä,ikä,fuzzy_lexicon_morphological,NO,NO,NO,5 Pahnakimppu seläässäs.,Renko,1913
+skvr12103220,lähtekämmä,lähteä,lähteä,fuzzy_lexicon_morphological,YES,NO,NO,Lähtekämmä laulamahan,Pohjois-Pohjanmaa,1786
+skvr12103220,laulamahan,laulaa,laulaa,omorfi_contextual,YES,NO,NO,Lähtekämmä laulamahan,Pohjois-Pohjanmaa,1786
+skvr12103220,koskan,koska,kokka,voikko_omorfi,NO,NO,NO,Koskan lähden laulamahan,Pohjois-Pohjanmaa,1786
+skvr12103220,lähden,lähteä,lähteä,omorfi_contextual,YES,NO,NO,Koskan lähden laulamahan,Pohjois-Pohjanmaa,1786
+skvr12103220,laulamahan,laulaa,laulaa,omorfi_contextual,YES,NO,NO,Koskan lähden laulamahan,Pohjois-Pohjanmaa,1786
+skvr12103220,saakamma,saada,kammo,fuzzy_lexicon_morphological,NO,NO,NO,Saakamma sanelemahan,Pohjois-Pohjanmaa,1786
+skvr12103220,sanelemahan,sanella,sanella,omorfi_contextual,YES,NO,NO,Saakamma sanelemahan,Pohjois-Pohjanmaa,1786
+skvr12103220,saakamme,saada,saaga,voikko_omorfi,NO,NO,NO,Saakamme sanelemaan.,Pohjois-Pohjanmaa,1786
+skvr12103220,sanelemaan,sanella,sanella,omorfi_contextual,YES,NO,NO,Saakamme sanelemaan.,Pohjois-Pohjanmaa,1786
+skvr12103220,puhun,puhua,puhua,v16_lexicon_tier1,YES,NO,NO,Puhun mitä sylki suuhun tuopi,Pohjois-Pohjanmaa,1786
+skvr12103220,mitä,mikä,mikä,omorfi_contextual,YES,NO,NO,Puhun mitä sylki suuhun tuopi,Pohjois-Pohjanmaa,1786
+skvr12103220,sylki,sylki,sylkeä,omorfi_contextual,NO,NO,NO,Puhun mitä sylki suuhun tuopi,Pohjois-Pohjanmaa,1786
+skvr12103220,suuhun,suu,suu,v16_lexicon_tier1,YES,NO,NO,Puhun mitä sylki suuhun tuopi,Pohjois-Pohjanmaa,1786
+skvr12103220,tuopi,tuoda,tuoda,omorfi_contextual,YES,NO,NO,Puhun mitä sylki suuhun tuopi,Pohjois-Pohjanmaa,1786
+skvr12103220,vesi,vesi,vesi,v16_lexicon_tier1,YES,NO,NO,Vesi kjelelle vetäävi.,Pohjois-Pohjanmaa,1786
+skvr12103220,kjelelle,kieli,kieli,voikko_omorfi,YES,NO,NO,Vesi kjelelle vetäävi.,Pohjois-Pohjanmaa,1786
+skvr12103220,vetäävi,vetää,vetää,voikko_omorfi,YES,NO,NO,Vesi kjelelle vetäävi.,Pohjois-Pohjanmaa,1786
+skvr12153030,neihdy,neitsyt,neitsyt,v16_lexicon_tier1,YES,NO,NO,"Neihdy Maria emoinen,",Liminka,1678
+skvr12153030,maria,Maria,maria,v16_lexicon_tier1,YES,NO,NO,"Neihdy Maria emoinen,",Liminka,1678
+skvr12153030,emoinen,emonen,emo,omorfi_contextual,NO,NO,NO,"Neihdy Maria emoinen,",Liminka,1678
+skvr12153030,puhdas,puhdas,puhdas,v16_lexicon_tier1,YES,NO,NO,"Puhdas muori puhtukainen,",Liminka,1678
+skvr12153030,muori,muori,muori,v16_lexicon_tier1,YES,NO,NO,"Puhdas muori puhtukainen,",Liminka,1678
+skvr12153030,puhtukainen,puhtukainen,puhtukainen,fuzzy_lexicon_morphological,YES,NO,NO,"Puhdas muori puhtukainen,",Liminka,1678
+skvr12153030,tule,tulla,tulla,omorfi_contextual,YES,NO,NO,Tule meille turvaxi,Liminka,1678
+skvr12153030,meille,me,me,v16_lexicon_tier1,YES,NO,NO,Tule meille turvaxi,Liminka,1678
+skvr12153030,turvaxi,turva,turva,voikko_omorfi,YES,NO,NO,Tule meille turvaxi,Liminka,1678
+skvr12153030,täsä,tämä,täsä,omorfi_contextual,NO,NO,NO,"Täsä työsäni,",Liminka,1678
+skvr12153030,työsäni,työ,työ,voikko_omorfi,YES,NO,NO,"Täsä työsäni,",Liminka,1678
+skvr12153030,anna,antaa,antaa,omorfi_contextual,YES,NO,NO,5 Anna mullet apua.,Liminka,1678
+skvr12153030,mullet,mä,mulla,voikko_omorfi,NO,NO,NO,5 Anna mullet apua.,Liminka,1678
+skvr12153030,apua,apu,apu,omorfi_contextual,YES,NO,NO,5 Anna mullet apua.,Liminka,1678
+skvr12179130,paras,paras,paras,omorfi_contextual,YES,NO,NO,"Paras luovisen lumoja,",Pohjois-Pohjanmaa,1700
+skvr12179130,luovisen,luoti,lovinen,voikko_omorfi,NO,NO,NO,"Paras luovisen lumoja,",Pohjois-Pohjanmaa,1700
+skvr12179130,lumoja,lumooja,lumo,omorfi_contextual,NO,NO,NO,"Paras luovisen lumoja,",Pohjois-Pohjanmaa,1700
+skvr12179130,sydän,sydän,sydän,omorfi_contextual,YES,NO,NO,"Sydän Marian syyteliä,",Pohjois-Pohjanmaa,1700
+skvr12179130,marian,marian,maria,v16_lexicon_tier1,NO,NO,NO,"Sydän Marian syyteliä,",Pohjois-Pohjanmaa,1700
+skvr12179130,syyteliä,syytää,syy,omorfi_contextual,NO,NO,NO,"Sydän Marian syyteliä,",Pohjois-Pohjanmaa,1700
+skvr12179130,joka,joka,joka,v16_lexicon_tier1,YES,NO,NO,"Joka luodin luoda taidat,",Pohjois-Pohjanmaa,1700
+skvr12179130,luodin,luoti,luoti,omorfi_contextual,YES,NO,NO,"Joka luodin luoda taidat,",Pohjois-Pohjanmaa,1700
+skvr12179130,luoda,luoda,luoda,v16_lexicon_tier1,YES,NO,NO,"Joka luodin luoda taidat,",Pohjois-Pohjanmaa,1700
+skvr12179130,taidat,taitaa,taitaa,omorfi_contextual,YES,NO,NO,"Joka luodin luoda taidat,",Pohjois-Pohjanmaa,1700
+skvr12179130,luodille,luoti,luoti,omorfi_contextual,YES,NO,NO,"Luodille lopun lukia,",Pohjois-Pohjanmaa,1700
+skvr12179130,lopun,loppu,loppu,omorfi_contextual,YES,NO,NO,"Luodille lopun lukia,",Pohjois-Pohjanmaa,1700
+skvr12179130,lukia,lukea,luki,omorfi_contextual,NO,NO,NO,"Luodille lopun lukia,",Pohjois-Pohjanmaa,1700
+skvr12179130,vetöhös,vetää,vetää,fuzzy_lexicon_morphological,YES,NO,NO,"5 Vetöhös vetinen verho,",Pohjois-Pohjanmaa,1700
+skvr12179130,vetinen,vetinen,vetinen,omorfi_contextual,YES,NO,NO,"5 Vetöhös vetinen verho,",Pohjois-Pohjanmaa,1700
+skvr12179130,verho,verho,verho,omorfi_contextual,YES,NO,NO,"5 Vetöhös vetinen verho,",Pohjois-Pohjanmaa,1700
+skvr12179130,hyhmän,hyhmä,hyhmä,omorfi_contextual,YES,NO,NO,"Hyhmän kalvo kasvatelko,",Pohjois-Pohjanmaa,1700
+skvr12179130,kalvo,kalvo,kalvo,omorfi_contextual,YES,NO,NO,"Hyhmän kalvo kasvatelko,",Pohjois-Pohjanmaa,1700
+skvr12179130,kasvatelko,kasvatella,kasvaa,fuzzy_lexicon_aggressive,NO,NO,NO,"Hyhmän kalvo kasvatelko,",Pohjois-Pohjanmaa,1700
+skvr12179130,vihamiehen,vihamies,vihamies,omorfi_contextual,YES,NO,NO,"Vihamiehen vijnikahan,",Pohjois-Pohjanmaa,1700
+skvr12179130,vijnikahan,viini,vika,fuzzy_lexicon_morphological,NO,NO,NO,"Vihamiehen vijnikahan,",Pohjois-Pohjanmaa,1700
+skvr12179130,väncki,vänki,väki,fuzzy_lexicon_morphological,NO,NO,NO,"Väncki Pannungin välille,",Pohjois-Pohjanmaa,1700
+skvr12179130,pannungin,pannu,pannu,omorfi_contextual,YES,NO,NO,"Väncki Pannungin välille,",Pohjois-Pohjanmaa,1700
+skvr12179130,välille,väli,välille,omorfi_contextual,NO,NO,NO,"Väncki Pannungin välille,",Pohjois-Pohjanmaa,1700
+skvr12179130,jottei,jotta ei,jottei,omorfi_contextual,NO,NO,NO,"Jottei tuima tulta saisi,",Pohjois-Pohjanmaa,1700
+skvr12179130,tuima,tuima,tuima,omorfi_contextual,YES,NO,NO,"Jottei tuima tulta saisi,",Pohjois-Pohjanmaa,1700
+skvr12179130,tulta,tuli,tuli,omorfi_contextual,YES,NO,NO,"Jottei tuima tulta saisi,",Pohjois-Pohjanmaa,1700
+skvr12179130,saisi,saada,saada,omorfi_contextual,YES,NO,NO,"Jottei tuima tulta saisi,",Pohjois-Pohjanmaa,1700
+skvr12179130,löisi,lyödä,lyödä,omorfi_contextual,YES,NO,NO,"10 Löisi väncki valkiata,",Pohjois-Pohjanmaa,1700
+skvr12179130,väncki,vänki,väki,fuzzy_lexicon_morphological,NO,NO,NO,"10 Löisi väncki valkiata,",Pohjois-Pohjanmaa,1700
+skvr12179130,valkiata,valkia,valkea,voikko_omorfi,NO,NO,NO,"10 Löisi väncki valkiata,",Pohjois-Pohjanmaa,1700
+skvr12179130,puota,pudota,puoti,voikko_omorfi,NO,NO,NO,"Puota talla taivahasta,",Pohjois-Pohjanmaa,1700
+skvr12179130,talla,talla,talla,omorfi_contextual,YES,NO,NO,"Puota talla taivahasta,",Pohjois-Pohjanmaa,1700
+skvr12179130,taivahasta,taivas,taivas,v16_lexicon_tier1,YES,NO,NO,"Puota talla taivahasta,",Pohjois-Pohjanmaa,1700
+skvr12179130,viha,viha,viha,omorfi_contextual,YES,NO,NO,"Viha tuulen tuntumatta,",Pohjois-Pohjanmaa,1700
+skvr12179130,tuulen,tuuli,tuuli,v16_lexicon_tier1,YES,NO,NO,"Viha tuulen tuntumatta,",Pohjois-Pohjanmaa,1700
+skvr12179130,tuntumatta,tuntua,tuntuma,omorfi_contextual,NO,NO,NO,"Viha tuulen tuntumatta,",Pohjois-Pohjanmaa,1700
+skvr12179130,saamatta,saada,saada,omorfi_contextual,YES,NO,NO,Saamatta veri satehen.,Pohjois-Pohjanmaa,1700
+skvr12179130,veri,veri,veri,v16_lexicon_tier1,YES,NO,NO,Saamatta veri satehen.,Pohjois-Pohjanmaa,1700
+skvr12179130,satehen,sade,sade,omorfi_contextual,YES,NO,NO,Saamatta veri satehen.,Pohjois-Pohjanmaa,1700
+skvr14122250,mato,mato,mato,v16_lexicon_tier1,YES,NO,NO,Mato musta maan alainen,Tuusula,1736
+skvr14122250,musta,musta,musta,v16_lexicon_tier1,YES,NO,NO,Mato musta maan alainen,Tuusula,1736
+skvr14122250,maan,maa,maa,v16_lexicon_tier1,YES,NO,NO,Mato musta maan alainen,Tuusula,1736
+skvr14122250,alainen,alainen,alainen,omorfi_contextual,YES,NO,NO,Mato musta maan alainen,Tuusula,1736
+skvr14122250,teitpäs,tehdä,tehdä,omorfi_contextual,YES,NO,NO,"Teitpäs hyvin ettäs pistit,",Tuusula,1736
+skvr14122250,hyvin,hyvä,hyvin,v16_lexicon_tier1,NO,NO,NO,"Teitpäs hyvin ettäs pistit,",Tuusula,1736
+skvr14122250,ettäs,että,ettäs,omorfi_contextual,NO,NO,NO,"Teitpäs hyvin ettäs pistit,",Tuusula,1736
+skvr14122250,pistit,pistää,pistää,omorfi_contextual,YES,NO,NO,"Teitpäs hyvin ettäs pistit,",Tuusula,1736
+skvr14122250,vielä,vielä,vielä,v16_lexicon_tier1,YES,NO,NO,Vielä paremmin että parannat,Tuusula,1736
+skvr14122250,paremmin,paras,parempi,v16_lexicon_tier1,NO,NO,NO,Vielä paremmin että parannat,Tuusula,1736
+skvr14122250,että,että,että,omorfi_contextual,YES,NO,NO,Vielä paremmin että parannat,Tuusula,1736
+skvr14122250,parannat,parantaa,parantaa,omorfi_contextual,YES,NO,NO,Vielä paremmin että parannat,Tuusula,1736
+skvr14122250,christuxen,Kristus,kristus,fuzzy_lexicon_morphological,YES,NO,NO,Christuxen veri punainen,Tuusula,1736
+skvr14122250,veri,veri,veri,v16_lexicon_tier1,YES,NO,NO,Christuxen veri punainen,Tuusula,1736
+skvr14122250,punainen,punainen,punainen,v16_lexicon_tier1,YES,NO,NO,Christuxen veri punainen,Tuusula,1736
+skvr14122250,marian,Maaria,maria,v16_lexicon_tier1,NO,NO,NO,5 Marian maito makia,Tuusula,1736
+skvr14122250,maito,maito,maito,v16_lexicon_tier1,YES,NO,NO,5 Marian maito makia,Tuusula,1736
+skvr14122250,makia,makea,makea,v17_lexicon_tier1_pos_x,YES,NO,NO,5 Marian maito makia,Tuusula,1736
+skvr15100130,etzei,etsiä,itse,fuzzy_lexicon_morphological,NO,NO,NO,"Etzei Suomet sorkeinda,",nan,1702
+skvr15100130,suomet,Suomi,suomi,omorfi_contextual,YES,NO,NO,"Etzei Suomet sorkeinda,",nan,1702
+skvr15100130,sorkeinda,sorkea,sonta,fuzzy_lexicon_morphological,NO,NO,NO,"Etzei Suomet sorkeinda,",nan,1702
+skvr15100130,maat,maa,maa,omorfi_contextual,YES,NO,NO,maat valitzi valkeinda;,nan,1702
+skvr15100130,valitzi,valita,valita,voikko_omorfi,YES,NO,NO,maat valitzi valkeinda;,nan,1702
+skvr15100130,valkeinda,valkea,valkea,voikko_omorfi,YES,NO,NO,maat valitzi valkeinda;,nan,1702
+skvr15100130,jo,jo,jo,v16_lexicon_tier1,YES,NO,NO,"jo naidut parhat pijcat,",nan,1702
+skvr15100130,naidut,naida,naida,omorfi_contextual,YES,NO,NO,"jo naidut parhat pijcat,",nan,1702
+skvr15100130,parhat,paras,paha,voikko_omorfi,NO,NO,NO,"jo naidut parhat pijcat,",nan,1702
+skvr15100130,pijcat,piika,piika,fuzzy_lexicon_morphological,YES,NO,NO,"jo naidut parhat pijcat,",nan,1702
+skvr15100130,etzitellyt,etsiä,heitellä,fuzzy_lexicon_morphological,NO,NO,NO,etzitellyt ehkiämmät;,nan,1702
+skvr15100130,ehkiämmät,ehkiä,heittää,fuzzy_lexicon_morphological,NO,NO,NO,etzitellyt ehkiämmät;,nan,1702
+skvr15100130,täydyi,täytyä,täytyä,voikko_omorfi,YES,NO,NO,5 täydyi naida tähteitä;,nan,1702
+skvr15100130,naida,naida,naida,omorfi_contextual,YES,NO,NO,5 täydyi naida tähteitä;,nan,1702
+skvr15100130,tähteitä,tähteitä,tähde,omorfi_contextual,NO,NO,NO,5 täydyi naida tähteitä;,nan,1702
+skvr15100130,tulisossa,tuli sossa,tulinen,omorfi_contextual,NO,NO,NO,"tulisossa sormijn,",nan,1702
+skvr15100130,sormijn,sormi,sormi,voikko_omorfi,YES,NO,NO,"tulisossa sormijn,",nan,1702
+skvr15100130,käten,käsi,kätkeä,voikko_omorfi,NO,NO,NO,"käten kählöi käändyi,",nan,1702
+skvr15100130,kählöi,kählö,käydä,fuzzy_lexicon_morphological,NO,NO,NO,"käten kählöi käändyi,",nan,1702
+skvr15100130,käändyi,kääntyä,kääntyä,voikko_omorfi,YES,NO,NO,"käten kählöi käändyi,",nan,1702
+skvr15100130,käten,käsi,kätkeä,voikko_omorfi,NO,NO,NO,!! käten kähmöi käändyi !!,nan,1702
+skvr15100130,kähmöi,kähmö,kähmiä,voikko_omorfi,NO,NO,NO,!! käten kähmöi käändyi !!,nan,1702
+skvr15100130,käändyi,kääntyä,kääntyä,voikko_omorfi,YES,NO,NO,!! käten kähmöi käändyi !!,nan,1702
+skvr15100130,onehin,onehin,oheta,voikko_omorfi,NO,NO,NO,onehin olille joudui.,nan,1702
+skvr15100130,olille,olki,olka,omorfi_contextual,NO,NO,NO,onehin olille joudui.,nan,1702
+skvr15100130,joudui,joutua,joutua,voikko_omorfi,YES,NO,NO,onehin olille joudui.,nan,1702
+skvr15101522,hypyt,hyppy,hyppy,omorfi_contextual,YES,NO,NO,"Hypyt, tansit tavattomat",nan,1786
+skvr15101522,tansit,tanssi,tanssi,voikko_omorfi,YES,NO,NO,"Hypyt, tansit tavattomat",nan,1786
+skvr15101522,tavattomat,tavaton,tavaton,omorfi_contextual,YES,NO,NO,"Hypyt, tansit tavattomat",nan,1786
+skvr15101522,suun,suu,suu,omorfi_contextual,YES,NO,NO,suun annit ajattomat,nan,1786
+skvr15101522,annit,anti,anti,omorfi_contextual,YES,NO,NO,suun annit ajattomat,nan,1786
+skvr15101522,ajattomat,ajaton,ajaton,omorfi_contextual,YES,NO,NO,suun annit ajattomat,nan,1786
+skvr15101522,ovat,olla,olla,omorfi_contextual,YES,NO,NO,[ovat varsin vaaralliset],nan,1786
+skvr15101522,varsin,varsin,varsin,v16_lexicon_tier1,YES,NO,NO,[ovat varsin vaaralliset],nan,1786
+skvr15101522,vaaralliset,vaarallinen,vaarallinen,omorfi_contextual,YES,NO,NO,[ovat varsin vaaralliset],nan,1786
+skvr15101522,neitosille,neito,neitonen,omorfi_contextual,NO,NO,NO,neitosille naitaville.,nan,1786
+skvr15101522,naitaville,naida,naida,omorfi_contextual,YES,NO,NO,neitosille naitaville.,nan,1786
+skvr15102230,kaikki,kaikki,kaikki,v16_lexicon_tier1,YES,NO,NO,"Kaikki kaihehen sysätyt,",nan,1786
+skvr15102230,kaihehen,kaihe,kaihi,omorfi_contextual,NO,NO,NO,"Kaikki kaihehen sysätyt,",nan,1786
+skvr15102230,sysätyt,sysätä,sysätä,omorfi_contextual,YES,NO,NO,"Kaikki kaihehen sysätyt,",nan,1786
+skvr15102230,lykätyt,lykätä,lykätä,omorfi_contextual,YES,NO,NO,lykätyt lymysiahan,nan,1786
+skvr15102230,lymysiahan,lymysija,liha,fuzzy_lexicon_aggressive,NO,NO,NO,lykätyt lymysiahan,nan,1786
+skvr15102230,kandamalla,kantaa,kantama,voikko_omorfi,NO,NO,NO,"kandamalla kannettihin,",nan,1786
+skvr15102230,kannettihin,kantaa,kanneta,omorfi_contextual,NO,NO,NO,"kandamalla kannettihin,",nan,1786
+skvr15102230,nostamalla,nostaa,nostaa,omorfi_contextual,YES,NO,NO,nostamalla nostettihin ...,nan,1786
+skvr15102230,nostettihin,nostaa,nostaa,omorfi_contextual,YES,NO,NO,nostamalla nostettihin ...,nan,1786
+skvr15102230,minä,minä,minä,v16_lexicon_tier1,YES,NO,NO,5 Minä tulppaan tulppaamalla:,nan,1786
+skvr15102230,tulppaan,tulpata,tulppa,omorfi_contextual,NO,NO,NO,5 Minä tulppaan tulppaamalla:,nan,1786
+skvr15102230,tulppaamalla,tulpata,tulpata,omorfi_contextual,YES,NO,NO,5 Minä tulppaan tulppaamalla:,nan,1786
+skvr15102230,kirot,kiro,kiro,omorfi_contextual,YES,NO,NO,"[kirot] tungen helteheseen,",nan,1786
+skvr15102230,tungen,tunkea,tunkea,v16_lexicon_tier1,YES,NO,NO,"[kirot] tungen helteheseen,",nan,1786
+skvr15102230,helteheseen,helle,helle,voikko_omorfi,YES,NO,NO,"[kirot] tungen helteheseen,",nan,1786
+skvr15102230,asetan,asettaa,asettaa,omorfi_contextual,YES,NO,NO,"asetan alasimmelle,",nan,1786
+skvr15102230,alasimmelle,alasin,alanen,omorfi_contextual,NO,NO,NO,"asetan alasimmelle,",nan,1786
+skvr15102230,että,että,että,omorfi_contextual,YES,NO,NO,"että paistuisit pakanat,",nan,1786
+skvr15102230,paistuisit,paistua,paistua,omorfi_contextual,YES,NO,NO,"että paistuisit pakanat,",nan,1786
+skvr15102230,pakanat,pakana,pakana,omorfi_contextual,YES,NO,NO,"että paistuisit pakanat,",nan,1786
+skvr15102230,kovapäiset,kovapäinen,kovapäinen,omorfi_contextual,YES,NO,NO,kovapäiset korventusik.,nan,1786
+skvr15102230,korventusik,korventua,korento,fuzzy_lexicon_morphological,NO,NO,NO,kovapäiset korventusik.,nan,1786
+skvr15103160,rijsi,rijsi,riisi,voikko_omorfi,NO,NO,NO,"Rijsi poika Rijjentehen,",nan,1786
+skvr15103160,poika,poika,poika,v16_lexicon_tier1,YES,NO,NO,"Rijsi poika Rijjentehen,",nan,1786
+skvr15103160,rijjentehen,Riienne,riienne,v16_lexicon_tier1,YES,NO,NO,"Rijsi poika Rijjentehen,",nan,1786
+skvr15103160,rijjentehen,Riienne,riienne,fuzzy_lexicon_morphological,YES,NO,NO,"Rijjentehen, Räjjentehen.",nan,1786
+skvr15103160,räjjentehen,Räijenne,räienne,fuzzy_lexicon_morphological,NO,NO,NO,"Rijjentehen, Räjjentehen.",nan,1786
+skvr15103160,oletkos,olla,olla,omorfi_contextual,YES,NO,NO,"Oletkos korvissa olova,",nan,1786
+skvr15103160,korvissa,korva,korpi,omorfi_contextual,NO,NO,NO,"Oletkos korvissa olova,",nan,1786
+skvr15103160,olova,olla,olo,voikko_omorfi,NO,NO,NO,"Oletkos korvissa olova,",nan,1786
+skvr15103160,lihan,liha,liha,v16_lexicon_tier1,YES,NO,NO,"lihan syyjjä, luun puria,",nan,1786
+skvr15103160,syyjjä,syöjä,syödä,fuzzy_lexicon_morphological,NO,NO,NO,"lihan syyjjä, luun puria,",nan,1786
+skvr15103160,luun,luu,luu,v16_lexicon_tier1,YES,NO,NO,"lihan syyjjä, luun puria,",nan,1786
+skvr15103160,puria,purra,purija,v16_lexicon_tier1,NO,NO,NO,"lihan syyjjä, luun puria,",nan,1786
+skvr15103160,munaisten,munuainen,muinainen,voikko_omorfi,NO,NO,NO,"5 munaisten murtelia,",nan,1786
+skvr15103160,murtelia,murtelija,murtelu,voikko_omorfi,NO,NO,NO,"5 munaisten murtelia,",nan,1786
+skvr15103160,tyräin,tyrä,tyrä,omorfi_contextual,YES,NO,NO,"tyräin typesteliä,",nan,1786
+skvr15103160,typesteliä,typistelijä,pesä,fuzzy_lexicon_aggressive,NO,NO,NO,"tyräin typesteliä,",nan,1786
+skvr15103160,hammasten,hammas,hammas,omorfi_contextual,YES,NO,NO,[hammasten] hajottelia.,nan,1786
+skvr15103160,hajottelia,hajottelija,hajottelu,voikko_omorfi,NO,NO,NO,[hammasten] hajottelia.,nan,1786
+skvr15103160,iski,iskeä,iskeä,v16_lexicon_tier1,YES,NO,NO,"Iski tulta Ilmarinen,",nan,1786
+skvr15103160,tulta,tuli,tuli,omorfi_contextual,YES,NO,NO,"Iski tulta Ilmarinen,",nan,1786
+skvr15103160,ilmarinen,Ilmarinen,ilmoinen,fuzzy_lexicon_morphological,NO,NO,NO,"Iski tulta Ilmarinen,",nan,1786
+skvr15103160,välähytti,väläyttää,väläyttää,voikko_omorfi,YES,NO,NO,välä(h)ytti Väinämöinen ...,nan,1786
+skvr15103160,väinämöinen,Väinämöinen,väinämöinen,v16_lexicon_tier1,YES,NO,NO,välä(h)ytti Väinämöinen ...,nan,1786
+skvr15103160,jolla,jolla,joka,omorfi_contextual,NO,NO,NO,"10 (jolla poltan Rijjen suuta,",nan,1786
+skvr15103160,poltan,polttaa,polttaa,omorfi_contextual,YES,NO,NO,"10 (jolla poltan Rijjen suuta,",nan,1786
+skvr15103160,rijjen,Riisi,rimpi,voikko_omorfi,NO,NO,NO,"10 (jolla poltan Rijjen suuta,",nan,1786
+skvr15103160,suuta,suu,suu,omorfi_contextual,YES,NO,NO,"10 (jolla poltan Rijjen suuta,",nan,1786
+skvr15103160,rijjen,Riisi,rimpi,voikko_omorfi,NO,NO,NO,Rijjen hammasta hajotan ...),nan,1786
+skvr15103160,hammasta,hammas,hammas,omorfi_contextual,YES,NO,NO,Rijjen hammasta hajotan ...),nan,1786
+skvr15103160,hajotan,hajottaa,hajottaa,omorfi_contextual,YES,NO,NO,Rijjen hammasta hajotan ...),nan,1786
+j01593,aivoin,aikaisin,aivot,omorfi_contextual,NO,NO,NO,"Aivoin kalinane kukkiv,",Maksuatiha,1895
+j01593,kalinane,kalinainen,kali,omorfi_contextual,NO,NO,NO,"Aivoin kalinane kukkiv,",Maksuatiha,1895
+j01593,kukkiv,kukkia,kukkia,voikko_omorfi,YES,NO,NO,"Aivoin kalinane kukkiv,",Maksuatiha,1895
+j01593,sill,sillä,silli,voikko_omorfi,NO,NO,NO,šill aigoa miun muamoń šai;,Maksuatiha,1895
+j01593,aigoa,aika,aikoa,voikko_omorfi,NO,NO,NO,šill aigoa miun muamoń šai;,Maksuatiha,1895
+j01593,miun,minä,minä,v16_lexicon_tier1,YES,NO,NO,šill aigoa miun muamoń šai;,Maksuatiha,1895
+j01593,muamon,maamo,moa,fuzzy_lexicon_morphological,NO,NO,NO,šill aigoa miun muamoń šai;,Maksuatiha,1895
+j01593,sai,sai,saada,v16_lexicon_tier1,NO,NO,NO,šill aigoa miun muamoń šai;,Maksuatiha,1895
+j01593,en,ei,ei,v16_lexicon_tier1,YES,NO,NO,en kerinnyn mieldä skoppie,Maksuatiha,1895
+j01593,kerinnyn,keritä,käydä,fuzzy_lexicon_morphological,NO,NO,NO,en kerinnyn mieldä skoppie,Maksuatiha,1895
+j01593,mieldä,mieli,mieli,voikko_omorfi,YES,NO,NO,en kerinnyn mieldä skoppie,Maksuatiha,1895
+j01593,skoppie,skoppie,kopata,fuzzy_lexicon_morphological,NO,NO,NO,en kerinnyn mieldä skoppie,Maksuatiha,1895
+j01593,annettih,antaa,antaa,fuzzy_lexicon_morphological,YES,NO,NO,annettih miun vierahalla rannalla.,Maksuatiha,1895
+j01593,miun,minä,minä,v16_lexicon_tier1,YES,NO,NO,annettih miun vierahalla rannalla.,Maksuatiha,1895
+j01593,vierahalla,vieras,viera,omorfi_contextual,NO,NO,NO,annettih miun vierahalla rannalla.,Maksuatiha,1895
+j01593,rannalla,rannalla,ranta,omorfi_contextual,NO,NO,NO,annettih miun vierahalla rannalla.,Maksuatiha,1895
+j01593,vieras,vieras,vieras,omorfi_contextual,YES,NO,NO,"Vieraš tuatto, vieraž muamo",Maksuatiha,1895
+j01593,tuatto,taatto,tuotto,voikko_omorfi,NO,NO,NO,"Vieraš tuatto, vieraž muamo",Maksuatiha,1895
+j01593,vieraz,vieras,vieras,voikko_omorfi,YES,NO,NO,"Vieraš tuatto, vieraž muamo",Maksuatiha,1895
+j01593,muamo,maamo,moa,fuzzy_lexicon_morphological,NO,NO,NO,"Vieraš tuatto, vieraž muamo",Maksuatiha,1895
+j01593,azietta,asia,aie,voikko_omorfi,NO,NO,NO,"azietta haukutah, d'ialatta lyyväh.",Maksuatiha,1895
+j01593,haukutah,haukkua,haukkua,voikko_omorfi,YES,NO,NO,"azietta haukutah, d'ialatta lyyväh.",Maksuatiha,1895
+j01593,dialatta,tielo,dia,omorfi_contextual,NO,NO,NO,"azietta haukutah, d'ialatta lyyväh.",Maksuatiha,1895
+j01593,lyyväh,lyödä,myydä,fuzzy_lexicon_morphological,NO,NO,NO,"azietta haukutah, d'ialatta lyyväh.",Maksuatiha,1895
+j01593,kolme,kolme,kolme,v16_lexicon_tier1,YES,NO,NO,"Kolme vuotta, koiss en ollun,",Maksuatiha,1895
+j01593,vuotta,vuosi,vuosi,v16_lexicon_tier1,YES,NO,NO,"Kolme vuotta, koiss en ollun,",Maksuatiha,1895
+j01593,koiss,koti,koi,voikko_omorfi,NO,NO,NO,"Kolme vuotta, koiss en ollun,",Maksuatiha,1895
+j01593,en,ei,ei,v16_lexicon_tier1,YES,NO,NO,"Kolme vuotta, koiss en ollun,",Maksuatiha,1895
+j01593,ollun,olla,olla,omorfi_contextual,YES,NO,NO,"Kolme vuotta, koiss en ollun,",Maksuatiha,1895
+j01593,nellännellä,neljä,neli,voikko_omorfi,NO,NO,NO,nel'l'ännellä laškiettih.,Maksuatiha,1895
+j01593,laskiettih,laskea,laittaa,fuzzy_lexicon_morphological,NO,NO,NO,nel'l'ännellä laškiettih.,Maksuatiha,1895
+j01593,linduzena,lintu,lintu,fuzzy_lexicon_morphological,YES,NO,NO,"Linduzena lenniin, soloveina lauloin;",Maksuatiha,1895
+j01593,lenniin,lentää,ennen,fuzzy_lexicon_morphological,NO,NO,NO,"Linduzena lenniin, soloveina lauloin;",Maksuatiha,1895
+j01593,soloveina,solovei,sol,omorfi_contextual,NO,NO,NO,"Linduzena lenniin, soloveina lauloin;",Maksuatiha,1895
+j01593,lauloin,laulaa,laulaa,omorfi_contextual,YES,NO,NO,"Linduzena lenniin, soloveina lauloin;",Maksuatiha,1895
+j01593,mänin,mennä,mennä,voikko_omorfi,YES,NO,NO,"mänin, tuaton savun kaiken kyynelellä upotin.",Maksuatiha,1895
+j01593,tuaton,taatto,tuma,voikko_omorfi,NO,NO,NO,"mänin, tuaton savun kaiken kyynelellä upotin.",Maksuatiha,1895
+j01593,savun,savu,savu,omorfi_contextual,YES,NO,NO,"mänin, tuaton savun kaiken kyynelellä upotin.",Maksuatiha,1895
+j01593,kaiken,kaikki,kaikki,v16_lexicon_tier1,YES,NO,NO,"mänin, tuaton savun kaiken kyynelellä upotin.",Maksuatiha,1895
+j01593,kyynelellä,kyynel,kyynel,omorfi_contextual,YES,NO,NO,"mänin, tuaton savun kaiken kyynelellä upotin.",Maksuatiha,1895
+j01593,upotin,upottaa,upottaa,omorfi_contextual,YES,NO,NO,"mänin, tuaton savun kaiken kyynelellä upotin.",Maksuatiha,1895
+j01593,muamo,maamo,moa,fuzzy_lexicon_morphological,NO,NO,NO,Muamo nägi da šano:,Maksuatiha,1895
+j01593,nägi,nähdä,nähdä,voikko_omorfi,YES,NO,NO,Muamo nägi da šano:,Maksuatiha,1895
+j01593,da,da,da,v17_lexicon_tier1_pos_x,YES,NO,NO,Muamo nägi da šano:,Maksuatiha,1895
+j01593,sano,sanoa,sanoa,v16_lexicon_tier1,YES,NO,NO,Muamo nägi da šano:,Maksuatiha,1895
+j01593,nouskua,nousta,nousu,voikko_omorfi,NO,NO,NO,"""Nouškua nouškua, mieli-minńäzet,",Maksuatiha,1895
+j01593,nouskua,nousta,nousu,voikko_omorfi,NO,NO,NO,"""Nouškua nouškua, mieli-minńäzet,",Maksuatiha,1895
+j01593,mieliminnäzet,mieliminiä,mennä,fuzzy_lexicon_aggressive,NO,NO,NO,"""Nouškua nouškua, mieli-minńäzet,",Maksuatiha,1895
+j01593,eigo,ei,ei,omorfi_contextual,YES,NO,NO,"eigo miun goŕa kerin(nyn).""",Maksuatiha,1895
+j01593,miun,minä,minä,v16_lexicon_tier1,YES,NO,NO,"eigo miun goŕa kerin(nyn).""",Maksuatiha,1895
+j01593,gora,goŕa,ora,voikko_omorfi,NO,NO,NO,"eigo miun goŕa kerin(nyn).""",Maksuatiha,1895
+j01593,kerinnyn,keritä,käydä,fuzzy_lexicon_morphological,NO,NO,NO,"eigo miun goŕa kerin(nyn).""",Maksuatiha,1895
+j01593,kävelöv,kävellä,velvyt,fuzzy_lexicon_aggressive,NO,NO,NO,Kävelöv muamońe pert'ie myöt'en.,Maksuatiha,1895
+j01593,muamone,maamo,moa,fuzzy_lexicon_morphological,NO,NO,NO,Kävelöv muamońe pert'ie myöt'en.,Maksuatiha,1895
+j01593,pertie,pirtti,per,omorfi_contextual,NO,NO,NO,Kävelöv muamońe pert'ie myöt'en.,Maksuatiha,1895
+j01593,myöten,myöten,myöten,omorfi_contextual,YES,NO,NO,Kävelöv muamońe pert'ie myöt'en.,Maksuatiha,1895
+j01593,elä,ei,elää,omorfi_contextual,NO,NO,NO,"""Elä kävele muamozeń,",Maksuatiha,1895
+j01593,kävele,kävellä,kävellä,omorfi_contextual,YES,NO,NO,"""Elä kävele muamozeń,",Maksuatiha,1895
+j01593,muamozen,maamo,muna,fuzzy_lexicon_morphological,NO,NO,NO,"""Elä kävele muamozeń,",Maksuatiha,1895
+j01593,mielminnät,mieliminiä,mennä,fuzzy_lexicon_aggressive,NO,NO,NO,"miel-minńät viek'etäh??.""",Maksuatiha,1895
+j01593,vieketäh,viedä & etäällä / virkkaa?,viiken,fuzzy_lexicon_morphological,NO,NO,NO,"miel-minńät viek'etäh??.""",Maksuatiha,1895
+j01593,lähtöv,lähteä,lähtö,voikko_omorfi,NO,NO,NO,Lähtöv muamo šuattamah.,Maksuatiha,1895
+j01593,muamo,maamo,moa,fuzzy_lexicon_morphological,NO,NO,NO,Lähtöv muamo šuattamah.,Maksuatiha,1895
+j01593,suattamah,saattaa,huvattaa,fuzzy_lexicon_morphological,NO,NO,NO,Lähtöv muamo šuattamah.,Maksuatiha,1895
+j01593,suattav,saattaa,suka,voikko_omorfi,NO,NO,NO,Šuattav muamo jogeh šuaten.,Maksuatiha,1895
+j01593,muamo,maamo,moa,fuzzy_lexicon_morphological,NO,NO,NO,Šuattav muamo jogeh šuaten.,Maksuatiha,1895
+j01593,jogeh,joki,joka,fuzzy_lexicon_morphological,NO,NO,NO,Šuattav muamo jogeh šuaten.,Maksuatiha,1895
+j01593,suaten,saakka,sutata,voikko_omorfi,NO,NO,NO,Šuattav muamo jogeh šuaten.,Maksuatiha,1895
+j01593,elä,ei,elää,v16_lexicon_tier1,NO,NO,NO,"""Elä šuata, muamozeń,",Maksuatiha,1895
+j01593,suata,saattaa,sata,voikko_omorfi,NO,NO,NO,"""Elä šuata, muamozeń,",Maksuatiha,1895
+j01593,muamozen,maamo,muna,fuzzy_lexicon_morphological,NO,NO,NO,"""Elä šuata, muamozeń,",Maksuatiha,1895
+j01593,mieliminnät,mieliminiä,mieli,voikko_omorfi,NO,NO,NO,"mieli-minńät virk'etäh.""",Maksuatiha,1895
+j01593,virketäh,viedä & etäällä / virkkaa?,veri,fuzzy_lexicon_morphological,NO,NO,NO,"mieli-minńät virk'etäh.""",Maksuatiha,1895
+j03901,woi,voi,voi,voikko_omorfi,YES,NO,NO,"Woi! Kuin olen oppinnaa,",Savitaipale,1848
+j03901,kuin,kuin,kuin,omorfi_contextual,YES,NO,NO,"Woi! Kuin olen oppinnaa,",Savitaipale,1848
+j03901,olen,olla,olla,omorfi_contextual,YES,NO,NO,"Woi! Kuin olen oppinnaa,",Savitaipale,1848
+j03901,oppinnaa,oppia,pop,voikko_omorfi,NO,NO,NO,"Woi! Kuin olen oppinnaa,",Savitaipale,1848
+j03901,tuot,tuo,tuoda,omorfi_contextual,NO,NO,NO,Tuot palon viina juomaan.,Savitaipale,1848
+j03901,palon,palo,palko,omorfi_contextual,NO,NO,NO,Tuot palon viina juomaan.,Savitaipale,1848
+j03901,viina,viina,viina,v16_lexicon_tier1,YES,NO,NO,Tuot palon viina juomaan.,Savitaipale,1848
+j03901,juomaan,juoda,juoda,v16_lexicon_tier1,YES,NO,NO,Tuot palon viina juomaan.,Savitaipale,1848
+j03901,äitiin,äiti,äiti,omorfi_contextual,YES,NO,NO,"Äitiin Käsköö Lapeenrannast,",Savitaipale,1848
+j03901,käsköö,käskeä,käskeä,fuzzy_lexicon_morphological,YES,NO,NO,"Äitiin Käsköö Lapeenrannast,",Savitaipale,1848
+j03901,lapeenrannast,Lappeenranta,panna,fuzzy_lexicon_aggressive,NO,NO,NO,"Äitiin Käsköö Lapeenrannast,",Savitaipale,1848
+j03901,renkas,rengas,rengas,voikko_omorfi,YES,NO,NO,"Renkas Korrvaa, tuomaan,",Savitaipale,1848
+j03901,korrvaa,korva,korva,voikko_omorfi,YES,NO,NO,"Renkas Korrvaa, tuomaan,",Savitaipale,1848
+j03901,tuomaan,tuoda,tuoda,omorfi_contextual,YES,NO,NO,"Renkas Korrvaa, tuomaan,",Savitaipale,1848
+j03901,jo,jo,jo,v16_lexicon_tier1,YES,NO,NO,"Jo on hevoinen valjahissa,",Savitaipale,1848
+j03901,on,olla,olla,omorfi_contextual,YES,NO,NO,"Jo on hevoinen valjahissa,",Savitaipale,1848
+j03901,hevoinen,hevoinen,hevonen,voikko_omorfi,NO,NO,NO,"Jo on hevoinen valjahissa,",Savitaipale,1848
+j03901,valjahissa,valjas,valjaat,omorfi_contextual,NO,NO,NO,"Jo on hevoinen valjahissa,",Savitaipale,1848
+j03901,hyppää,hypätä,hypätä,omorfi_contextual,YES,NO,NO,Hyppää likka rekkeen;,Savitaipale,1848
+j03901,likka,likka,likka,omorfi_contextual,YES,NO,NO,Hyppää likka rekkeen;,Savitaipale,1848
+j03901,rekkeen,reki,reki,voikko_omorfi,YES,NO,NO,Hyppää likka rekkeen;,Savitaipale,1848
+j03901,pijan,pijan,piha,voikko_omorfi,NO,NO,NO,"Pijan olet Kiijetetty,",Savitaipale,1848
+j03901,olet,olet,olla,omorfi_contextual,NO,NO,NO,"Pijan olet Kiijetetty,",Savitaipale,1848
+j03901,kiijetetty,kiijetetty,jättää,fuzzy_lexicon_morphological,NO,NO,NO,"Pijan olet Kiijetetty,",Savitaipale,1848
+j03901,lapenrannan,Lappeenranta,appi,voikko_omorfi,NO,NO,NO,Lapenrannan etteen.,Savitaipale,1848
+j03901,etteen,eteen,eteen,voikko_omorfi,YES,NO,NO,Lapenrannan etteen.,Savitaipale,1848
+j17753,iro,Iro,jo,fuzzy_lexicon_morphological,NO,NO,NO,Iro neiti impi neiti,Pistojärvi,1931
+j17753,neiti,neiti,neiti,v16_lexicon_tier1,YES,NO,NO,Iro neiti impi neiti,Pistojärvi,1931
+j17753,impi,impi,impi,omorfi_contextual,YES,NO,NO,Iro neiti impi neiti,Pistojärvi,1931
+j17753,neiti,neiti,neiti,v16_lexicon_tier1,YES,NO,NO,Iro neiti impi neiti,Pistojärvi,1931
+j17753,suki,sukia,su,omorfi_contextual,NO,NO,NO,Suki piätä surautteli,Pistojärvi,1931
+j17753,piätä,pää,piä,omorfi_contextual,NO,NO,NO,Suki piätä surautteli,Pistojärvi,1931
+j17753,surautteli,surautella,sadella,fuzzy_lexicon_aggressive,NO,NO,NO,Suki piätä surautteli,Pistojärvi,1931
+j17753,suuren,suuri,suuri,v16_lexicon_tier1,YES,NO,NO,Suuren meren rantasessa,Pistojärvi,1931
+j17753,meren,meri,meri,v16_lexicon_tier1,YES,NO,NO,Suuren meren rantasessa,Pistojärvi,1931
+j17753,rantasessa,rantanen,ranne,fuzzy_lexicon_morphological,NO,NO,NO,Suuren meren rantasessa,Pistojärvi,1931
+j17753,sukani,sukanen,suka,omorfi_contextual,NO,NO,NO,Sukani mereh surahti,Pistojärvi,1931
+j17753,mereh,meri,meri,voikko_omorfi,YES,NO,NO,Sukani mereh surahti,Pistojärvi,1931
+j17753,surahti,surahtaa,surahtaa,omorfi_contextual,YES,NO,NO,Sukani mereh surahti,Pistojärvi,1931
+j17753,pyyvystelin,pyydystellä,hyvä,fuzzy_lexicon_aggressive,NO,NO,NO,Pyyvystelin suahustelin,Pistojärvi,1931
+j17753,suahustelin,suahussella,sadella,fuzzy_lexicon_morphological,NO,NO,NO,Pyyvystelin suahustelin,Pistojärvi,1931
+j17753,ta,ta,ta,omorfi_contextual,YES,NO,NO,Ta enkä suanut suvaistani,Pistojärvi,1931
+j17753,enkä,ei,ei,v16_lexicon_tier1,YES,NO,NO,Ta enkä suanut suvaistani,Pistojärvi,1931
+j17753,suanut,saada,suoda,voikko_omorfi,NO,NO,NO,Ta enkä suanut suvaistani,Pistojärvi,1931
+j17753,suvaistani,sukanen,su,omorfi_contextual,NO,NO,NO,Ta enkä suanut suvaistani,Pistojärvi,1931
+j17753,ta,ta,ta,omorfi_contextual,YES,NO,NO,Ta kolme tukkua,Pistojärvi,1931
+j17753,kolme,kolme,kolme,v16_lexicon_tier1,YES,NO,NO,Ta kolme tukkua,Pistojärvi,1931
+j17753,tukkua,tukku,tukku,omorfi_contextual,YES,NO,NO,Ta kolme tukkua,Pistojärvi,1931
+j17753,loisin,luoda,loisia,omorfi_contextual,NO,NO,NO,Loisin mereh riähkä tulou,Pistojärvi,1931
+j17753,mereh,meri,meri,voikko_omorfi,YES,NO,NO,Loisin mereh riähkä tulou,Pistojärvi,1931
+j17753,riähkä,räähkä,reikä,fuzzy_lexicon_morphological,NO,NO,NO,Loisin mereh riähkä tulou,Pistojärvi,1931
+j17753,tulou,tulla,tulo,voikko_omorfi,NO,NO,NO,Loisin mereh riähkä tulou,Pistojärvi,1931
+j17753,loisin,luoda,loisia,omorfi_contextual,NO,NO,NO,Loisin mereh riähkä tulou,Pistojärvi,1931
+j17753,mereh,meri,meri,voikko_omorfi,YES,NO,NO,Loisin mereh riähkä tulou,Pistojärvi,1931
+j17753,riähkä,räähkä,reikä,fuzzy_lexicon_morphological,NO,NO,NO,Loisin mereh riähkä tulou,Pistojärvi,1931
+j17753,tulou,tulla,tulo,voikko_omorfi,NO,NO,NO,Loisin mereh riähkä tulou,Pistojärvi,1931
+j17753,panisin,panna,panna,omorfi_contextual,YES,NO,NO,Panisin oikieh poskipieleh,Pistojärvi,1931
+j17753,oikieh,oikea,poikia,fuzzy_lexicon_morphological,NO,NO,NO,Panisin oikieh poskipieleh,Pistojärvi,1931
+j17753,poskipieleh,poskipieli,poski,voikko_omorfi,NO,NO,NO,Panisin oikieh poskipieleh,Pistojärvi,1931
+j17753,alka,alkaa,ala,voikko_omorfi,NO,NO,NO,Alka vatsa kasvua,Pistojärvi,1931
+j17753,vatsa,vatsa,vatsa,omorfi_contextual,YES,NO,NO,Alka vatsa kasvua,Pistojärvi,1931
+j17753,kasvua,kasvaa,kasvu,omorfi_contextual,NO,NO,NO,Alka vatsa kasvua,Pistojärvi,1931
+j17753,kasvo,kasvaa,kasvo,omorfi_contextual,NO,NO,NO,Kasvo vatsa varpasista??,Pistojärvi,1931
+j17753,vatsa,vatsa,vatsa,omorfi_contextual,YES,NO,NO,Kasvo vatsa varpasista??,Pistojärvi,1931
+j17753,varpasista,varpanen,vaski,fuzzy_lexicon_morphological,NO,NO,NO,Kasvo vatsa varpasista??,Pistojärvi,1931
+j17753,kohu,kohtu,kohu,omorfi_contextual,NO,NO,NO,Kohu kohosi korttehista,Pistojärvi,1931
+j17753,kohosi,kohota,kohota,omorfi_contextual,YES,NO,NO,Kohu kohosi korttehista,Pistojärvi,1931
+j17753,korttehista,korte,korte,omorfi_contextual,YES,NO,NO,Kohu kohosi korttehista,Pistojärvi,1931
+j17753,alko,alkaa,alkaa,v16_lexicon_tier1,YES,NO,NO,Alko vatsa kasvua,Pistojärvi,1931
+j17753,vatsa,vatsa,vatsa,omorfi_contextual,YES,NO,NO,Alko vatsa kasvua,Pistojärvi,1931
+j17753,kasvua,kasvaa,kasvu,omorfi_contextual,NO,NO,NO,Alko vatsa kasvua,Pistojärvi,1931
+j17753,ta,ta,ta,omorfi_contextual,YES,NO,NO,Ta joi poikani rotiutuu,Pistojärvi,1931
+j17753,joi,jo i,juoda,v16_lexicon_tier1,NO,NO,NO,Ta joi poikani rotiutuu,Pistojärvi,1931
+j17753,poikani,poika,poika,omorfi_contextual,YES,NO,NO,Ta joi poikani rotiutuu,Pistojärvi,1931
+j17753,rotiutuu,rotiutuo,riutua,fuzzy_lexicon_morphological,NO,NO,NO,Ta joi poikani rotiutuu,Pistojärvi,1931
+j17753,ta,ta,ta,omorfi_contextual,YES,NO,NO,Ta en lähei krossuani mänettämäh,Pistojärvi,1931
+j17753,en,ei,ei,omorfi_contextual,YES,NO,NO,Ta en lähei krossuani mänettämäh,Pistojärvi,1931
+j17753,lähei,lähteä,lähteä,voikko_omorfi,YES,NO,NO,Ta en lähei krossuani mänettämäh,Pistojärvi,1931
+j17753,krossuani,krossu,krossi,voikko_omorfi,NO,NO,NO,Ta en lähei krossuani mänettämäh,Pistojärvi,1931
+j17753,mänettämäh,menettää,mennä,fuzzy_lexicon_aggressive,NO,NO,NO,Ta en lähei krossuani mänettämäh,Pistojärvi,1931
+j17753,nimen,nimi,nimi,omorfi_contextual,YES,NO,NO,Nimen panen patshahutan,Pistojärvi,1931
+j17753,panen,panna,panna,omorfi_contextual,YES,NO,NO,Nimen panen patshahutan,Pistojärvi,1931
+j17753,patshahutan,patšahuttoa,patsas,fuzzy_lexicon_morphological,NO,NO,NO,Nimen panen patshahutan,Pistojärvi,1931
+j17753,nimi,nimi,nimi,omorfi_contextual,YES,NO,NO,Nimi tuli Nikolai,Pistojärvi,1931
+j17753,tuli,tulla,tulla,omorfi_contextual,YES,NO,NO,Nimi tuli Nikolai,Pistojärvi,1931
+j17753,nikolai,Nikolai,kala,fuzzy_lexicon_morphological,NO,NO,NO,Nimi tuli Nikolai,Pistojärvi,1931
+j17753,iro,Iro,jo,fuzzy_lexicon_morphological,NO,NO,NO,"Iro neiti, impi neiti",Pistojärvi,1931
+j17753,neiti,neiti,neiti,v16_lexicon_tier1,YES,NO,NO,"Iro neiti, impi neiti",Pistojärvi,1931
+j17753,impi,impi,impi,omorfi_contextual,YES,NO,NO,"Iro neiti, impi neiti",Pistojärvi,1931
+j17753,neiti,neiti,neiti,v16_lexicon_tier1,YES,NO,NO,"Iro neiti, impi neiti",Pistojärvi,1931
+j17753,lämmitä,lämmitteä,lämmitä,omorfi_contextual,NO,NO,NO,Lämmitä kyly läikähytä,Pistojärvi,1931
+j17753,kyly,kyly,kyly,omorfi_contextual,YES,NO,NO,Lämmitä kyly läikähytä,Pistojärvi,1931
+j17753,läikähytä,läikäyttää,läikäyttää,voikko_omorfi,YES,NO,NO,Lämmitä kyly läikähytä,Pistojärvi,1931
+j17753,pese,pestä,pestä,omorfi_contextual,YES,NO,NO,Pese pääni pellaspivo,Pistojärvi,1931
+j17753,pääni,pää,pää,v16_lexicon_tier1,YES,NO,NO,Pese pääni pellaspivo,Pistojärvi,1931
+j17753,pellaspivo,pellavapivo,pallas,voikko_omorfi,NO,NO,NO,Pese pääni pellaspivo,Pistojärvi,1931
+j17753,kakla,kaula,kaula,dialectal_dictionary,YES,YES,NO,Kakla kullan karvallini,Pistojärvi,1931
+j17753,kullan,kulta,kulta,v16_lexicon_tier1,YES,NO,NO,Kakla kullan karvallini,Pistojärvi,1931
+j17753,karvallini,karvallinen,karvallinen,v16_lexicon_tier1,YES,NO,NO,Kakla kullan karvallini,Pistojärvi,1931
+j17753,läpi,läpi,läpi,v16_lexicon_tier1,YES,NO,NO,Läpi lännen läiköttämäh??,Pistojärvi,1931
+j17753,lännen,länsi,länsi,omorfi_contextual,YES,NO,NO,Läpi lännen läiköttämäh??,Pistojärvi,1931
+j17753,läiköttämäh,läiköttää,heittää,fuzzy_lexicon_aggressive,NO,NO,NO,Läpi lännen läiköttämäh??,Pistojärvi,1931
+j17753,läpi,läpi,läpi,v16_lexicon_tier1,YES,NO,NO,Läpi pilvien pilkehtimät,Pistojärvi,1931
+j17753,pilvien,pilvi,pilvi,omorfi_contextual,YES,NO,NO,Läpi pilvien pilkehtimät,Pistojärvi,1931
+j17753,pilkehtimät,pilkottaa,ilkeä,fuzzy_lexicon_morphological,NO,NO,NO,Läpi pilvien pilkehtimät,Pistojärvi,1931
+j17753,iro,Iro,jo,fuzzy_lexicon_morphological,NO,NO,NO,"Iro neiti, impi neiti",Pistojärvi,1931
+j17753,neiti,neiti,neiti,v16_lexicon_tier1,YES,NO,NO,"Iro neiti, impi neiti",Pistojärvi,1931
+j17753,impi,impi,impi,omorfi_contextual,YES,NO,NO,"Iro neiti, impi neiti",Pistojärvi,1931
+j17753,neiti,neiti,neiti,v16_lexicon_tier1,YES,NO,NO,"Iro neiti, impi neiti",Pistojärvi,1931
+j17753,prostii,prostie,prostoi,fuzzy_lexicon_morphological,NO,NO,NO,Prostii blahoslovi naimah,Pistojärvi,1931
+j17753,blahoslovi,blahoslovi,laulaa,fuzzy_lexicon_aggressive,NO,NO,NO,Prostii blahoslovi naimah,Pistojärvi,1931
+j17753,naimah,naida,naida,voikko_omorfi,YES,NO,NO,Prostii blahoslovi naimah,Pistojärvi,1931
+j17753,et,ei,ei,v16_lexicon_tier1,YES,NO,NO,Et ole vielä naista vailla,Pistojärvi,1931
+j17753,ole,olla,olla,v16_lexicon_tier1,YES,NO,NO,Et ole vielä naista vailla,Pistojärvi,1931
+j17753,vielä,vielä,vielä,v16_lexicon_tier1,YES,NO,NO,Et ole vielä naista vailla,Pistojärvi,1931
+j17753,naista,nainen,nainen,omorfi_contextual,YES,NO,NO,Et ole vielä naista vailla,Pistojärvi,1931
+j17753,vailla,vailla,vailla,omorfi_contextual,YES,NO,NO,Et ole vielä naista vailla,Pistojärvi,1931
+j17753,vielä,vielä,vielä,v16_lexicon_tier1,YES,NO,NO,Vielä olet mieltä vailla,Pistojärvi,1931
+j17753,olet,olla,olla,omorfi_contextual,YES,NO,NO,Vielä olet mieltä vailla,Pistojärvi,1931
+j17753,mieltä,mieli,mieli,v16_lexicon_tier1,YES,NO,NO,Vielä olet mieltä vailla,Pistojärvi,1931
+j17753,vailla,vailla,vailla,omorfi_contextual,YES,NO,NO,Vielä olet mieltä vailla,Pistojärvi,1931
+j17753,iro,Iro,jo,fuzzy_lexicon_morphological,NO,NO,NO,Iro neiti impi neiti,Pistojärvi,1931
+j17753,neiti,neiti,neiti,v16_lexicon_tier1,YES,NO,NO,Iro neiti impi neiti,Pistojärvi,1931
+j17753,impi,impi,impi,omorfi_contextual,YES,NO,NO,Iro neiti impi neiti,Pistojärvi,1931
+j17753,neiti,neiti,neiti,v16_lexicon_tier1,YES,NO,NO,Iro neiti impi neiti,Pistojärvi,1931
+j17753,vallassa,valjastaa,valta,omorfi_contextual,NO,NO,NO,Vallassa varsa heponi,Pistojärvi,1931
+j17753,varsa,varsa,varsa,omorfi_contextual,YES,NO,NO,Vallassa varsa heponi,Pistojärvi,1931
+j17753,heponi,hevonen,hepo,omorfi_contextual,NO,NO,NO,Vallassa varsa heponi,Pistojärvi,1931
+j17753,kiinittele,kiinnitellä,kiinnitellä,voikko_omorfi,YES,NO,NO,Kiinittele rintamoini,Pistojärvi,1931
+j17753,rintamoini,rintamoini,rinta,voikko_omorfi,NO,NO,NO,Kiinittele rintamoini,Pistojärvi,1931
+j17753,läksi,lähteä,lähteä,v16_lexicon_tier1,YES,NO,NO,Läksi ajua karettamah,Pistojärvi,1931
+j17753,ajua,ajaa,aju,omorfi_contextual,NO,NO,NO,Läksi ajua karettamah,Pistojärvi,1931
+j17753,karettamah,karettaa,kartta,fuzzy_lexicon_morphological,NO,NO,NO,Läksi ajua karettamah,Pistojärvi,1931
+j17753,ajau,ajaa,ajaa,voikko_omorfi,YES,NO,NO,Ajau poikki suuren meren,Pistojärvi,1931
+j17753,poikki,poikki,poikki,v16_lexicon_tier1,YES,NO,NO,Ajau poikki suuren meren,Pistojärvi,1931
+j17753,suuren,suuri,suuri,v16_lexicon_tier1,YES,NO,NO,Ajau poikki suuren meren,Pistojärvi,1931
+j17753,meren,meri,meri,v16_lexicon_tier1,YES,NO,NO,Ajau poikki suuren meren,Pistojärvi,1931
+j17753,ta,ta,ta,omorfi_contextual,YES,NO,NO,Ta luveh merestä luotoh,Pistojärvi,1931
+j17753,luveh,lukea,hyvä,fuzzy_lexicon_morphological,NO,NO,NO,Ta luveh merestä luotoh,Pistojärvi,1931
+j17753,merestä,meri,meri,v16_lexicon_tier1,YES,NO,NO,Ta luveh merestä luotoh,Pistojärvi,1931
+j17753,luotoh,luoto,luoto,voikko_omorfi,YES,NO,NO,Ta luveh merestä luotoh,Pistojärvi,1931
+j17753,luotosesta,luotonen,luoto,omorfi_contextual,NO,NO,NO,Luotosesta tuomiseh,Pistojärvi,1931
+j17753,tuomiseh,tuominen,tuominen,voikko_omorfi,YES,NO,NO,Luotosesta tuomiseh,Pistojärvi,1931
+j17753,tuomisesta,tuominen,tuominen,omorfi_contextual,YES,NO,NO,Tuomisesta vempeleh,Pistojärvi,1931
+j17753,vempeleh,vemmel,vemmel,voikko_omorfi,YES,NO,NO,Tuomisesta vempeleh,Pistojärvi,1931
+j17753,siitä,se,se,omorfi_contextual,YES,NO,NO,Siitä ajua karettelou,Pistojärvi,1931
+j17753,ajua,ajaa,aju,omorfi_contextual,NO,NO,NO,Siitä ajua karettelou,Pistojärvi,1931
+j17753,karettelou,karettaa,soitella,fuzzy_lexicon_aggressive,NO,NO,NO,Siitä ajua karettelou,Pistojärvi,1931
+j17753,toisen,toinen,toinen,v16_lexicon_tier1,YES,NO,NO,Toisen suuren meren poikki,Pistojärvi,1931
+j17753,suuren,suuri,suuri,v16_lexicon_tier1,YES,NO,NO,Toisen suuren meren poikki,Pistojärvi,1931
+j17753,meren,meri,meri,v16_lexicon_tier1,YES,NO,NO,Toisen suuren meren poikki,Pistojärvi,1931
+j17753,poikki,poikki,poikki,v16_lexicon_tier1,YES,NO,NO,Toisen suuren meren poikki,Pistojärvi,1931
+j17753,luve,lukea,luode,dialectal_dictionary,NO,YES,NO,Luve merestä luotoseh,Pistojärvi,1931
+j17753,merestä,meri,meri,v16_lexicon_tier1,YES,NO,NO,Luve merestä luotoseh,Pistojärvi,1931
+j17753,luotoseh,luotonen,luoda,fuzzy_lexicon_morphological,NO,NO,NO,Luve merestä luotoseh,Pistojärvi,1931
+j17753,luotosesta,luotonen,luoto,omorfi_contextual,NO,NO,NO,Luotosesta raitaseh,Pistojärvi,1931
+j17753,raitaseh,raitanen,aitta,fuzzy_lexicon_morphological,NO,NO,NO,Luotosesta raitaseh,Pistojärvi,1931
+j17753,raitasesta,raitanen,raita,omorfi_contextual,NO,NO,NO,Raitasesta poroniemeh,Pistojärvi,1931
+j17753,poroniemeh,poroniemi,poro,voikko_omorfi,NO,NO,NO,Raitasesta poroniemeh,Pistojärvi,1931
+j17753,katsou,katsoa,katsoa,voikko_omorfi,YES,NO,NO,Katsou ka krasnaija Katerina,Pistojärvi,1931
+j17753,ka,ka,ka,omorfi_contextual,YES,NO,NO,Katsou ka krasnaija Katerina,Pistojärvi,1931
+j17753,krasnaija,krasnaja,krapsata,fuzzy_lexicon_aggressive,NO,NO,NO,Katsou ka krasnaija Katerina,Pistojärvi,1931
+j17753,katerina,Katerina,kate,voikko_omorfi,NO,NO,NO,Katsou ka krasnaija Katerina,Pistojärvi,1931
+j17753,vuatetta,vaate,vuosi,fuzzy_lexicon_morphological,NO,NO,NO,Vuatetta puolikoi??,Pistojärvi,1931
+j17753,puolikoi,pulikoida?,puoli,omorfi_contextual,NO,NO,NO,Vuatetta puolikoi??,Pistojärvi,1931
+j17753,kultasella,kultainen,kultanen,omorfi_contextual,NO,NO,NO,Kultasella lipnitsällä,Pistojärvi,1931
+j17753,lipnitsällä,lipnitsä,päällä,fuzzy_lexicon_aggressive,NO,NO,NO,Kultasella lipnitsällä,Pistojärvi,1931
+j17753,hopiesella,hopeinen,hopeinen,voikko_omorfi,YES,NO,NO,Hopiesella pualikalla,Pistojärvi,1931
+j17753,pualikalla,pulikka,palikka,voikko_omorfi,NO,NO,NO,Hopiesella pualikalla,Pistojärvi,1931
+j17753,joko,joko,joko,v16_lexicon_tier1,YES,NO,NO,Joko olet miuhu päin,Pistojärvi,1931
+j17753,olet,olla,olla,omorfi_contextual,YES,NO,NO,Joko olet miuhu päin,Pistojärvi,1931
+j17753,miuhu,minä,minä,fuzzy_lexicon_morphological,YES,NO,NO,Joko olet miuhu päin,Pistojärvi,1931
+j17753,päin,päin,päin,omorfi_contextual,YES,NO,NO,Joko olet miuhu päin,Pistojärvi,1931
+j17753,en,ei,ei,v16_lexicon_tier1,YES,NO,NO,En ole vielä teihi päin,Pistojärvi,1931
+j17753,ole,olla,olla,v16_lexicon_tier1,YES,NO,NO,En ole vielä teihi päin,Pistojärvi,1931
+j17753,vielä,vielä,vielä,v16_lexicon_tier1,YES,NO,NO,En ole vielä teihi päin,Pistojärvi,1931
+j17753,teihi,te,tee,voikko_omorfi,NO,NO,NO,En ole vielä teihi päin,Pistojärvi,1931
+j17753,päin,päin,päin,omorfi_contextual,YES,NO,NO,En ole vielä teihi päin,Pistojärvi,1931
+j17753,punonetta,punoa,punoa,voikko_omorfi,YES,NO,NO,Punonetta ruumesta köyven,Pistojärvi,1931
+j17753,kyrön,Kyrö,kytö,voikko_omorfi,NO,NO,NO,Kyntänettä Kyrön pellon,Pistojärvi,1931
+j34982,hussi,hus,huussi,voikko_omorfi,NO,NO,NO,Hussi sika mehtään,Hankasalmi,1962
+j34982,sika,sika,sika,omorfi_contextual,YES,NO,NO,Hussi sika mehtään,Hankasalmi,1962
+j34982,mehtään,metsä,mikä,fuzzy_lexicon_morphological,NO,NO,NO,Hussi sika mehtään,Hankasalmi,1962
+j34982,tule,tulla,tulla,omorfi_contextual,YES,NO,NO,tule vasta jouluna kottiin.,Hankasalmi,1962
+j34982,vasta,vasta,vasta,omorfi_contextual,YES,NO,NO,tule vasta jouluna kottiin.,Hankasalmi,1962
+j34982,jouluna,joulu,joulu,omorfi_contextual,YES,NO,NO,tule vasta jouluna kottiin.,Hankasalmi,1962
+j34982,kottiin,koti,koti,v16_lexicon_tier1,YES,NO,NO,tule vasta jouluna kottiin.,Hankasalmi,1962
+j34982,tuo,tuoda,tuo,omorfi_contextual,NO,NO,NO,Tuo sillon marjoja tullessas,Hankasalmi,1962
+j34982,sillon,sillon,sillon,omorfi_contextual,YES,NO,NO,Tuo sillon marjoja tullessas,Hankasalmi,1962
+j34982,marjoja,marja,marja,omorfi_contextual,YES,NO,NO,Tuo sillon marjoja tullessas,Hankasalmi,1962
+j34982,tullessas,tulla,tulla,voikko_omorfi,YES,NO,NO,Tuo sillon marjoja tullessas,Hankasalmi,1962
+j34982,sinisessä,sininen,sininen,omorfi_contextual,YES,NO,NO,sinisessä sississäs,Hankasalmi,1962
+j34982,sississäs,sissi,sissi,voikko_omorfi,YES,NO,NO,sinisessä sississäs,Hankasalmi,1962
+j34982,punasessa,punainen,punanen,omorfi_contextual,NO,NO,NO,punasessa pussissas,Hankasalmi,1962
+j34982,pussissas,pussi,pussi,voikko_omorfi,YES,NO,NO,punasessa pussissas,Hankasalmi,1962
+j34982,karvasessa,karvainen,karva,fuzzy_lexicon_morphological,NO,NO,NO,karvasessa kassissas,Hankasalmi,1962
+j34982,kassissas,kassi,kassi,voikko_omorfi,YES,NO,NO,karvasessa kassissas,Hankasalmi,1962
+j34982,häntäs,häntä,häntä,voikko_omorfi,YES,NO,NO,häntäs alla vakkasessa.,Hankasalmi,1962
+j34982,alla,alla,alla,v16_lexicon_tier1,YES,NO,NO,häntäs alla vakkasessa.,Hankasalmi,1962
+j34982,vakkasessa,vakkanen,vakkanen,omorfi_contextual,YES,NO,NO,häntäs alla vakkasessa.,Hankasalmi,1962
+j34982,heitä,heittää,he,omorfi_contextual,NO,NO,NO,Heitä kaevon kannelle,Hankasalmi,1962
+j34982,kaevon,kaivo,kasvo,voikko_omorfi,NO,NO,NO,Heitä kaevon kannelle,Hankasalmi,1962
+j34982,kannelle,kansi,kansi,omorfi_contextual,YES,NO,NO,Heitä kaevon kannelle,Hankasalmi,1962
+j34982,sieltä,sieltä,siellä,v16_lexicon_tier1,NO,NO,NO,sieltä se laps ne löytää.,Hankasalmi,1962
+j34982,se,se,se,v16_lexicon_tier1,YES,NO,NO,sieltä se laps ne löytää.,Hankasalmi,1962
+j34982,laps,lapsi,lapsi,voikko_omorfi,YES,NO,NO,sieltä se laps ne löytää.,Hankasalmi,1962
+j34982,ne,ne,ne,v16_lexicon_tier1,YES,NO,NO,sieltä se laps ne löytää.,Hankasalmi,1962
+j34982,löytää,löytää,löytää,omorfi_contextual,YES,NO,NO,sieltä se laps ne löytää.,Hankasalmi,1962
+j35306,meiän,me,me,v16_lexicon_tier1,YES,NO,NO,"Meiän kudravoi kuninGas,",Narvusi,1937
+j35306,kudravoi,kudravoi,kura,voikko_omorfi,NO,NO,NO,"Meiän kudravoi kuninGas,",Narvusi,1937
+j35306,kuningas,kuningas,kuningas,omorfi_contextual,YES,NO,NO,"Meiän kudravoi kuninGas,",Narvusi,1937
+j35306,meiän,meiän,me,v16_lexicon_tier1,NO,NO,NO,meiän staarostan tasaine,Narvusi,1937
+j35306,staarostan,staarosta,aalto,fuzzy_lexicon_aggressive,NO,NO,NO,meiän staarostan tasaine,Narvusi,1937
+j35306,tasaine,tasaine,tasainen,voikko_omorfi,NO,NO,NO,meiän staarostan tasaine,Narvusi,1937
+j35306,meijän,me,me,omorfi_contextual,YES,NO,NO,"Meijän kuBjan kuuluisempi,",Narvusi,1937
+j35306,kubjan,kubja,kuja,voikko_omorfi,NO,NO,NO,"Meijän kuBjan kuuluisempi,",Narvusi,1937
+j35306,kuuluisempi,kuuluisampi,kuuluisa,omorfi_contextual,NO,NO,NO,"Meijän kuBjan kuuluisempi,",Narvusi,1937
+j35306,ajjaa,ajaa,ajaa,voikko_omorfi,YES,NO,NO,"ajjaa kyllää kyytille,",Narvusi,1937
+j35306,kyllää,kylä,kyllä,voikko_omorfi,NO,NO,NO,"ajjaa kyllää kyytille,",Narvusi,1937
+j35306,kyytille,kyyti,kyyti,voikko_omorfi,YES,NO,NO,"ajjaa kyllää kyytille,",Narvusi,1937
+j35306,yövalolla,yövalo,yövalo,omorfi_contextual,YES,NO,NO,"yövalolla kuuvalolla,",Narvusi,1937
+j35306,kuuvalolla,kuuvalo,kuu,omorfi_contextual,NO,NO,NO,"yövalolla kuuvalolla,",Narvusi,1937
+j35306,päiväd,päivä,päivä,voikko_omorfi,YES,NO,NO,"päiväD valGievalolla,",Narvusi,1937
+j35306,valgievalolla,valkeavalo,valkia,fuzzy_lexicon_aggressive,NO,NO,NO,"päiväD valGievalolla,",Narvusi,1937
+j35306,korjataa,korjata,korja,voikko_omorfi,NO,NO,NO,"korjataa pojat kokkoo,",Narvusi,1937
+j35306,pojat,poika,poika,v16_lexicon_tier1,YES,NO,NO,"korjataa pojat kokkoo,",Narvusi,1937
+j35306,kokkoo,kokoon,kokko,voikko_omorfi,NO,NO,NO,"korjataa pojat kokkoo,",Narvusi,1937
+j35306,vallasta,valta,valta,omorfi_contextual,YES,NO,NO,"vallasta vanaD ukot,",Narvusi,1937
+j35306,vanad,vanha,vana,voikko_omorfi,NO,NO,NO,"vallasta vanaD ukot,",Narvusi,1937
+j35306,ukot,ukko,ukko,omorfi_contextual,YES,NO,NO,"vallasta vanaD ukot,",Narvusi,1937
+j35306,kysytellää,kysytellä,kysellä,fuzzy_lexicon_morphological,NO,NO,NO,"kysytellää poikaisilt,",Narvusi,1937
+j35306,poikaisilt,poikanen,poika,fuzzy_lexicon_morphological,NO,NO,NO,"kysytellää poikaisilt,",Narvusi,1937
+j35306,vannotellaa,vannotella,vannotella,fuzzy_lexicon_aggressive,YES,NO,NO,"vannotellaa vanhemBie,",Narvusi,1937
+j35306,vanhembie,vanhempi,vaimentua,fuzzy_lexicon_morphological,NO,NO,NO,"vannotellaa vanhemBie,",Narvusi,1937
+j35306,onko,olla,olla,omorfi_contextual,YES,NO,NO,"onko vallassa varast,",Narvusi,1937
+j35306,vallassa,valta,valta,omorfi_contextual,YES,NO,NO,"onko vallassa varast,",Narvusi,1937
+j35306,varast,varas,vara,voikko_omorfi,NO,NO,NO,"onko vallassa varast,",Narvusi,1937
+j35306,pienen,pieni,pieni,omorfi_contextual,YES,NO,NO,"pienen pillan tienijäist,",Narvusi,1937
+j35306,pillan,pilla,ilta,voikko_omorfi,NO,NO,NO,"pienen pillan tienijäist,",Narvusi,1937
+j35306,tienijäist,tienijäinen,tietää,fuzzy_lexicon_morphological,NO,NO,NO,"pienen pillan tienijäist,",Narvusi,1937
+j35306,kovan,kova,kova,omorfi_contextual,YES,NO,NO,"kovan kortsin käyvijäist,",Narvusi,1937
+j35306,kortsin,kortsin,kortti,voikko_omorfi,NO,NO,NO,"kovan kortsin käyvijäist,",Narvusi,1937
+j35306,käyvijäist,kävijäinen,kivi,fuzzy_lexicon_morphological,NO,NO,NO,"kovan kortsin käyvijäist,",Narvusi,1937
+j35306,vallan,valta,valta,v16_lexicon_tier1,YES,NO,NO,Vallan miehet vastaelloot:,Narvusi,1937
+j35306,miehet,mies,mies,v16_lexicon_tier1,YES,NO,NO,Vallan miehet vastaelloot:,Narvusi,1937
+j35306,vastaelloot,vastata,vastata,fuzzy_lexicon_morphological,YES,NO,NO,Vallan miehet vastaelloot:,Narvusi,1937
+j35306,ei,ei,ei,v16_lexicon_tier1,YES,NO,NO,"Ei oo vallassa varast,",Narvusi,1937
+j35306,oo,olla,olla,omorfi_contextual,YES,NO,NO,"Ei oo vallassa varast,",Narvusi,1937
+j35306,vallassa,valta,vallassa,omorfi_contextual,NO,NO,NO,"Ei oo vallassa varast,",Narvusi,1937
+j35306,varast,varas,vara,voikko_omorfi,NO,NO,NO,"Ei oo vallassa varast,",Narvusi,1937
+j35306,pienen,pieni,pieni,omorfi_contextual,YES,NO,NO,"pienen pillan tehnijäist,",Narvusi,1937
+j35306,pillan,pilla,ilta,voikko_omorfi,NO,NO,NO,"pienen pillan tehnijäist,",Narvusi,1937
+j35306,tehnijäist,tehnijäinen,tietää,fuzzy_lexicon_morphological,NO,NO,NO,"pienen pillan tehnijäist,",Narvusi,1937
+j35306,kovan,kova,kova,omorfi_contextual,YES,NO,NO,"kovan kortsin käynijäist,",Narvusi,1937
+j35306,kortsin,kortsi,kortti,voikko_omorfi,NO,NO,NO,"kovan kortsin käynijäist,",Narvusi,1937
+j35306,käynijäist,käynijäinen,käydä,fuzzy_lexicon_morphological,NO,NO,NO,"kovan kortsin käynijäist,",Narvusi,1937
+j35306,meit,me,me,v16_lexicon_tier1,YES,NO,NO,"Meit ono veljii jo paljo,",Narvusi,1937
+j35306,ono,olla,mono,voikko_omorfi,NO,NO,NO,"Meit ono veljii jo paljo,",Narvusi,1937
+j35306,veljii,veli,veli,voikko_omorfi,YES,NO,NO,"Meit ono veljii jo paljo,",Narvusi,1937
+j35306,jo,jo,jo,v16_lexicon_tier1,YES,NO,NO,"Meit ono veljii jo paljo,",Narvusi,1937
+j35306,paljo,paljon,paljo,omorfi_contextual,NO,NO,NO,"Meit ono veljii jo paljo,",Narvusi,1937
+j35306,kaiken,kaiken,kaikki,v16_lexicon_tier1,NO,NO,NO,"kaiken odran kantajii,",Narvusi,1937
+j35306,odran,otra,ora,voikko_omorfi,NO,NO,NO,"kaiken odran kantajii,",Narvusi,1937
+j35306,kantajii,kantaja,kanta,omorfi_contextual,NO,NO,NO,"kaiken odran kantajii,",Narvusi,1937
+j35306,rikas,rikas,rikas,omorfi_contextual,YES,NO,NO,"rikas rahal lunastaa,",Narvusi,1937
+j35306,rahal,raha,raha,voikko_omorfi,YES,NO,NO,"rikas rahal lunastaa,",Narvusi,1937
+j35306,lunastaa,lunastaa,lunastaa,omorfi_contextual,YES,NO,NO,"rikas rahal lunastaa,",Narvusi,1937
+j35306,köyh,köyhä,köyhä,voikko_omorfi,YES,NO,NO,köyh raukka pään pannoo.,Narvusi,1937
+j35306,raukka,raukka,raukka,v16_lexicon_tier1,YES,NO,NO,köyh raukka pään pannoo.,Narvusi,1937
+j35306,pään,pää,pää,omorfi_contextual,YES,NO,NO,köyh raukka pään pannoo.,Narvusi,1937
+j35306,pannoo,panna,pano,voikko_omorfi,NO,NO,NO,köyh raukka pään pannoo.,Narvusi,1937
+j35306,visattii,viskata,veistää,fuzzy_lexicon_morphological,NO,NO,NO,"Visattii arBoi poikoizil,",Narvusi,1937
+j35306,arboi,arpa,arpoa,voikko_omorfi,NO,NO,NO,"Visattii arBoi poikoizil,",Narvusi,1937
+j35306,poikoizil,poika,poika,fuzzy_lexicon_morphological,YES,NO,NO,"Visattii arBoi poikoizil,",Narvusi,1937
+j35306,kenen,kuka,kuka,omorfi_contextual,YES,NO,NO,kenen arpa ensimmäin?,Narvusi,1937
+j35306,arpa,arpa,arpa,omorfi_contextual,YES,NO,NO,kenen arpa ensimmäin?,Narvusi,1937
+j35306,ensimmäin,ensimmäinen,ensimmäinen,fuzzy_lexicon_morphological,YES,NO,NO,kenen arpa ensimmäin?,Narvusi,1937
+j35306,lesen,leski,lestä,omorfi_contextual,NO,NO,NO,"Lesen pojan armottoman,",Narvusi,1937
+j35306,pojan,poika,poika,v16_lexicon_tier1,YES,NO,NO,"Lesen pojan armottoman,",Narvusi,1937
+j35306,armottoman,armoton,armoton,omorfi_contextual,YES,NO,NO,"Lesen pojan armottoman,",Narvusi,1937
+j35306,armottoman,armoton,armoton,omorfi_contextual,YES,NO,NO,"armottoman, turvattoman.",Narvusi,1937
+j35306,turvattoman,turvaton,turvaton,omorfi_contextual,YES,NO,NO,"armottoman, turvattoman.",Narvusi,1937
+j35306,vietii,viedä,viedä,omorfi_contextual,YES,NO,NO,"Vietii ottajiin ovilla,",Narvusi,1937
+j35306,ottajiin,ottaja,ottaja,omorfi_contextual,YES,NO,NO,"Vietii ottajiin ovilla,",Narvusi,1937
+j35306,ovilla,ovi,ovi,omorfi_contextual,YES,NO,NO,"Vietii ottajiin ovilla,",Narvusi,1937
+j35306,gubernaadrin,kuvernööri,kuin sinä,fuzzy_lexicon_aggressive,NO,NO,NO,gubernaaDrin kujal.,Narvusi,1937
+j35306,kujal,kuja,kuja,voikko_omorfi,YES,NO,NO,gubernaaDrin kujal.,Narvusi,1937
+j35306,ottajit,ottaja,ottaa,fuzzy_lexicon_morphological,NO,NO,NO,"ottajit ovil seistie,",Narvusi,1937
+j35306,ovil,ovi,ovi,voikko_omorfi,YES,NO,NO,"ottajit ovil seistie,",Narvusi,1937
+j35306,seistie,seistä,seos,voikko_omorfi,NO,NO,NO,"ottajit ovil seistie,",Narvusi,1937
+j35306,gubernaatrit,kuvernööri,kutri,fuzzy_lexicon_aggressive,NO,NO,NO,"gubernaatrit kujal,",Narvusi,1937
+j35306,kujal,kuja,kuja,voikko_omorfi,YES,NO,NO,"gubernaatrit kujal,",Narvusi,1937
+j35306,mitottii,mittoa,mitoittaa,voikko_omorfi,NO,NO,NO,"mitottii ja mierottii,",Narvusi,1937
+j35306,ja,ja,ja,v16_lexicon_tier1,YES,NO,NO,"mitottii ja mierottii,",Narvusi,1937
+j35306,mierottii,mieroa,hieroa,fuzzy_lexicon_morphological,NO,NO,NO,"mitottii ja mierottii,",Narvusi,1937
+j35306,viel,vielä,vielä,v16_lexicon_tier1,YES,NO,NO,"viel oli verskahan venunut,",Narvusi,1937
+j35306,oli,olla,olla,omorfi_contextual,YES,NO,NO,"viel oli verskahan venunut,",Narvusi,1937
+j35306,verskahan,verska,verka,voikko_omorfi,NO,NO,NO,"viel oli verskahan venunut,",Narvusi,1937
+j35306,venunut,venyä,vanua,voikko_omorfi,NO,NO,NO,"viel oli verskahan venunut,",Narvusi,1937
+j35306,olen,olki,olla,omorfi_contextual,NO,NO,NO,olen kortta korkenussut.,Narvusi,1937
+j35306,kortta,korsi,korsi,omorfi_contextual,YES,NO,NO,olen kortta korkenussut.,Narvusi,1937
+j35306,korkenussut,korkeistua,korento,fuzzy_lexicon_aggressive,NO,NO,NO,olen kortta korkenussut.,Narvusi,1937
+j35306,pandii,panna,panna,fuzzy_lexicon_morphological,YES,NO,NO,"Pandii poiGa stuolil,",Narvusi,1937
+j35306,poiga,poika,poiga,v16_lexicon_tier1,NO,NO,NO,"Pandii poiGa stuolil,",Narvusi,1937
+j35306,stuolil,tuoli,tuolta,fuzzy_lexicon_morphological,NO,NO,NO,"Pandii poiGa stuolil,",Narvusi,1937
+j35306,siihin,siihen,sii,omorfi_contextual,NO,NO,NO,"siihin tukka tuullattii,",Narvusi,1937
+j35306,tukka,tukka,tukka,omorfi_contextual,YES,NO,NO,"siihin tukka tuullattii,",Narvusi,1937
+j35306,tuullattii,tuultaa,tuolta,fuzzy_lexicon_aggressive,NO,NO,NO,"siihin tukka tuullattii,",Narvusi,1937
+j35306,hiuksed,hius,hius,voikko_omorfi,YES,NO,NO,"hiukseD pääst hillattii,",Narvusi,1937
+j35306,pääst,pää,pää,voikko_omorfi,YES,NO,NO,"hiukseD pääst hillattii,",Narvusi,1937
+j35306,hillattii,hillata,ilta,fuzzy_lexicon_morphological,NO,NO,NO,"hiukseD pääst hillattii,",Narvusi,1937
+j35306,liemenä,liemen,liemi,omorfi_contextual,NO,NO,NO,"liemenä levitettii,",Narvusi,1937
+j35306,levitettii,levittää,levittää,omorfi_contextual,YES,NO,NO,"liemenä levitettii,",Narvusi,1937
+j35306,tuotii,tuoda,tuoda,omorfi_contextual,YES,NO,NO,"tuotii paita päällä polven,",Narvusi,1937
+j35306,paita,paita,paita,v16_lexicon_tier1,YES,NO,NO,"tuotii paita päällä polven,",Narvusi,1937
+j35306,päällä,päällä,päällä,omorfi_contextual,YES,NO,NO,"tuotii paita päällä polven,",Narvusi,1937
+j35306,polven,polvi,polvi,v16_lexicon_tier1,YES,NO,NO,"tuotii paita päällä polven,",Narvusi,1937
+j35306,tuotii,tuoda,tuoda,omorfi_contextual,YES,NO,NO,"tuotii stanaD alla kandoin,",Narvusi,1937
+j35306,stanad,štanad,sana,fuzzy_lexicon_morphological,NO,NO,NO,"tuotii stanaD alla kandoin,",Narvusi,1937
+j35306,alla,alla,alla,v16_lexicon_tier1,YES,NO,NO,"tuotii stanaD alla kandoin,",Narvusi,1937
+j35306,kandoin,kanta,kandi,voikko_omorfi,NO,NO,NO,"tuotii stanaD alla kandoin,",Narvusi,1937
+j35306,tuotii,tuoda,tuoda,omorfi_contextual,YES,NO,NO,"tuotii saappaat vaskikannat,",Narvusi,1937
+j35306,saappaat,saapas,saapas,omorfi_contextual,YES,NO,NO,"tuotii saappaat vaskikannat,",Narvusi,1937
+j35306,vaskikannat,vaskikanta,vaski,omorfi_contextual,NO,NO,NO,"tuotii saappaat vaskikannat,",Narvusi,1937
+j35306,tuotii,tuoda,tuoda,omorfi_contextual,YES,NO,NO,"tuotii se sinišineli,",Narvusi,1937
+j35306,se,se,se,v16_lexicon_tier1,YES,NO,NO,"tuotii se sinišineli,",Narvusi,1937
+j35306,sinisineli,sinisineli,šin,omorfi_contextual,NO,NO,NO,"tuotii se sinišineli,",Narvusi,1937
+j35306,tuotii,tuoda,tuoda,omorfi_contextual,YES,NO,NO,"tuotii hattu päälaella,",Narvusi,1937
+j35306,hattu,hattu,hattu,v16_lexicon_tier1,YES,NO,NO,"tuotii hattu päälaella,",Narvusi,1937
+j35306,päälaella,päälaki,päälaki,omorfi_contextual,YES,NO,NO,"tuotii hattu päälaella,",Narvusi,1937
+j35306,miekka,miekka,miekka,v16_lexicon_tier1,YES,NO,NO,"miekka annettii akaks,",Narvusi,1937
+j35306,annettii,annettii,antaa,omorfi_contextual,NO,NO,NO,"miekka annettii akaks,",Narvusi,1937
+j35306,akaks,akaks,akka,voikko_omorfi,NO,NO,NO,"miekka annettii akaks,",Narvusi,1937
+j35306,šuma,"suma, sumkka",soma,fuzzy_lexicon_morphological,NO,NO,NO,"šuma suruiksi sanoiksi,",Narvusi,1937
+j35306,suruiksi,suru,suru,omorfi_contextual,YES,NO,NO,"šuma suruiksi sanoiksi,",Narvusi,1937
+j35306,sanoiksi,sana,sana,v16_lexicon_tier1,YES,NO,NO,"šuma suruiksi sanoiksi,",Narvusi,1937
+j35306,pyssy,pyssy,pyssy,omorfi_contextual,YES,NO,NO,"pyssy mieliksi hyviksi,",Narvusi,1937
+j35306,mieliksi,mieli,mieli,omorfi_contextual,YES,NO,NO,"pyssy mieliksi hyviksi,",Narvusi,1937
+j35306,hyviksi,hyvä,hyvä,omorfi_contextual,YES,NO,NO,"pyssy mieliksi hyviksi,",Narvusi,1937
+j35306,pyhät,pyhä,pyhä,omorfi_contextual,YES,NO,NO,"pyhät pyssyjä puhastaa,",Narvusi,1937
+j35306,pyssyjä,pyssy,pyssy,omorfi_contextual,YES,NO,NO,"pyhät pyssyjä puhastaa,",Narvusi,1937
+j35306,puhastaa,puhdistaa,puhastaa,omorfi_contextual,NO,NO,NO,"pyhät pyssyjä puhastaa,",Narvusi,1937
+j35306,ared,arki,artti,fuzzy_lexicon_morphological,NO,NO,NO,"areD ain opissa ollaa,",Narvusi,1937
+j35306,ain,aina,aa,omorfi_contextual,NO,NO,NO,"areD ain opissa ollaa,",Narvusi,1937
+j35306,opissa,oppi,oppi,omorfi_contextual,YES,NO,NO,"areD ain opissa ollaa,",Narvusi,1937
+j35306,ollaa,olla,olla,voikko_omorfi,YES,NO,NO,"areD ain opissa ollaa,",Narvusi,1937
+j35306,vietii,viedä,viedä,omorfi_contextual,YES,NO,NO,"Vietii poikoi ampumaa,",Narvusi,1937
+j35306,poikoi,poika,poi,omorfi_contextual,NO,NO,NO,"Vietii poikoi ampumaa,",Narvusi,1937
+j35306,ampumaa,ampumaa,ampua,omorfi_contextual,NO,NO,NO,"Vietii poikoi ampumaa,",Narvusi,1937
+j35306,poik,poika,poi,voikko_omorfi,NO,NO,NO,"poik ampuu, ajattelloo;",Narvusi,1937
+j35306,ampuu,ampua,ampua,omorfi_contextual,YES,NO,NO,"poik ampuu, ajattelloo;",Narvusi,1937
+j35306,ajattelloo,ajatella,aika,fuzzy_lexicon_aggressive,NO,NO,NO,"poik ampuu, ajattelloo;",Narvusi,1937
+j35306,ko,kun,ko,omorfi_contextual,NO,NO,NO,"ko se tietäis miun emäni,",Narvusi,1937
+j35306,se,se,se,v16_lexicon_tier1,YES,NO,NO,"ko se tietäis miun emäni,",Narvusi,1937
+j35306,tietäis,tietää,tietää,omorfi_contextual,YES,NO,NO,"ko se tietäis miun emäni,",Narvusi,1937
+j35306,miun,minä,minä,v16_lexicon_tier1,YES,NO,NO,"ko se tietäis miun emäni,",Narvusi,1937
+j35306,emäni,emo,emä,v16_lexicon_tier1,NO,NO,NO,"ko se tietäis miun emäni,",Narvusi,1937
+j35306,haleksis,haleksia,lähteä,fuzzy_lexicon_morphological,NO,NO,NO,"haleksis hautojani,",Narvusi,1937
+j35306,hautojani,hautoja,hauta,omorfi_contextual,NO,NO,NO,"haleksis hautojani,",Narvusi,1937
+j35306,sirssan,virsta,kosia,fuzzy_lexicon_morphological,NO,NO,NO,sirssan viikossa tulisi,Narvusi,1937
+j35306,viikossa,viikko,viikko,omorfi_contextual,YES,NO,NO,sirssan viikossa tulisi,Narvusi,1937
+j35306,tulisi,tulla,tulla,omorfi_contextual,YES,NO,NO,sirssan viikossa tulisi,Narvusi,1937
+j35306,vaaksan,vaaksa,vaaksa,omorfi_contextual,YES,NO,NO,"vaaksan päivässä valuisi,",Narvusi,1937
+j35306,päivässä,päivä,päivä,omorfi_contextual,YES,NO,NO,"vaaksan päivässä valuisi,",Narvusi,1937
+j35306,valuisi,valua,valua,omorfi_contextual,YES,NO,NO,"vaaksan päivässä valuisi,",Narvusi,1937
+j35306,syntine,syntinen,syntinen,voikko_omorfi,YES,NO,NO,"syntine syvän pivossa,",Narvusi,1937
+j35306,syvän,sydän,syvä,omorfi_contextual,NO,NO,NO,"syntine syvän pivossa,",Narvusi,1937
+j35306,pivossa,pivo,pivo,omorfi_contextual,YES,NO,NO,"syntine syvän pivossa,",Narvusi,1937
+j35306,vaivaine,vaivainen,vai,omorfi_contextual,NO,NO,NO,"vaivaine vatsa käes,",Narvusi,1937
+j35306,vatsa,vatsa,vatsa,omorfi_contextual,YES,NO,NO,"vaivaine vatsa käes,",Narvusi,1937
+j35306,käes,käsi,äes,voikko_omorfi,NO,NO,NO,"vaivaine vatsa käes,",Narvusi,1937
+j35306,lentis,lentää,lentis,omorfi_contextual,NO,NO,NO,"lentis sieltä lintui paljo,",Narvusi,1937
+j35306,sieltä,sieltä,siellä,v16_lexicon_tier1,NO,NO,NO,"lentis sieltä lintui paljo,",Narvusi,1937
+j35306,lintui,lintu,lintu,voikko_omorfi,YES,NO,NO,"lentis sieltä lintui paljo,",Narvusi,1937
+j35306,paljo,paljon,paljo,omorfi_contextual,NO,NO,NO,"lentis sieltä lintui paljo,",Narvusi,1937
+j35306,ja,ja,ja,v16_lexicon_tier1,YES,NO,NO,"ja haroz hania paljo,",Narvusi,1937
+j35306,haroz,harota,haroa,voikko_omorfi,NO,NO,NO,"ja haroz hania paljo,",Narvusi,1937
+j35306,hania,hanhi,hani,omorfi_contextual,NO,NO,NO,"ja haroz hania paljo,",Narvusi,1937
+j35306,paljo,paljon,paljo,omorfi_contextual,NO,NO,NO,"ja haroz hania paljo,",Narvusi,1937
+j35306,oi,oi,oi,v16_lexicon_tier1,YES,NO,NO,"oi linnut taivaan alaizeD,",Narvusi,1937
+j35306,linnut,lintu,lintu,v16_lexicon_tier1,YES,NO,NO,"oi linnut taivaan alaizeD,",Narvusi,1937
+j35306,taivaan,taivas,taivas,omorfi_contextual,YES,NO,NO,"oi linnut taivaan alaizeD,",Narvusi,1937
+j35306,alaized,alainen,alainen,fuzzy_lexicon_morphological,YES,NO,NO,"oi linnut taivaan alaizeD,",Narvusi,1937
+j35306,yli,yli,yli,v16_lexicon_tier1,YES,NO,NO,"yli matkoin marššijaD,",Narvusi,1937
+j35306,matkoin,matka,matka,omorfi_contextual,YES,NO,NO,"yli matkoin marššijaD,",Narvusi,1937
+j35306,marssijad,marssia,marssi,voikko_omorfi,NO,NO,NO,"yli matkoin marššijaD,",Narvusi,1937
+j35306,viekää,viedä,viedä,omorfi_contextual,YES,NO,NO,"viekää viessit miun emäl,",Narvusi,1937
+j35306,viessit,viesti,vissi,voikko_omorfi,NO,NO,NO,"viekää viessit miun emäl,",Narvusi,1937
+j35306,miun,minä,minä,v16_lexicon_tier1,YES,NO,NO,"viekää viessit miun emäl,",Narvusi,1937
+j35306,emäl,emo,emä,voikko_omorfi,NO,NO,NO,"viekää viessit miun emäl,",Narvusi,1937
+j35306,sanat,sana,sana,omorfi_contextual,YES,NO,NO,"sanat saunoin tuoajlleni,",Narvusi,1937
+j35306,saunoin,sauna,saunoa,omorfi_contextual,NO,NO,NO,"sanat saunoin tuoajlleni,",Narvusi,1937
+j35306,tuoajlleni,tuoja,tuoda,voikko_omorfi,NO,NO,NO,"sanat saunoin tuoajlleni,",Narvusi,1937
+j35306,ettei,ettei,ettei,omorfi_contextual,YES,NO,NO,"ettei itkisi miun emäni,",Narvusi,1937
+j35306,itkisi,itkeä,itkeä,omorfi_contextual,YES,NO,NO,"ettei itkisi miun emäni,",Narvusi,1937
+j35306,miun,minä,minä,v16_lexicon_tier1,YES,NO,NO,"ettei itkisi miun emäni,",Narvusi,1937
+j35306,emäni,emo,emä,v16_lexicon_tier1,NO,NO,NO,"ettei itkisi miun emäni,",Narvusi,1937
+j35306,halellis,haleksia,alla,fuzzy_lexicon_morphological,NO,NO,NO,"halellis hautojain,",Narvusi,1937
+j35306,hautojain,hautoja,hautoja,omorfi_contextual,YES,NO,NO,"halellis hautojain,",Narvusi,1937
+j35306,hyvä,hyvä,hyvä,omorfi_contextual,YES,NO,NO,"hyvä on olla soldattin,",Narvusi,1937
+j35306,on,olla,olla,omorfi_contextual,YES,NO,NO,"hyvä on olla soldattin,",Narvusi,1937
+j35306,olla,olla,olla,omorfi_contextual,YES,NO,NO,"hyvä on olla soldattin,",Narvusi,1937
+j35306,soldattin,soldatti,sota,fuzzy_lexicon_morphological,NO,NO,NO,"hyvä on olla soldattin,",Narvusi,1937
+j35306,matrossinna,matrossi,matka,fuzzy_lexicon_morphological,NO,NO,NO,"matrossinna viel parempi,",Narvusi,1937
+j35306,viel,vielä,vielä,v16_lexicon_tier1,YES,NO,NO,"matrossinna viel parempi,",Narvusi,1937
+j35306,parempi,parempi,paras,v16_lexicon_tier1,NO,NO,NO,"matrossinna viel parempi,",Narvusi,1937
+j35306,vaate,vaate,vaate,omorfi_contextual,YES,NO,NO,"vaate on valkee,",Narvusi,1937
+j35306,on,olla,olla,omorfi_contextual,YES,NO,NO,"vaate on valkee,",Narvusi,1937
+j35306,valkee,valkea,valkea,omorfi_contextual,YES,NO,NO,"vaate on valkee,",Narvusi,1937
+j35306,leipä,leipä,leipä,omorfi_contextual,YES,NO,NO,"leipä on selkiä,",Narvusi,1937
+j35306,on,olla,olla,omorfi_contextual,YES,NO,NO,"leipä on selkiä,",Narvusi,1937
+j35306,selkiä,selkeä,selkä,omorfi_contextual,NO,NO,NO,"leipä on selkiä,",Narvusi,1937
+j35306,mie,minä,minä,v16_lexicon_tier1,YES,NO,NO,"mie oon valkiepi sitäi,",Narvusi,1937
+j35306,oon,olla,olla,omorfi_contextual,YES,NO,NO,"mie oon valkiepi sitäi,",Narvusi,1937
+j35306,valkiepi,valkia,valkia,fuzzy_lexicon_morphological,YES,NO,NO,"mie oon valkiepi sitäi,",Narvusi,1937
+j35306,sitäi,sitä,sitä,voikko_omorfi,YES,NO,NO,"mie oon valkiepi sitäi,",Narvusi,1937
+j35306,igä,igä,ikä,voikko_omorfi,NO,NO,NO,iGä päiv on vari viht,Narvusi,1937
+j35306,päiv,päivä,päivä,voikko_omorfi,YES,NO,NO,iGä päiv on vari viht,Narvusi,1937
+j35306,on,olla,olla,omorfi_contextual,YES,NO,NO,iGä päiv on vari viht,Narvusi,1937
+j35306,vari,vari,vari,omorfi_contextual,YES,NO,NO,iGä päiv on vari viht,Narvusi,1937
+j35306,viht,vihta,vihi,voikko_omorfi,NO,NO,NO,iGä päiv on vari viht,Narvusi,1937
+j35306,ja,ja,ja,v16_lexicon_tier1,YES,NO,NO,ja kylmä saun.,Narvusi,1937
+j35306,kylmä,kylmä,kylmä,omorfi_contextual,YES,NO,NO,ja kylmä saun.,Narvusi,1937
+j35306,saun,sauna,saada,voikko_omorfi,NO,NO,NO,ja kylmä saun.,Narvusi,1937
