@@ -573,12 +573,9 @@ For questions or issues, please contact the repository maintainer (kaarel.veskis
 
 ## Acknowledgments
 
-- **Stanza**: Stanford NLP Group
-- **Omorfi**: Open Morphology of Finnish
-- **Voikko**: Finnish linguistic software
-- **SKVR Corpus**: Finnish Literature Society (*Suomalaisen Kirjallisuuden Seura*)
 
-This repository contains a derived JSON lexicon index built from  
+
+### This repository contains a derived JSON lexicon index built from  
 *Suomen murteiden sanakirja* (Dictionary of Finnish Dialects), Institute for the Languages of Finland (Kotus).
 
 The original dictionary is available online via Kotus at:  
@@ -588,8 +585,71 @@ The original dictionary is available online via Kotus at:
 Original data © Kotimaisten kielten keskus (Kotus), licensed under  
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-The data in `data/sms_lexicon.json` has been transformed and restructured from the original XML release;  
-any errors or omissions are the responsibility of this project.
+The data in the .json files has been transformed and restructured from the original XML release.
+
+
+---
+
+### Stanza – Stanford NLP Group
+
+This project uses **Stanza**, an open-source Python NLP toolkit developed by the
+[Stanford NLP Group](https://stanfordnlp.github.io/stanza/).  
+Stanza is released under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+If you use this software in academic work, please cite:
+
+Qi, Peng, Yuhao Zhang, Yuhui Zhang, Jason Bolton & Christopher D. Manning (2020).  
+*Stanza: A Python Natural Language Processing Toolkit for Many Human Languages.*  
+Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations.
+
+---
+
+### Omorfi – Open Morphology of Finnish
+
+This project uses **Omorfi – Open morphology of Finnish**, a free/libre open-source
+morphological lexicon and toolkit for Finnish developed by Tommi A. Pirinen and
+contributors. See the project page at:  
+https://flammie.github.io/omorfi/  
+and source code at:  
+https://github.com/flammie/omorfi
+
+Omorfi is distributed under free/open-source licenses (GPL-3.0 and Apache-2.0,
+depending on component); see the Omorfi repository for full license details.
+
+If you use Omorfi in academic work, please cite:
+
+Pirinen, Tommi A. (2015).  
+*Omorfi — Free and open source morphological lexical database for Finnish.*  
+Proceedings of NODALIDA 2015.
+
+---
+
+### Voikko – Finnish linguistic software
+
+This project uses **Voikko**, free linguistic software for Finnish providing spell
+checking, hyphenation, grammar checking and morphological analysis via the
+*libvoikko* library. See the Voikko project website:
+
+https://voikko.puimula.org/
+
+The Voikko components (including libvoikko and voikko-fi morphology) are
+distributed as free/open-source software (primarily under GPL-family licenses;
+see the individual package or source distribution for exact license terms).
+
+---
+
+### SKVR Corpus – Finnish Literature Society (SKS)
+
+This project uses runosong texts from the **SKVR – Suomen Kansan Vanhat Runot**
+corpus, provided by the [Finnish Literature Society (Suomalaisen Kirjallisuuden
+Seura, SKS)](https://www.finlit.fi/). The digital SKVR database is available at:
+
+https://aineistot.finlit.fi/exist/apps/skvr/
+
+The SKVR corpus contains nearly all traditionally collected Kalevala-metre
+poetry from Finnish, Karelian and Ingrian traditions, digitised and published
+by SKS. Rights and usage conditions for the SKVR materials are determined by
+SKS; users of this project should consult the SKVR site for details.
 
 
 	
