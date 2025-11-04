@@ -5,7 +5,7 @@ A hybrid Finnish dialectal poetry lemmatization system combining multiple NLP to
 
 ## Overview
 
-This repository contains a production-ready lemmatization system specifically designed for Finnish runosongs, achieving 59.9% exact match accuracy on manual annotations test set with expanded lexicon and V2 dialectal dictionary integration. The system uses a multi-tier fallback strategy with morphological feature awareness and 19,385 validated dialectal variants to handle the linguistic complexity of historical Finnish dialects.
+This repository contains a production-ready lemmatization system specifically designed for Finnish runosongs, achieving 60.4% exact match accuracy with Phase 12 compound integration on manual annotations test set with expanded lexicon and V2 dialectal dictionary integration. The system uses a multi-tier fallback strategy with morphological feature awareness, compound reconstruction, and 19,385 validated dialectal variants to handle the linguistic complexity of historical Finnish dialects.
 
 ## System Architecture
 
@@ -242,6 +242,41 @@ Method Performance:
 - **Batch Script**: `process_skvr_batch_v2.py`
 - **Evaluation**: `evaluate_train_expanded_FAIR.py`
 - **Results**: `finnish_lemma_evaluation_train_expanded_FAIR.csv`
+
+### V17 Phase 12 with Compound Integration (Current Production) **[RECOMMENDED]**
+
+The Phase 12 refactoring adds **compound reconstruction** for better handling of Finnish compound words through modular refactored components, achieving **60.4% accuracy** (+0.5pp improvement).
+
+```
+Total test words:    1,468
+Exact matches:       886 (60.4%)
+
+Phase 12 Improvements:
+- Compound reconstruction:      +0.5pp accuracy improvement (59.9% → 60.4%)
+- True compounds fixed:         15/79 (19% compound accuracy)
+- Conservative classification:  Prevents false positives from possessives
+- Refactored architecture:      Modular components (lemmatizer.py, lemmatizer_core.py)
+
+Compound Examples Fixed:
+- valdaherra → valtaherra (mighty lord)
+- kirjalehti → kirjalehti (book page)
+- olvitynnyri → olvitynnyri (beer barrel)
+- pahnakimppu → pahnakimppu (chaff bundle)
+- maakukka → maakukka (ground flower)
+```
+
+**Refactored Components:**
+- **lemmatizer.py** - Main lemmatizer with compound integration
+- **lemmatizer_core.py** - Core processing logic with compound reconstruction
+- **lemmatizer_config.py** - Configuration management
+- **compound_classifier.py** - Conservative compound classification
+- **compound_reconstructor.py** - Compound reconstruction logic
+- **process_skvr_batch_REFACTORED.py** - Batch processing with compound support
+- **evaluate_train_expanded_FAIR_REFACTORED.py** - Updated evaluation script
+
+**Documentation:**
+- See `BATCH_PROCESSING_REFACTORED.md` for batch processing guide
+- See `REFACTORED_USAGE_GUIDE.md` for API documentation
 
 
 ## Installation
@@ -520,15 +555,17 @@ This lemmatizer was developed for the **Finnish Kalevala-meter poetry corpus** (
 
 ## Development Status
 
-**Current Version**: V17 Phase 10 with Expanded Lexicon (59.9% accuracy)
+**Current Version**: V17 Phase 12 with Compound Integration (60.4% accuracy)
 **Status**: Production-ready
-**Last Updated**: 2025-11-03
+**Last Updated**: 2025-11-04
 
 ### Version History
 - **V17 Phase 6**: Baseline (58.3% accuracy)
 - **V17 Phase 7**: Voikko ranking improvements
 - **V17 Phase 8**: Fuzzy lexicon matching
 - **V17 Phase 9**: Morphological feature integration (58.8% accuracy)
+- **V17 Phase 10**: Expanded lexicon (59.9% accuracy)
+- **V17 Phase 12**: Compound integration + refactored modules (60.4% accuracy) ✅
 
 ## Contact
 
@@ -540,5 +577,19 @@ For questions or issues, please contact the repository maintainer (kaarel.veskis
 - **Omorfi**: Open Morphology of Finnish
 - **Voikko**: Finnish linguistic software
 - **SKVR Corpus**: Finnish Literature Society (*Suomalaisen Kirjallisuuden Seura*)
+
+This repository contains a derived JSON lexicon index built from  
+*Suomen murteiden sanakirja* (Dictionary of Finnish Dialects), Institute for the Languages of Finland (Kotus).
+
+The original dictionary is available online via Kotus at:  
+- Suomen murteiden sanakirja info page: https://kotus.fi/sanakirjat/suomen-murteiden-sanakirja/  
+- Online dictionary interface: http://kaino.kotus.fi/sms/
+
+Original data © Kotimaisten kielten keskus (Kotus), licensed under  
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+The data in `data/sms_lexicon.json` has been transformed and restructured from the original XML release;  
+any errors or omissions are the responsibility of this project.
+
 
 	
