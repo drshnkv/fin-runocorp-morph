@@ -95,8 +95,8 @@ def tokenize_poem(poem_text: str) -> List[str]:
     - List of words (tokens)
     """
     # Use regex to extract words (including Finnish characters)
-    # \\b = word boundary, \\w = word characters
-    words = re.findall(r'\\b[\\wäöåÄÖÅ]+\\b', poem_text, re.UNICODE)
+    # \b = word boundary, \w = word characters
+    words = re.findall(r'\b[\wäöåÄÖÅ]+\b', poem_text, re.UNICODE)
     return words
 
 
