@@ -84,14 +84,14 @@ This repository contains a production-ready lemmatization system specifically de
 
 **Test/Train Data:**
 
+Manual gold standard lemmatization of a selected part of Finnish runosong corpus (not currently included in github repo)
+
 - **`finnish_poems_gold_test_clean.csv`** - Test dataset (187 KB)
   - 24 Finnish poems, ~1,468 words
-  - Manual gold standard lemmatization
-  - Dialect/region annotations
-
+ 
 - **`finnish_poems_gold_train_clean.csv`** - Training dataset
   - Training data for lexicon development
-  - Additional dialectal examples
+  
 
 **Results and Output Files:**
 
@@ -541,4 +541,4 @@ For questions or issues, please contact the repository maintainer (kaarel.veskis
 - **Voikko**: Finnish linguistic software
 - **SKVR Corpus**: Finnish Literature Society (*Suomalaisen Kirjallisuuden Seura*)
 
-
+	
