@@ -7,43 +7,88 @@ A hybrid Finnish dialectal poetry lemmatization system combining multiple NLP to
 
 This repository contains a production-ready lemmatization system specifically designed for Finnish runosongs, achieving 60.4% exact match accuracy with Phase 12 compound integration on manual annotations test set with expanded lexicon and V2 dialectal dictionary integration. The system uses a multi-tier fallback strategy with morphological feature awareness, compound reconstruction, and 19,385 validated dialectal variants to handle the linguistic complexity of historical Finnish dialects.
 
+## Quick Start (Phase 12 - Recommended)
+
+### Installation
+See: `INSTALLATION.md`
+
+### Python API
+```python
+from lemmatizer import FinnishLemmatizer
+
+lemmatizer = FinnishLemmatizer(
+    voikko_path='/path/to/.voikko',
+    lexicon_path='selftraining_lexicon_train_with_additions.json'
+)
+
+results = lemmatizer.lemmatize_text("Vanhoilda silmät valu")
+for token in results:
+    print(f"{token['word']} → {token['lemma']}")
+```
+
+### Batch Processing
+```bash
+python3 process_skvr_batch_REFACTORED.py \
+  --input your_poems.csv \
+  --output lemmatized_results.csv \
+  --lexicon-path selftraining_lexicon_train_with_additions.json
+```
+
+### Evaluation
+```bash
+python3 evaluate_train_expanded_FAIR_REFACTORED.py
+# Expected: 60.4% accuracy
+```
+
 ## System Architecture
 
 ### Core Components
 
-1. **`fin_runocorp_base_v2_dialectal_dict_integrated.py`** - V2 lemmatization engine (recommended)
+#### Phase 12 (Current Production - 60.4% accuracy) **[RECOMMENDED]**
+
+1. **`lemmatizer.py`** - Main lemmatizer with compound integration
+   - 10-tier hybrid pipeline with compound reconstruction
+   - Imports from `lemmatizer_core.py` and `lemmatizer_config.py`
+   - **60.4% accuracy** on test set
+
+2. **`lemmatizer_core.py`** - Core processing logic
+   - Morphological analysis, Voikko integration
+   - Compound reconstruction logic
+
+3. **`lemmatizer_config.py`** - Configuration management
+   - Pipeline settings, thresholds, feature weights
+
+4. **`compound_classifier.py`** - Conservative compound classification
+   - Prevents false positives from possessives
+
+5. **`compound_reconstructor.py`** - Compound reconstruction logic
+   - Fixes compounds like `valdaherra` → `valtaherra`
+
+6. **`evaluate_train_expanded_FAIR_REFACTORED.py`** - Phase 12 evaluation script
+   - Uses refactored lemmatizer with compound integration
+
+7. **`process_skvr_batch_REFACTORED.py`** - Phase 12 batch processing script
+   - For processing large corpora like SKVR
+
+#### Legacy Components (Phase 10 and earlier)
+
+8. **`fin_runocorp_base_v2_dialectal_dict_integrated.py`** - Phase 10 lemmatizer (59.9%)
    - Multi-tier fallback chain with dialectal dictionary integration
    - 19,385 dialectal variants from Suomen Murteiden Sanakirja (SMS)
-   - Confidence-based override for spelling correction guesses
-   - Morphological feature extraction and similarity scoring
-   - Dialectal normalization integration
-   - POS-aware lemma selection
-   - **59.9% accuracy** on test set with expanded lexicon
+   - Pre-compound integration version; use Phase 12 `lemmatizer.py` for production
 
-2. **`fin_runocorp_base.py`** - V1 lemmatization engine (baseline)
-   - Multi-tier fallback chain (lexicon → Omorfi → Voikko → fuzzy matching)
-   - Morphological feature extraction and similarity scoring
-   - Dialectal normalization integration
-   - POS-aware lemma selection
-   - **58.8% accuracy** on test set
+9. **`fin_runocorp_base.py`** - V1 baseline lemmatizer (58.8%)
+   - Original fallback chain without dialectal dictionary
 
-3. **`dialectal_normalizer.py`** - Dialectal variant normalization
+10. **`dialectal_normalizer.py`** - Dialectal variant normalization
    - Handles h-variation (h-insertion/deletion)
    - Geminate consonant normalization
-   - Vowel length standardization
-   - Case-ending variations
+   - Used by both Phase 10 and Phase 12
 
-4. **`evaluate_v17_phase10.py`** - V2 evaluation script (current)
+11. **`evaluate_v17_phase10.py`** - Phase 10 evaluation (59.9%)
    - Gold standard comparison with dialectal dictionary tracking
-   - Detailed accuracy metrics
-   - Dictionary usage and success rate analysis
-   - Method performance tracking
 
-5. **`evaluate_v17_phase9.py`** - V1 evaluation script (baseline)
-   - Gold standard comparison
-   - Detailed accuracy metrics
-   - Ambiguous pattern analysis
-   - Method performance tracking
+12. **`evaluate_v17_phase9.py`** - Phase 9 baseline evaluation (58.8%)
 
 ### Supporting Resources
 
@@ -64,12 +109,12 @@ This repository contains a production-ready lemmatization system specifically de
   - Tier 1 (Gold Standard) entries from training data
   - **Baseline performance: 59.0% accuracy**
 
-- **`selftraining_lexicon_train_with_additions.json`** - Expanded train-only lexicon (1.1 MB) **[RECOMMENDED]**
+- **`selftraining_lexicon_train_with_additions.json`** - Expanded train-only lexicon (1.1 MB)
   - 5,484 unambiguous (word, POS) patterns (+57.8% over baseline)
   - Adds 2,009 entries from word_normalised and word_lemmatised fields
-  - **Achieves 59.9% accuracy (+0.9pp improvement)**
+  - **59.9% accuracy** (without compound integration; Phase 12 achieves 60.4%)
   - Better handling of archaic orthography and dialectal variants
-  - **Recommended for evaluation and production use**
+  - Used by Phase 12 system (see Phase 12 section below for production recommendation)
 
 - **`selftraining_lexicon_v16_min1_combined.json`** - Combined train+test baseline lexicon (874 KB)
   - 4,612 unambiguous (word, POS) patterns
@@ -95,7 +140,7 @@ Manual gold standard lemmatization of a selected part of Finnish runosong corpus
 
 **Results and Output Files:**
 
-- **`skvr_lemmatized_results_expanded.csv`** - SKVR corpus lemmatization with expanded lexicon (20 MB) **[RECOMMENDED]**
+- **`skvr_lemmatized_results_expanded.csv`** - SKVR corpus lemmatization with expanded lexicon (20 MB)
   - Sample lemmatization using expanded lexicon (`selftraining_lexicon_comb_with_additions.json`)
   - Generated using V2 lemmatizer with dialectal dictionary integration
   - 147,375 lemmatized words from SKVR runosong corpus
@@ -113,7 +158,7 @@ Manual gold standard lemmatization of a selected part of Finnish runosong corpus
 
 ## Lemmatization Strategy
 
-### V2 Tier Architecture (9-Tier Fallback Chain with Dialectal Dictionary)
+### V2 Tier Architecture (10-Tier Fallback Chain with Dialectal Dictionary)
 
 1. **Lexicon exact match** (Tier 1: Gold Standard)
 2. **Omorfi contextual analysis** with morphological features
@@ -147,7 +192,7 @@ Manual gold standard lemmatization of a selected part of Finnish runosong corpus
 
 ## Performance Metrics
 
-### V17 Phase 10 Results (Current Version - with Dialectal Dictionary)
+### V17 Phase 10 Results (Legacy - with Dialectal Dictionary)
 
 The V2 lemmatizer with Finnish Dialectal Dictionary integration.
 
@@ -205,7 +250,7 @@ Method Performance:
 - **POS-aware filtering**: Dictionary lookups respect Stanza part-of-speech context
 - **Surgical precision**: Only targets medium-confidence spelling guesses, not direct Omorfi analyses
 
-### V17 Phase 10 with Expanded Lexicon (Current Best) **[RECOMMENDED]**
+### V17 Phase 10 with Expanded Lexicon (59.9%)
 
 The expanded lexicon adds **2,009 word forms** from `word_normalised` and `word_lemmatised` training data fields, improving accuracy by **+0.9pp** over baseline.
 
@@ -235,12 +280,12 @@ Method Performance:
 - **Alternative spellings**: Additional variants improve recognition
 - **Production-ready**: Recommended for all new lemmatization tasks
 
-**Files:**
-- **Lemmatizer**: `fin_runocorp_base_v2_dialectal_dict_integrated.py`
+**Files (Phase 10 - use Phase 12 below for production):**
+- **Lemmatizer**: `fin_runocorp_base_v2_dialectal_dict_integrated.py` (Phase 10)
 - **Lexicon**: `selftraining_lexicon_train_with_additions.json` (5,484 words)
 - **Dictionary**: `sms_dialectal_index_v4_final.json` (19,385 dialectal variants)
-- **Batch Script**: `process_skvr_batch_v2.py`
-- **Evaluation**: `evaluate_train_expanded_FAIR.py`
+- **Batch Script**: `process_skvr_batch_v2.py` (Phase 10)
+- **Evaluation**: `evaluate_train_expanded_FAIR.py` (Phase 10)
 - **Results**: `finnish_lemma_evaluation_train_expanded_FAIR.csv`
 
 ### V17 Phase 12 with Compound Integration (Current Production) **[RECOMMENDED]**
@@ -300,10 +345,24 @@ pip install hfst  # For Omorfi morphological analysis
 
 ### Batch Processing (Large Corpora)
 
-For processing large Finnish poetry corpora (e.g., SKVR with 170,668 poems), use the V2 batch processing script with dialectal dictionary integration and expanded lexicon (recommended):
+For processing large Finnish poetry corpora (e.g., SKVR with 170,668 poems):
+
+#### Phase 12 Batch Processing (RECOMMENDED - 60.4% accuracy)
 
 ```bash
-# V2 with expanded train-only lexicon + dialectal dictionary (RECOMMENDED)
+# Phase 12 with compound integration (RECOMMENDED)
+python3 process_skvr_batch_REFACTORED.py \
+  --input skvr_runosongs_okt_2025.csv \
+  --output skvr_lemmatized_results_phase12.csv \
+  --lexicon-path selftraining_lexicon_train_with_additions.json \
+  --chunk-size 100 \
+  --save-interval 120
+```
+
+#### Legacy V2 Batch Processing (59.9% accuracy)
+
+```bash
+# V2 with expanded train-only lexicon + dialectal dictionary
 python3 process_skvr_batch_v2.py \
   --input skvr_runosongs_okt_2025.csv \
   --output skvr_lemmatized_results_v2.csv \
@@ -393,30 +452,36 @@ wc -l skvr_lemmatized_results_v2.csv  # Check word count
 
 ### Basic Lemmatization
 
+#### Phase 12 API (RECOMMENDED - 60.4% accuracy)
+
+```python
+from lemmatizer import FinnishLemmatizer
+
+# Initialize Phase 12 lemmatizer with compound integration
+lemmatizer = FinnishLemmatizer(
+    voikko_path='/path/to/.voikko',
+    lexicon_path='selftraining_lexicon_train_with_additions.json'
+)
+
+# Lemmatize text
+text = "Vanhoilda silmät valu"
+results = lemmatizer.lemmatize_text(text)
+
+for token in results:
+    print(f"{token['word']} → {token['lemma']} ({token['method']})")
+```
+
+#### Legacy V1/V2 API (for comparison)
+
 ```python
 from fin_runocorp_base import FinnishRunosongLemmatizer
 
-# Initialize lemmatizer with expanded train-only lexicon (RECOMMENDED)
+# Initialize V1/V2 lemmatizer (59.9% accuracy without compound integration)
 lemmatizer = FinnishRunosongLemmatizer(
     model_dir=None,  # Uses default Stanza model
     voikko_path='/path/to/.voikko',
     lang='fi',
     lexicon_path='selftraining_lexicon_train_with_additions.json'
-)
-
-# Or use expanded combined lexicon for maximum coverage
-lemmatizer = FinnishRunosongLemmatizer(
-    model_dir=None,
-    voikko_path='/path/to/.voikko',
-    lang='fi',
-    lexicon_path='selftraining_lexicon_comb_with_additions.json'
-)
-
-# Or use baseline train-only lexicon (for comparison)
-lemmatizer = FinnishRunosongLemmatizer(
-    model_dir=None,
-    voikko_path='/path/to/.voikko',
-    lang='fi'
 )
 
 # Lemmatize text
@@ -429,7 +494,12 @@ for token in results:
 
 ### Evaluation
 
-**V2 Evaluation with Expanded Lexicon (RECOMMENDED):**
+#### Phase 12 Evaluation (RECOMMENDED - 60.4% accuracy)
+```bash
+python3 evaluate_train_expanded_FAIR_REFACTORED.py
+```
+
+#### V2 Evaluation with Expanded Lexicon (59.9% accuracy)
 ```bash
 python3 evaluate_train_expanded_FAIR.py
 ```
@@ -476,10 +546,11 @@ Generates V1 baseline results without dialectal dictionary for performance compa
 
 ## Configuration
 
-### LemmatizerConfig Class
+### LemmatizerConfig Class (Phase 12)
 
 ```python
-from fin_runocorp_base import LemmatizerConfig
+from lemmatizer_config import LemmatizerConfig
+from lemmatizer import FinnishLemmatizer
 
 config = LemmatizerConfig(
     fuzzy_threshold=2.0,              # Levenshtein distance threshold
@@ -492,7 +563,7 @@ config = LemmatizerConfig(
     enable_fuzzy_fallback=True        # Enable fuzzy lexicon matching
 )
 
-lemmatizer = FinnishRunosongLemmatizer(config=config)
+lemmatizer = FinnishLemmatizer(config=config)
 ```
 
 ## Key Features
