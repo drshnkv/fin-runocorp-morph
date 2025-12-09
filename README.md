@@ -40,6 +40,87 @@ python3 evaluate_train_expanded_FAIR_REFACTORED.py
 # Expected: 60.4% accuracy
 ```
 
+## Corpus Data Files
+
+### Finnish Runosong Corpus V2
+
+Pre-built corpus with morphological analysis of 185,626 Finnish runosongs from SKVR and Julien Repos collections.
+
+| File | Size (compressed) | Description |
+|------|-------------------|-------------|
+| `finnish_runosong_corpus_v2.json.gz` | 31 MB | Full corpus with word frequencies and morphology |
+| `finnish_runosong_corpus_v2.db.gz.part*` | 128 MB (split) | SQLite database (normalized schema) |
+
+**Statistics:**
+- 185,626 poems (170,668 SKVR + 14,958 Julien Repos)
+- 7,441,272 tokens analyzed
+- 701,670 unique word forms
+- 98,687 unique lemmas
+
+#### Reassembling SQLite Database
+
+The SQLite database is split into parts due to GitHub's 100MB file limit:
+
+```bash
+# Reassemble the gzipped file
+cat finnish_runosong_corpus_v2.db.gz.part* > finnish_runosong_corpus_v2.db.gz
+
+# Decompress
+gunzip finnish_runosong_corpus_v2.db.gz
+```
+
+#### JSON Structure
+
+```json
+{
+  "metadata": {
+    "version": "v2",
+    "build_date": "2025-12-09",
+    "total_poems": 185626,
+    "total_tokens": 7441272,
+    "unique_words": 701670,
+    "unique_lemmas": 98687
+  },
+  "words": {
+    "wordform": {
+      "count": 12345,
+      "lemmas": {
+        "lemma1": {
+          "count": 10000,
+          "morphology": {
+            "UPOS": {"NOUN": 9500, "VERB": 500},
+            "CASE": {"NOM": 5000, "GEN": 3000, "PAR": 2000},
+            "NUM": {"SG": 8000, "PL": 2000}
+          }
+        }
+      }
+    }
+  },
+  "lemma_index": {
+    "lemma": ["wordform1", "wordform2", ...]
+  },
+  "method_analytics": { ... },
+  "morphological_statistics": { ... }
+}
+```
+
+**Key V2 Feature:** Morphological value distributions (e.g., `"PERS": {"SG3": 128409, "SG0": 159}`) instead of simple counts.
+
+### Analysis Tag Reference
+
+See [ANALYSIS_TAG_REFERENCE.md](ANALYSIS_TAG_REFERENCE.md) for complete documentation of all 39 morphological tags used in the analysis field.
+
+### Online Lexicon Browser
+
+**Finnic Runosong Lexicon:** http://teataja.ee/runolex/
+
+Interactive web interface for browsing the Finnic runosong corpus data with:
+- Lemma search across Finnish and Estonian corpora
+- Word form lookup with all variants
+- Filtering by language (Finnish/Estonian/shared) and POS tags
+- Collection distribution (SKVR/JR/ERAB) visualization
+- CSV export for filtered results
+
 ## System Architecture
 
 ### Core Components

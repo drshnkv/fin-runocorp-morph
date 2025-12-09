@@ -66,6 +66,11 @@ logs/
 !batch_lemma_differences.csv
 !step4_type_hints_validation.log
 
+# Corpus data files (gzipped for GitHub)
+!finnish_runosong_corpus_v2.json.gz
+!finnish_runosong_corpus_v2.db.gz.part*
+!ANALYSIS_TAG_REFERENCE.md
+
 # Test outputs (exclude other evaluation files but keep the two above)
 *_evaluation.log
 *_test.log
