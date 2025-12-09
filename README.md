@@ -44,7 +44,7 @@ python3 evaluate_train_expanded_FAIR_REFACTORED.py
 
 ### Finnish Runosong Corpus V2
 
-Pre-built corpus with morphological analysis of 185,626 Finnish runosongs from SKVR and Julien Repos collections.
+Pre-built corpus with morphological analysis of 185,626 Finnish runosongs from SKVR and JR (Julkaisemattomat runot) collections.
 
 | File | Size (compressed) | Description |
 |------|-------------------|-------------|
@@ -52,7 +52,7 @@ Pre-built corpus with morphological analysis of 185,626 Finnish runosongs from S
 | `finnish_runosong_corpus_v2.db.gz.part*` | 128 MB (split) | SQLite database (normalized schema) |
 
 **Statistics:**
-- 185,626 poems (170,668 SKVR + 14,958 Julien Repos)
+- 185,626 poems (89,497 SKVR + 96,129 JR)
 - 7,441,272 tokens analyzed
 - 701,670 unique word forms
 - 98,687 unique lemmas
