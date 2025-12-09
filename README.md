@@ -110,17 +110,6 @@ gunzip finnish_runosong_corpus_v2.db.gz
 
 See [ANALYSIS_TAG_REFERENCE.md](ANALYSIS_TAG_REFERENCE.md) for complete documentation of all 39 morphological tags used in the analysis field.
 
-### Online Lexicon Browser
-
-**Finnic Runosong Lexicon:** http://teataja.ee/runolex/
-
-Interactive web interface for browsing the Finnic runosong corpus data with:
-- Lemma search across Finnish and Estonian corpora
-- Word form lookup with all variants
-- Filtering by language (Finnish/Estonian/shared) and POS tags
-- Collection distribution (SKVR/JR/ERAB) visualization
-- CSV export for filtered results
-
 ## System Architecture
 
 ### Core Components
