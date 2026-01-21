@@ -42,7 +42,7 @@ import sys
 from collections import defaultdict
 
 # Import the Phase 10 lemmatizer
-sys.path.insert(0, '.')
+sys.path.insert(0, '..')
 from fin_runocorp_base_v2_dialectal_dict_integrated import OmorfiHfstWithVoikkoV16Hybrid
 
 
@@ -69,7 +69,10 @@ def evaluate_v17_phase10(test_csv: str, results_csv: str):
     print("=" * 80, file=sys.stderr)
     print("Loading V17 Phase 10 Lemmatizer (Finnish Dialects Dictionary)...", file=sys.stderr)
     print("=" * 80, file=sys.stderr)
-    lemmatizer = OmorfiHfstWithVoikkoV16Hybrid()
+    lemmatizer = OmorfiHfstWithVoikkoV16Hybrid(
+        lexicon_path='../selftraining_lexicon_v16_min1.json',
+        dialectal_dict_path='../sms_dialectal_index_v4_final.json'
+    )
     print("", file=sys.stderr)
 
     # Display lexicon statistics

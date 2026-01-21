@@ -44,6 +44,8 @@ OUTPUT: Accuracy metrics + detailed comparison CSV with morphological feature an
 import csv
 import sys
 from collections import defaultdict
+
+sys.path.insert(0, '..')
 from fin_runocorp_base import OmorfiHfstWithVoikkoV16Hybrid
 
 
@@ -70,7 +72,9 @@ def evaluate_v17_phase9(test_csv: str, results_csv: str):
     print("=" * 80, file=sys.stderr)
     print("Loading V17 Phase 8 Lemmatizer (Fuzzy Lexicon Matching)...", file=sys.stderr)
     print("=" * 80, file=sys.stderr)
-    lemmatizer = OmorfiHfstWithVoikkoV16Hybrid()
+    lemmatizer = OmorfiHfstWithVoikkoV16Hybrid(
+        lexicon_path='../selftraining_lexicon_v16_min1.json'
+    )
     print("", file=sys.stderr)
 
     # Display lexicon statistics

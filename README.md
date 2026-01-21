@@ -36,7 +36,7 @@ python3 process_skvr_batch_REFACTORED.py \
 
 ### Evaluation
 ```bash
-python3 evaluate_train_expanded_FAIR_REFACTORED.py
+cd evaluation && python3 evaluate_train_expanded_FAIR_REFACTORED.py
 # Expected: 60.4% accuracy
 ```
 
@@ -48,8 +48,8 @@ Pre-built corpus with morphological analysis of 185,376 Finnish runosongs from S
 
 | File | Size (compressed) | Description |
 |------|-------------------|-------------|
-| `finnish_runosong_corpus_v2.json.gz` | 31 MB | Full corpus with word frequencies and morphology |
-| `finnish_runosong_corpus_v2.db.gz.part*` | 128 MB (split) | SQLite database (normalized schema) |
+| `corpus/finnish_runosong_corpus_v2.json.gz` | 31 MB | Full corpus with word frequencies and morphology |
+| `corpus/finnish_runosong_corpus_v2.db.gz.part*` | 128 MB (split) | SQLite database (normalized schema) |
 
 **Statistics:**
 - 185,376 poems (89,247 SKVR + 96,129 JR)
@@ -63,6 +63,7 @@ The SQLite database is split into parts due to GitHub's 100MB file limit:
 
 ```bash
 # Reassemble the gzipped file
+cd corpus
 cat finnish_runosong_corpus_v2.db.gz.part* > finnish_runosong_corpus_v2.db.gz
 
 # Decompress
@@ -108,7 +109,7 @@ gunzip finnish_runosong_corpus_v2.db.gz
 
 ### Analysis Tag Reference
 
-See [ANALYSIS_TAG_REFERENCE.md](ANALYSIS_TAG_REFERENCE.md) for complete documentation of all 39 morphological tags used in the analysis field.
+See [docs/ANALYSIS_TAG_REFERENCE.md](docs/ANALYSIS_TAG_REFERENCE.md) for complete documentation of all 39 morphological tags used in the analysis field.
 
 ## System Architecture
 
@@ -134,7 +135,7 @@ See [ANALYSIS_TAG_REFERENCE.md](ANALYSIS_TAG_REFERENCE.md) for complete document
 5. **`compound_reconstructor.py`** - Compound reconstruction logic
    - Fixes compounds like `valdaherra` → `valtaherra`
 
-6. **`evaluate_train_expanded_FAIR_REFACTORED.py`** - Phase 12 evaluation script
+6. **`evaluation/evaluate_train_expanded_FAIR_REFACTORED.py`** - Phase 12 evaluation script
    - Uses refactored lemmatizer with compound integration
 
 7. **`process_skvr_batch_REFACTORED.py`** - Phase 12 batch processing script
@@ -155,10 +156,10 @@ See [ANALYSIS_TAG_REFERENCE.md](ANALYSIS_TAG_REFERENCE.md) for complete document
    - Geminate consonant normalization
    - Used by both Phase 10 and Phase 12
 
-11. **`evaluate_v17_phase10.py`** - Phase 10 evaluation (59.9%)
+11. **`evaluation/evaluate_v17_phase10.py`** - Phase 10 evaluation (59.9%)
    - Gold standard comparison with dialectal dictionary tracking
 
-12. **`evaluate_v17_phase9.py`** - Phase 9 baseline evaluation (58.8%)
+12. **`evaluation/evaluate_v17_phase9.py`** - Phase 9 baseline evaluation (58.8%)
 
 ### Supporting Resources
 
@@ -201,10 +202,10 @@ See [ANALYSIS_TAG_REFERENCE.md](ANALYSIS_TAG_REFERENCE.md) for complete document
 
 Manual gold standard lemmatization of a selected part of Finnish runosong corpus (not currently included in github repo)
 
-- **`finnish_poems_gold_test_clean.csv`** - Test dataset (187 KB)
+- **`evaluation/finnish_poems_gold_test_clean.csv`** - Test dataset (187 KB)
   - 24 Finnish poems, ~1,468 words
  
-- **`finnish_poems_gold_train_clean.csv`** - Training dataset
+- **`evaluation/finnish_poems_gold_train_clean.csv`** - Training dataset
   - Training data for lexicon development
   
 
@@ -355,7 +356,7 @@ Method Performance:
 - **Lexicon**: `selftraining_lexicon_train_with_additions.json` (5,484 words)
 - **Dictionary**: `sms_dialectal_index_v4_final.json` (19,385 dialectal variants)
 - **Batch Script**: `process_skvr_batch_v2.py` (Phase 10)
-- **Evaluation**: `evaluate_train_expanded_FAIR.py` (Phase 10)
+- **Evaluation**: `evaluation/evaluate_train_expanded_FAIR_REFACTORED.py` (Phase 12)
 - **Results**: `finnish_lemma_evaluation_train_expanded_FAIR.csv`
 
 ### V17 Phase 12 with Compound Integration (Current Production) **[RECOMMENDED]**
@@ -387,11 +388,11 @@ Compound Examples Fixed:
 - **compound_classifier.py** - Conservative compound classification
 - **compound_reconstructor.py** - Compound reconstruction logic
 - **process_skvr_batch_REFACTORED.py** - Batch processing with compound support
-- **evaluate_train_expanded_FAIR_REFACTORED.py** - Updated evaluation script
+- **evaluation/evaluate_train_expanded_FAIR_REFACTORED.py** - Updated evaluation script
 
 **Documentation:**
-- See `BATCH_PROCESSING_REFACTORED.md` for batch processing guide
-- See `REFACTORED_USAGE_GUIDE.md` for API documentation
+- See `docs/BATCH_PROCESSING_REFACTORED.md` for batch processing guide
+- See `docs/REFACTORED_USAGE_GUIDE.md` for API documentation
 
 
 ## Installation
@@ -566,17 +567,17 @@ for token in results:
 
 #### Phase 12 Evaluation (RECOMMENDED - 60.4% accuracy)
 ```bash
-python3 evaluate_train_expanded_FAIR_REFACTORED.py
+cd evaluation && python3 evaluate_train_expanded_FAIR_REFACTORED.py
 ```
 
 #### V2 Evaluation with Expanded Lexicon (59.9% accuracy)
 ```bash
-python3 evaluate_train_expanded_FAIR.py
+cd evaluation && python3 evaluate_train_expanded_FAIR_REFACTORED.py
 ```
 
 Generates detailed CSV files with evaluation results using expanded lexicon:
 
-**1. `finnish_lemma_evaluation_train_expanded_FAIR.csv`** (Main evaluation results - 59.9% accuracy)
+**1. `evaluation/finnish_lemma_evaluation_train_expanded_FAIR.csv`** (Main evaluation results - 59.9% accuracy)
 - Complete word-by-word evaluation of all 1,468 test words
 - Shows predicted lemma vs. manual gold standard for each word
 - Includes which lemmatization method was used (lexicon, omorfi_contextual, voikko_omorfi, dialectal_dictionary, etc.)
@@ -592,16 +593,16 @@ Generates detailed CSV files with evaluation results using expanded lexicon:
 
 **V2 Baseline Evaluation (with Dialectal Dictionary):**
 ```bash
-python3 evaluate_v17_phase10.py
+cd evaluation && python3 evaluate_v17_phase10.py
 ```
 
 Generates detailed CSV files with baseline evaluation results (59.0% accuracy):
 
-**1. `finnish_lemma_evaluation_v17_phase10.csv`** (Baseline evaluation results)
+**1. `evaluation/finnish_lemma_evaluation_v17_phase10.csv`** (Baseline evaluation results)
 - Complete word-by-word evaluation with baseline lexicon
 - 59.0% accuracy (baseline for comparison)
 
-**2. `finnish_lemma_evaluation_v17_phase10_dialectal_dictionary_analysis.csv`** (Dictionary usage analysis)
+**2. `evaluation/finnish_lemma_evaluation_v17_phase10_dialectal_dictionary_analysis.csv`** (Dictionary usage analysis)
 - Shows all instances where dialectal dictionary was used
 - Includes original method that was overridden
 - 5 instances total with 80% success rate (4/5 correct)
@@ -609,7 +610,7 @@ Generates detailed CSV files with baseline evaluation results (59.0% accuracy):
 
 **V1 Baseline Evaluation (for comparison):**
 ```bash
-python3 evaluate_v17_phase9.py
+cd evaluation && python3 evaluate_v17_phase9.py
 ```
 
 Generates V1 baseline results without dialectal dictionary for performance comparison (58.8% accuracy).

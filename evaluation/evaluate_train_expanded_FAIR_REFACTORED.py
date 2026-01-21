@@ -42,7 +42,7 @@ import sys
 from collections import defaultdict
 
 # Import the Phase 10 lemmatizer
-sys.path.insert(0, '.')
+sys.path.insert(0, '..')
 # REFACTORED: Use new modular implementation
 from lemmatizer import FinnishLemmatizer
 from lemmatizer_config import LemmatizerConfig
@@ -74,7 +74,7 @@ def evaluate_v17_phase10(test_csv: str, results_csv: str):
     print("=" * 80, file=sys.stderr)
     print("Loading Train-Expanded Lemmatizer (Full-Poem Processing - FAIR)...", file=sys.stderr)
     print("=" * 80, file=sys.stderr)
-    config = LemmatizerConfig(lexicon_path='selftraining_lexicon_train_with_additions.json')
+    config = LemmatizerConfig(lexicon_path='../selftraining_lexicon_train_with_additions.json')
     lemmatizer = OmorfiHfstWithVoikkoV16Hybrid(config=config)
     print("", file=sys.stderr)
 
